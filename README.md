@@ -1,2 +1,2 @@
-# OmikujiBot-Docs
-おみくじBOT に関するReadme、リリースノート
+# OmikenReadme
+おみくじBOTちゃん・おみくじプラグイン等、わんコメで動くジェネレーター・プラグインに関するReadme
