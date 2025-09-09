@@ -58,7 +58,7 @@
 
 ![usage_11_HowToPlay](/packages/OmikujiBot/template/usage/usage_11_HowToPlay.md)
 
-![OmikujiBotReimuMarisa_12_flowerOmikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
+![OmikujiBotReimuMarisa_12_flowerOmikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 

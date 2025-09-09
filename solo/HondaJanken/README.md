@@ -19,7 +19,7 @@
 ### 「じゃんけん」ミニゲームが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](../OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ## インストール方法 (Installation)
 
@@ -32,7 +32,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/docs/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -48,9 +48,9 @@
 
 - じゃんけんの勝率は 1/2、あいこを「負け」とカウントしても、1/3 だと考えていませんか。
 - この「じゃんけん」は、じゃんけんの猛者 [「ケイスケ ホンダ」](https://dic.pixiv.net/a/%E6%9C%AC%E7%94%B0%E3%81%A8%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93) を導入することにより、勝率をたったの 5% まで劇的に減少させることに成功しました。
-	- 負けた時の「挑発的なコメント」が豊富です
-	- 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
-- [勝ったらコーラ1本プレゼント！](https://www.j-cast.com/2019/04/17355553.html)
+  - 負けた時の「挑発的なコメント」が豊富です
+  - 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
+- [勝ったらコーラ 1 本プレゼント！](https://www.j-cast.com/2019/04/17355553.html)
 
 ### コラム：配信プラットフォームへの影響
 
@@ -85,7 +85,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -101,7 +101,7 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](../OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 

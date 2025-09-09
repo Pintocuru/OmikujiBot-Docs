@@ -32,7 +32,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/docs/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -83,7 +83,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ### その他
 

@@ -58,9 +58,7 @@
 
 - **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**[https://www.pixiv.net/artworks/92641351](https://www.pixiv.net/artworks/92641351)
 
-### 素材の取り扱いについて
-
-- イラスト素材・動画・音源の再配布は禁止です。
+![credits_11_AssetPolicy](../../template/credits/credits_11_AssetPolicy.md)
 
 ![](images/sleepy.webp)
 
@@ -70,7 +68,7 @@
 
 ## バージョン情報 (Version)
 
-### ver.250908-v1.1.0
+### ver.250910-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
 

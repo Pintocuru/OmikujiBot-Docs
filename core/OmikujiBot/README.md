@@ -1,6 +1,6 @@
 # おみくじ BOT OmikujiBot
 
-最終更新日：2025/09/09
+最終更新日：2025/09/10
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 BOT ソフトウェア です。
 
@@ -37,7 +37,7 @@
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
    - `じゃんけん` のような複雑なおみくじ結果も表示できる
    - スイカジェネレーターなどのミニゲームで楽しむ
-2. **[【コンフィグエディター】](../OmikujiBot_ConfigEditor/README.md) で多彩なおみくじを自作できる**
+2. **[【コンフィグエディター】](/packages/OmikujiBot/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
    - おみくじの内容は、自由に編集可能
    - フキダシの大きさ・色替え・アニメーションも自由に変更可能
    - わんコメの機能「WordParty」を使い、自由に演出を表示可能
@@ -58,32 +58,39 @@
 
 > それぞれのパッケージに記載されている「インストール方法」をご覧ください。
 
+### OBS でジェネレーターを表示させる際の「幅」について
+
+![](images/Installation-05.webp)
+
+- 表示サイズは柔軟に調整可能で、コンパクトにもワイドにも対応できます。
+- 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
+	- それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
+
 ## つかいかた (Usage)
 
 > パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/docs/OmikujiBotReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/docs/OmikujiBotEveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/docs/OmikujiBotDivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/docs/OmikujiBotTsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/docs/OmikujiBot5percent_Dora/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/packages/OmikujiBot/full/ReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/packages/OmikujiBot/full/EveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/packages/OmikujiBot/full/DivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/packages/OmikujiBot/full/TsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/packages/OmikujiBot/solo/5percent_Dora/README.md)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
 
 ## カスタマイズ（Customization）
 
-### コンフィグエディターで自由におみくじを編集できる
+### 「コンフィグエディター」で自由におみくじを編集できる
 
-すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
 
-アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
-
-配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-
-詳しくは [おみくじ BOT コンフィグエディター README](/docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
+- すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+- アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
+- 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
+- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
 
 ## よくある質問 (FAQ)
 
-わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+> わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
 ### システム関連
 
@@ -93,7 +100,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ### フキダシ・キャラクター表示関連
 
@@ -109,7 +116,7 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. 自前のキャラクター画像を追加したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ### おみくじ関連
 
@@ -119,7 +126,7 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. おみくじをメンバー限定にしたい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q. じゃんけんの勝率低すぎない？
 
@@ -129,7 +136,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 #### Q. Omiken って何？
 
-A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「初見判定ちゃん<https://booth.pm/ja/items/5471598> の名残です。」
+A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[初見判定ちゃん](https://booth.pm/ja/items/5471598) 」の名残です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -173,11 +180,11 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/docs/OmikujiBotReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/docs/OmikujiBotEveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/docs/OmikujiBotDivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/docs/OmikujiBotTsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/docs/OmikujiBot5percent_Dora/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/packages/OmikujiBot/full/ReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/packages/OmikujiBot/full/EveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/packages/OmikujiBot/full/DivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/packages/OmikujiBot/full/TsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/packages/OmikujiBot/solo/5percent_Dora/README.md)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
 
 ## ライセンス（License）
@@ -196,16 +203,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 ## バージョン情報 (Version)
 
 > 詳細な変更履歴は [Releases](https://github.com/Pintocuru/OmikujiBot-Docs/releases) をご覧ください。
-
-### v1.1.0 25/09/09-rc1
-
-- フキダシの「かぎ」を編集可能にしました。
-	- かぎは、TailwindCSS の class で実現しています。
-- トースト表示にキャラクターアイコンを付けられるようになりました。
-	- トーストにも「カギ」が付くようになりました。
-- トースト・サムネイルの表示を右下か、左下かを選べるようになりました。
-- 「キャラクター統合モード」の新設。
-- アイコン非表示時「BOT コメントをわんコメに投稿」するとコメントが読まれなかったバグを修正
 
 ---
 

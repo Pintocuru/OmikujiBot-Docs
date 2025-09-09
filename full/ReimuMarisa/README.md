@@ -1,6 +1,6 @@
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa
 
-最終更新日：2025/09/09
+最終更新日：2025/09/10
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -17,7 +17,7 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](../OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ### ゆっくり霊夢のキャラクター設定
 
@@ -77,12 +77,14 @@
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
+![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
+
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/docs/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -157,22 +159,20 @@
 
 ## カスタマイズ（Customization）
 
-### コンフィグエディターで自由におみくじを編集できる
+### 「コンフィグエディター」で自由におみくじを編集できる
 
-すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
 
-アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
-
-配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-
-詳しくは [おみくじ BOT コンフィグエディター README](/docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
-
+- すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+- アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
+- 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
+- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
 
 ## よくある質問 (FAQ)
 
-わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+> わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
 ### システム関連
 
@@ -182,7 +182,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -198,11 +198,11 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](../OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 
-わんコメ公式 [テンプレートの導入方法](../TemplateInstall/README.md) をご覧ください
+わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
 
 ## クレジット（Credits）
 
@@ -226,7 +226,7 @@ A. [おみくじ BOT README トラブルシューティング](../OmikujiBot/REA
 
 - 非営利の範囲であれば、配信での使用・改変は自由です。
 - YouTube や Twitch 等での収益化配信も、個人による非営利利用とみなします。
-- 改変の有無にかかわらず、再配布は禁止とさせていただきます。
+- 「ゲームスクリプト」が使われているデータの再配布は、禁止とさせていただきます。
 - 商用利用については、お問い合わせ下さい。
 	- ※ 本パッケージには画像素材は含まれておりません。そのため、素材規約には該当しません。
 
@@ -239,7 +239,7 @@ A. [おみくじ BOT README トラブルシューティング](../OmikujiBot/REA
 
 ## バージョン情報 (Version)
 
-### ver.250909-v1.1.0
+### ver.250910-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
 

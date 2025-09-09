@@ -28,7 +28,7 @@
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
    - `じゃんけん` のような複雑なおみくじ結果も表示できる
    - スイカジェネレーターなどのミニゲームで楽しむ
-2. **[【コンフィグエディター】](../OmikujiBot_ConfigEditor/README.md) で多彩なおみくじを自作できる**
+2. **[【コンフィグエディター】](/packages/OmikujiBot/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
    - おみくじの内容は、自由に編集可能
    - フキダシの大きさ・色替え・アニメーションも自由に変更可能
    - わんコメの機能「WordParty」を使い、自由に演出を表示可能
@@ -45,9 +45,19 @@
    - SNS やファンクラブの告知も自動投稿
    - 投稿間隔も設定可能で、時報代わりにも使えます
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
 > それぞれのパッケージに記載されている「インストール方法」をご覧ください。
+
+### OBS でジェネレーターを表示させる際の「幅」について
+
+![](images/Installation-05.webp)
+
+- 表示サイズは柔軟に調整可能で、コンパクトにもワイドにも対応できます。
+- 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
+	- それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
+
+![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
 ## つかいかた (Usage)
 
@@ -75,7 +85,7 @@
 
 #### Q. 自前のキャラクター画像を追加したい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 ### おみくじ関連
 
@@ -85,7 +95,7 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. おみくじをメンバー限定にしたい
 
-A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q. じゃんけんの勝率低すぎない？
 
@@ -95,7 +105,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 #### Q. Omiken って何？
 
-A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「初見判定ちゃん<https://booth.pm/ja/items/5471598> の名残です。」
+A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[初見判定ちゃん](https://booth.pm/ja/items/5471598) 」の名残です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -146,16 +156,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 ## バージョン情報 (Version)
 
 > 詳細な変更履歴は [Releases](https://github.com/Pintocuru/OmikujiBot-Docs/releases) をご覧ください。
-
-### v1.1.0 25/09/09-rc1
-
-- フキダシの「かぎ」を編集可能にしました。
-	- かぎは、TailwindCSS の class で実現しています。
-- トースト表示にキャラクターアイコンを付けられるようになりました。
-	- トーストにも「カギ」が付くようになりました。
-- トースト・サムネイルの表示を右下か、左下かを選べるようになりました。
-- 「キャラクター統合モード」の新設。
-- アイコン非表示時「BOT コメントをわんコメに投稿」するとコメントが読まれなかったバグを修正
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 

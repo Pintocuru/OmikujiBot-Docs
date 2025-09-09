@@ -4,7 +4,7 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-![](/sharedTemplate/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)![](/sharedTemplate/intro/intro_13.md)
+![](/sharedTemplate/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -17,6 +17,8 @@
 
 ### 四国めたん のキャラクター設定
 
+![](images/excited.webp)
+
 このジェネレーターでは、四国めたんを以下のようなキャラクターとして登場させています。
 
 - 他のキャラクターとの差別化を図るため、やや上から目線の言動を多くしています。
@@ -27,13 +29,9 @@
 
 ![features_31_InfoCharacter](/packages/OmikujiBot/template/features/features_31_InfoCharacter.md)
 
-## インストール方法
+![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
 
-![Installation_41_GotoTemplate](/sharedTemplate/installation/Installation_41_GotoTemplate.md)
-
-![Installation_42_OmikujiWordParty](/packages/OmikujiBot/template/installation/Installation_42_OmikujiWordParty.md)
-
-## つかいかた
+## つかいかた (Usage)
 
 [VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクターですが、このおみくじ BOT では、ややキャラクターにクセがあります。BOT にユニークさを求めたいときに使うと良さそうです。
 
@@ -44,24 +42,30 @@
 - **ゲーム配信**
   - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
 
-## カスタマイズ
+## カスタマイズ（Customization）
+
+![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ![](/packages/OmikujiBot/template/customization/customization_11_illust.md)(/template/customization/customization_11.md)
 
-## クレジット：イラストと音源について
+![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
-- **【立ち絵素材】四国めたんデフォルメ立ち絵**
-  [【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)](https://seiga.nicovideo.jp/seiga/im11022280)
+![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
-### 素材の取り扱いについて
+## クレジット（Credits）
 
-- イラスト素材・動画・音源の再配布は禁止
-- イラストの利用については、常識的な範囲でご自由にお使いください。
-- （ず・ω・きょ）
+- **【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)**
+  <https://seiga.nicovideo.jp/seiga/im11022280>
 
-## バージョン情報
+![credits_11_AssetPolicy](../../template/credits/credits_11_AssetPolicy.md)
 
-### ver.250908-v1.1.0
+![](../EveryoneZunda/images/wink.webp)
+
+![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
+
+## バージョン情報 (Version)
+
+### ver.250910-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
 - 「[おみくじ BOT](../../core/OmikujiBot/README.md)」のバージョンアップに伴い、内容をリニューアルしました。
@@ -72,4 +76,4 @@
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>
