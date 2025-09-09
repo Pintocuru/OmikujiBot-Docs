@@ -54,7 +54,7 @@
 
 ![usage_11_HowToPlay](/packages/OmikujiBot/template/usage/usage_11_HowToPlay.md)
 
-![OmikujiBotReimuMarisa_11_omikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
+![OmikujiBotReimuMarisa_11_omikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 
@@ -93,7 +93,7 @@
 
 ## バージョン情報 (Version)
 
-### ver.250908-v1.1.0
+### ver.250909-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
 
@@ -138,4 +138,4 @@
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>

@@ -12,7 +12,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/1-1.avif)
+![](images/features-01.webp)
 
 ### 🎯 わんコメに BOT 機能を付与するジェネレーター
 
@@ -22,7 +22,7 @@
 
 ### ✨【おみくじ BOT OmikujiBot】で、できること
 
-![](images/1-2.avif)
+![](images/features-02.webp)
 
 1. **コメントに反応する【おみくじシステム】**
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
@@ -89,7 +89,7 @@ A: [おみくじ BOT コンフィグエディター](../OmikujiBot_ConfigEditor/
 
 #### Q. じゃんけんの勝率低すぎない？
 
-![](images/5-2.avif)
+![](images/faq-01.webp)
 
 A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](https://dic.pixiv.net/a/%E6%9C%AC%E7%94%B0%E3%81%A8%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93) はもっと強いです。
 
@@ -109,7 +109,7 @@ A: わんコメ公式の [読み上げ設定](https://onecomme.com/docs/settings
 
 #### Q. OBS 側で非表示にしていても、BOT のコメントが勝手に動いてしまう
 
-![](images/Pasted%20image%2020250816104939.png)
+![](images/troubleshooting-01.webp)
 
 A: OBS のソース＞該当する html ファイル＞プロパティ から、**「表示されていないときにソースをシャットダウンする」のチェックは外して下さい。** （デフォルトでは OFF になっています）
 
@@ -147,7 +147,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 > 詳細な変更履歴は [Releases](https://github.com/Pintocuru/OmikujiBot-Docs/releases) をご覧ください。
 
-### v1.1.0 25/09/08
+### v1.1.0 25/09/09-rc1
 
 - フキダシの「かぎ」を編集可能にしました。
 	- かぎは、TailwindCSS の class で実現しています。

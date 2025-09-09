@@ -1,6 +1,6 @@
 # おみくじ BOT 用 WordParty
 
-最終更新日：2025/09/02
+最終更新日：2025/09/09
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 WordParty テンプレート です。
 
@@ -21,7 +21,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/240824_01.jpg)
+![](images/features-03.webp)
 
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
@@ -31,7 +31,7 @@
   - おみくじの結果に応じて、ランダムに演出を発動
   - 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
 
-![](images/1-2.avif)
+![](../OmikujiBot/images/features-02.webp)
 
 ## インストール方法 (Installation)
 
@@ -102,7 +102,7 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 ### 🎨 イラスト・グラフィック
 
 - **ゆびをふるの指**
-- \*\*ボンバースロットのフルーツ
+- \*\* ボンバースロットのフルーツ
 - **ドラちゃんの背景の集中線**
 - **桃鉄カードの顔**
 - **あとなんか色々**
@@ -130,7 +130,7 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
   [ChatGPT](https://chatgpt.com/)
 
 - **じゃんけん：YouWin/YouLose**
-- \*\*幻獣ガチャ：カプセル、激レア!など
+- \*\* 幻獣ガチャ：カプセル、激レア!など
 - **初見さん参戦**
 - **初見なのにモデレーターさん参戦**
 - **挑戦者が現れました**
@@ -148,42 +148,10 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 
 ## バージョン情報 (Version)
 
-### ver.250902
+### v1.1.0 25/09/09
 
-- [効果音ラボ](https://soundeffect-lab.info/) の効果音を「おみくじ BOT 用 WordParty」用にデータ削減を行いました
-  - 少し音質を落とすことで、ファイル容量を半分以下にしました。
-- [効果音ラボ](https://soundeffect-lab.info/) から新しい効果音素材を 1 種類追加。
-
-### ver.250828
-
-- ゆっくり霊夢・魔理沙用：ギフト素材 の２つの素材を削除。
-  - [ツカッテ - 賽銭箱のイラスト](https://tsukatte.com/saisenbako/)
-  - [ツカッテ - みずたまキノコのイラスト](https://tsukatte.com/mushroom-polka-dots/)
-  - 新しい [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) では、この演出を使わなくなりました。
-- [効果音ラボ](https://soundeffect-lab.info/) から新しい効果音素材を 5 種類追加。
-
-### ver.250816
-
-- 「ドラちゃん」に一部素材追加
-- ReadMe を一新。
-
-### 25/08/10
-
-- 「ドラちゃん」に一部素材追加
-- 更新日付を意識したわけではない。仕方ないね。
-
-### 25/07/24
-
-- ReadMe の一部編集
-
-### 25/07/15
-
-- うさぎスロット、かけざんスロット　の素材を追加
-- 内部ファイルの移動や、容量削減を行ってます。
-
-### 24/08/28
-
-- 「初見判定ちゃん」と分離した初版をリリース
+- 「おみくじ BOT」「おみくじ BOT コンフィグエディター」と揃えるため、バージョニングを揃えることにしました。
+- 過去のリリースノートは [こちら](https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v1.0.0-OmikujiBotWordParty)
 
 ---
 

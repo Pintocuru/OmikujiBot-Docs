@@ -13,7 +13,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/240824_01.jpg)
+![](images/features-03.webp)
 
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
@@ -23,7 +23,7 @@
   - おみくじの結果に応じて、ランダムに演出を発動
   - 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
 
-![](images/1-2.avif)
+![](../OmikujiBot/images/features-02.webp)
 
 ## インストール方法 (Installation)
 
@@ -135,7 +135,7 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 
 ## バージョン情報 (Version)
 
-### v1.1.0 25/09/08
+### v1.1.0 25/09/09
 
 - 「おみくじ BOT」「おみくじ BOT コンフィグエディター」と揃えるため、バージョニングを揃えることにしました。
 - 過去のリリースノートは [こちら](https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v1.0.0-OmikujiBotWordParty)
