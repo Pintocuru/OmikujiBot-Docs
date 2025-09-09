@@ -72,7 +72,7 @@
 
 ## PRO 版ボーナスデータ (Usage)
 
-![OmikujiBotReimuMarisa_11_omikuji](../OmikujiBotReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
+![OmikujiBotReimuMarisa_11_omikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
 
 ![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
@@ -112,4 +112,4 @@
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>
