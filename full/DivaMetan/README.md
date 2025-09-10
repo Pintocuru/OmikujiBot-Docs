@@ -19,6 +19,7 @@
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
   - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
+
 ### 四国めたん のキャラクター設定
 
 ![](images/excited.webp)
@@ -35,9 +36,11 @@
 
 - 原作とは異なる「二次創作」キャラクターのため、一般的に知られているようなキャラクター像とは異なる言動やセリフが見られる場合があります。
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
 ![Installation_41_GotoTemplate](/sharedTemplate/Installation/Installation_41_GotoTemplate.md)
+
+![Installation_52_VersionUp](installation/Installation_52_VersionUp.md)
 
 ### PRO(有料) 版へのアップグレードの方法
 
@@ -59,6 +62,7 @@
 
 このアップグレードを行う場合、PRO 版に入っているデータは「テンプレート読み込み (JSON)」から読み込んでください。
 
+
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
 ![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
@@ -70,9 +74,11 @@
 
 詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
+
+
 ## つかいかた (Usage)
 
-[VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクターですが、このおみくじ BOT では、ややキャラクターにクセがあります。BOT にユニークさを求めたいときに使うと良さそうです。
+[VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクター。公式よりもややアッパーな厨二病になっているかもしれません。おみくじとじゃんけんでは、二つ名である「漆黒のめたん」で対応します。
 
 - **朝活配信**
   - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
@@ -91,6 +97,8 @@
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 - 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+
+
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。(/template/customization/customization_11.md)
 
@@ -108,6 +116,8 @@
 
 A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
 
+
+
 ## トラブルシューティング (Troubleshooting)
 
 わんコメの機能については [トラブルシューティング](https://onecomme.com/docs/trouble-shooting) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
@@ -124,9 +134,11 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
 
+
 #### Q. WordParty の音が配信に出ない
 
 わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
+
 
 ## クレジット（Credits）
 
@@ -135,7 +147,8 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 
 ### 素材の取り扱いについて
 
-- イラスト素材・動画・音源の再配布は禁止です。
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
 ![](../EveryoneZunda/images/wink.webp)
 
@@ -162,6 +175,7 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 - 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
+
 ## バージョン情報 (Version)
 
 ### ver.250910-v1.1.0
@@ -172,6 +186,7 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 ### ver.240831
 
 - 「初見判定ちゃん 高飛車な四国めたん」としてリリース。
+
 
 ---
 

@@ -10,7 +10,7 @@
 
 ## 1.このテンプレートは何？
 
-### めたんがリスナーを歓迎してくれるジェネレーター
+### 四国めたんがリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
   ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
@@ -33,7 +33,7 @@
 
 ## つかいかた (Usage)
 
-[VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクターですが、このおみくじ BOT では、ややキャラクターにクセがあります。BOT にユニークさを求めたいときに使うと良さそうです。
+[VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクター。公式よりもややアッパーな厨二病になっているかもしれません。おみくじとじゃんけんでは、二つ名である「漆黒のめたん」で対応します。
 
 - **朝活配信**
   - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
