@@ -59,6 +59,8 @@
 
 ![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
+![Installation_53_ProInfo](../../template/installation/Installation_53_ProInfo.md)
+
 ## つかいかた (Usage)
 
 > パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
@@ -96,12 +98,6 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 #### Q. おみくじをメンバー限定にしたい
 
 A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
-
-#### Q. じゃんけんの勝率低すぎない？
-
-![](images/faq-01.webp)
-
-A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](https://dic.pixiv.net/a/%E6%9C%AC%E7%94%B0%E3%81%A8%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93) はもっと強いです。
 
 #### Q. Omiken って何？
 

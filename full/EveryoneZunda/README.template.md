@@ -58,7 +58,7 @@
 
 - **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**[https://www.pixiv.net/artworks/92641351](https://www.pixiv.net/artworks/92641351)
 
-![credits_11_AssetPolicy](../../template/credits/credits_11_AssetPolicy.md)
+![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ![](images/sleepy.webp)
 

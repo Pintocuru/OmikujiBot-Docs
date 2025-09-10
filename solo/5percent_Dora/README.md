@@ -1,6 +1,6 @@
 # どこでもドラちゃん Bot OmikujiBot 5percent_Dora
 
-最終更新日：2025/09/08
+最終更新日：2025/09/10
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -19,13 +19,15 @@
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 3 分ごとに自動でつぶやいてくれる、テンプレートです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](../../core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
 ## インストール方法 (Installation)
 
 テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
+
+![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
@@ -57,23 +59,21 @@
 
 ## カスタマイズ（Customization）
 
-### コンフィグエディターで自由におみくじを編集できる!
+### 「コンフィグエディター」で自由におみくじを編集できる
 
-すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
 
-アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
-
-配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-
-詳しくは [おみくじ BOT コンフィグエディター README](/docs/OmikujiBot_ConfigEditor/README.md) をご覧ください。
-
+- すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+- アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
+- 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
+- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、配信に合わせて自由にカスタマイズできます。
 - パロディ・ネタ要素が強いため、発言や結果の責任はすべて自己責任でお願いします。
 - 元ネタや BOT 本体の意図とは関係ありません。
 
 ## よくある質問 (FAQ)
 
-わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
+> わんコメの機能については [よくある質問](https://onecomme.com/docs/faq) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
 
 ### システム関連
 
@@ -84,8 +84,6 @@
 #### Q. 1 日 1 回と、回数を制限したい
 
 A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
-
-### その他
 
 #### Q.ドラえもんでしょ？
 
@@ -105,11 +103,15 @@ A: 違います。
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](../../core/OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 
-わんコメ公式 [テンプレートの導入方法](../TemplateInstall/README.md) をご覧ください
+わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
+
+![](images/dorachan_konjac_2.webp)
+
+「はぁーい、どこでもしずちゃん～」
 
 ## ライセンス（License）
 
@@ -120,17 +122,18 @@ A. [おみくじ BOT README トラブルシューティング](../../core/Omikuj
   - ただし、法人・企業による利用や、パッケージの再配布・販売はご遠慮ください。
 - 改変の有無にかかわらず、データ含め再配布は禁止とさせていただきます。
 
-![license_11_LicenseApp](/packages/OmikujiBot/template/license/license_11_LicenseApp.md)
+### アプリ本体（ジェネレーター・コンフィグエディター）
+
+- Copyright © 2025 Pintocuru(せすじピンとしてます)
+- 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
+- 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
+- 改変・逆コンパイル・再販売も禁止されています。
 
 ## バージョン情報 (Version)
 
-### ver.250901
+### ver.250910
 
-- おみくじ BOT のバージョン: v1.0.0
-
-### ver.250830
-
-- おみくじ BOT のバージョン: v0.8.0 Beta.10
+- おみくじ BOT のバージョン: v1.1.0
 
 ### ver.250816
 

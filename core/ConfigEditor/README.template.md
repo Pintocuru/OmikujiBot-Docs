@@ -48,6 +48,8 @@
 
 ![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
+![Installation_53_ProInfo](../../template/installation/Installation_53_ProInfo.md)
+
 ## つかいかた (Usage)
 
 おみくじデータに関する設定方法は、それぞれエディターに詳細が書かれています。機能が多岐にわたるため、すべてをこの README に記載することはしていません。

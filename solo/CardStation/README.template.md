@@ -1,4 +1,4 @@
-# おみくじ BOT じゃんけん OmikujiBot HondaJanken
+# おみくじ BOT カード駅 OmikujiBot MomotetsuCard
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
@@ -10,9 +10,9 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/250903_2.webp)
+![](images/250910.webp)
 
-### 「じゃんけん」ミニゲームが楽しめるジェネレーター
+### 全国各地 (海外・地球外含む) でカード集めが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
   ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
@@ -21,11 +21,9 @@
 
 ## つかいかた (Usage)
 
-![](images/5-2.webp)
-
 ![usage_12_MiniGame](/packages/OmikujiBot/template/usage/usage_12_MiniGame.md)
 
-![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
+![usage_27_MomotetsuCard](/packages/OmikujiBot/template/usage/usage_27_MomotetsuCard.md)
 
 ![usage_91_Column](/packages/OmikujiBot/template/usage/usage_91_Column.md)
 
@@ -41,8 +39,11 @@
 
 ## クレジット（Credits）
 
-- コーラを持ってじゃんけんする女性
-  生成：Google Gemini <https://gemini.google.com/>
+- 車掌さんっぽい格好をした女性
+  生成：ChatGPT <https://chatgpt.com/>
+- ボンビュラス星
+  陣内智則のネタジン <https://www.youtube.com/watch?v=Fp4SRDcGcnI>
+  プロ野球チップス ＆ 侍ジャパンチップス　カードリスト｜カルビー <https://www.calbee.co.jp/products/cardlist/proyakyu/>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
@@ -50,11 +51,10 @@
 
 ## バージョン情報 (Version)
 
-### ver.250903
+### ver.250910-v1.1.0
 
-- おみくじ BOT のバージョン: v1.0.0
-- [おみくじ BOT ゆっくり霊夢&魔理沙](/docs/OmikujiBotReimuMarisa/README.md) の機能「じゃんけん」を分離する形で新規作成
+- [おみくじ BOT ゆっくり霊夢&魔理沙](/docs/OmikujiBotReimuMarisa/README.md) (v0.73) の機能「桃鉄 カード」を分離する形で新規作成
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>

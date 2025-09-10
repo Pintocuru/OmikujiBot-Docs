@@ -89,6 +89,8 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
+![](images/excited.webp)
+
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)

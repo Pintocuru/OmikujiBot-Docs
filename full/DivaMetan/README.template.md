@@ -57,7 +57,7 @@
 - **【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)**
   <https://seiga.nicovideo.jp/seiga/im11022280>
 
-![credits_11_AssetPolicy](../../template/credits/credits_11_AssetPolicy.md)
+![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ![](../EveryoneZunda/images/wink.webp)
 

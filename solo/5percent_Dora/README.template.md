@@ -48,13 +48,15 @@
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
-### その他
-
 #### Q.ドラえもんでしょ？
 
 A: 違います。
 
 ![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
+
+![](images/dorachan_konjac_2.webp)
+
+「はぁーい、どこでもしずちゃん～」
 
 ## ライセンス（License）
 
@@ -69,13 +71,9 @@ A: 違います。
 
 ## バージョン情報 (Version)
 
-### ver.250901
+### ver.250910
 
-- おみくじ BOT のバージョン: v1.0.0
-
-### ver.250830
-
-- おみくじ BOT のバージョン: v0.8.0 Beta.10
+- おみくじ BOT のバージョン: v1.1.0
 
 ### ver.250816
 
@@ -83,4 +81,4 @@ A: 違います。
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%\* await tp.user.expandEmbeds(tp) %>
+<%* await tp.user.expandEmbeds(tp) %>

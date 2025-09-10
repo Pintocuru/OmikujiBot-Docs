@@ -93,17 +93,15 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
+![](images/surprised.webp)
+
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
 
-### ver.250908-v1.1.0
+### ver.250910-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
-
-### ver.250901
-
-- おみくじ BOT のバージョン: v1.0.0
 
 ### ver.250830
 
