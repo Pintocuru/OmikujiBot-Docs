@@ -48,7 +48,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 - コーラを持ってじゃんけんする女性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/bottom_banner_230428.webp)
+![](images/250911_3.webp)
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

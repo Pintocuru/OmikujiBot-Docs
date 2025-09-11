@@ -131,7 +131,7 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 - コーラを持ってじゃんけんする女性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/bottom_banner_230428.webp)
+![](images/250911_3.webp)
 
 ### 素材の取り扱いについて
 
