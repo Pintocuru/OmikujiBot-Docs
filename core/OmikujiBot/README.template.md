@@ -59,9 +59,7 @@
 
 ![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
-![Installation_53_ProInfo](../../template/installation/Installation_53_ProInfo.md)
-
-![Installation_51_ProUpgradeTemplate](Installation_51_ProUpgradeTemplate.md)
+![[Installation_51_ProUpgradeTemplate]]
 
 ## つかいかた (Usage)
 
