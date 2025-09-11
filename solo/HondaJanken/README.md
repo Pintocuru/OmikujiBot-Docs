@@ -1,10 +1,10 @@
 # おみくじ BOT じゃんけん OmikujiBot HondaJanken
 
-最終更新日：2025/09/10
+最終更新日：2025/09/11
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088) の readme となります。
 
 ## はじめに（Intro）
 
@@ -21,9 +21,23 @@
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
   - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
 テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
+
+### アップグレード
+
+> バージョンアップは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
+> 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
+
+- **アップグレード手順**：
+  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
+  2. ダウンロードしたファイルを解凍
+  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
+  4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
+  5. 解凍したファイルを、該当フォルダに上書き保存
+  6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
+- **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
@@ -117,6 +131,8 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 - コーラを持ってじゃんけんする女性
   生成：Google Gemini <https://gemini.google.com/>
 
+![](images/bottom_banner_230428.webp)
+
 ### 素材の取り扱いについて
 
 - イラスト素材・動画・音源の再配布は禁止
@@ -139,7 +155,12 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 
 ## バージョン情報 (Version)
 
-### ### ver.250910-v1.1.0
+### ver.250911-v1.1.1
+
+- おみくじ BOT のバージョン v1.1.1
+- Readme の URL が間違っていたので修正
+
+### ver.250910-v1.1.0
 
 - [おみくじ BOT ゆっくり霊夢&魔理沙](/docs/OmikujiBotReimuMarisa/README.md) の機能「じゃんけん」を分離する形で新規作成
 

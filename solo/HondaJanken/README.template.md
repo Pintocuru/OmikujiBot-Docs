@@ -4,7 +4,7 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -55,6 +55,11 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
+
+### ver.250911-v1.1.1
+
+- おみくじ BOT のバージョン v1.1.1
+- Readme の URL が間違っていたので修正
 
 ### ver.250910-v1.1.0
 

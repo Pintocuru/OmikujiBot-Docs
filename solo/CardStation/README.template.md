@@ -1,10 +1,10 @@
-# おみくじ BOT カード駅 OmikujiBot MomotetsuCard
+# おみくじ BOT カード駅 OmikujiBot CardStation
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -43,7 +43,6 @@
   生成：ChatGPT <https://chatgpt.com/>
 - ボンビュラス星
   陣内智則のネタジン <https://www.youtube.com/watch?v=Fp4SRDcGcnI>
-  プロ野球チップス ＆ 侍ジャパンチップス　カードリスト｜カルビー <https://www.calbee.co.jp/products/cardlist/proyakyu/>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
@@ -51,7 +50,7 @@
 
 ## バージョン情報 (Version)
 
-### ver.250910-v1.1.0
+### ver.250911-v1.1.1
 
 - [おみくじ BOT ゆっくり霊夢&魔理沙](/docs/OmikujiBotReimuMarisa/README.md) (v0.73) の機能「桃鉄 カード」を分離する形で新規作成
 
