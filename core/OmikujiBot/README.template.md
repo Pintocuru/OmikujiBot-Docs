@@ -61,6 +61,8 @@
 
 ![Installation_53_ProInfo](../../template/installation/Installation_53_ProInfo.md)
 
+![Installation_51_ProUpgradeTemplate](Installation_51_ProUpgradeTemplate.md)
+
 ## つかいかた (Usage)
 
 > パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
