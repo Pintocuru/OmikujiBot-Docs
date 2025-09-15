@@ -31,7 +31,7 @@
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
 
-![Installation_32_AddWordParty](/packages/OmikujiBot/template/installation/Installation_32_AddWordParty.md)
+![Installation_32_AddWordParty](/sharedTemplate/installation/Installation_32_AddWordParty.md)
 
 ## つかいかた・カスタマイズ (Usage/Customization)
 
