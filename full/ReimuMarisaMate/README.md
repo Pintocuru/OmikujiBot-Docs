@@ -66,9 +66,21 @@
 
 ## インストール (Installation)
 
-![Installation_41_GotoTemplate](/sharedTemplate/Installation/Installation_41_GotoTemplate.md)
+> テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
-![Installation_52_VersionUp](installation/Installation_52_VersionUp.md)
+### アップグレード
+
+> バージョンアップは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
+> 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
+
+- **アップグレード手順**：
+  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
+  2. ダウンロードしたファイルを解凍
+  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
+  4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
+  5. 解凍したファイルを、該当フォルダに上書き保存
+  6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
+- **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
 ### PRO(有料) 版へのアップグレードの方法
 

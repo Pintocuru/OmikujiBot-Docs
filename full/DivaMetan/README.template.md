@@ -31,7 +31,7 @@
 
 ![features_31_InfoCharacter](/packages/OmikujiBot/template/features/features_31_InfoCharacter.md)
 
-![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
