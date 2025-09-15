@@ -1,6 +1,6 @@
 # おみくじ BOT OmikujiBot
 
-最終更新日：2025/09/11
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 BOT ソフトウェア です。
 
@@ -37,7 +37,7 @@
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
    - `じゃんけん` のような複雑なおみくじ結果も表示できる
    - スイカジェネレーターなどのミニゲームで楽しむ
-2. **[【コンフィグエディター】](/packages/OmikujiBot/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
+2. **[【コンフィグエディター】](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
    - おみくじの内容は、自由に編集可能
    - フキダシの大きさ・色替え・アニメーションも自由に変更可能
    - わんコメの機能「WordParty」を使い、自由に演出を表示可能
@@ -64,7 +64,7 @@
 
 - 表示サイズは柔軟に調整可能で、コンパクトにもワイドにも対応できます。
 - 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
-	- それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
+  - それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
 
 ### アップグレード
 
@@ -80,25 +80,7 @@
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
-### PRO(有料) 版へのアップグレードの方法
-
-通常版を上書きすることで、アップグレードを行います。ダウンロードページから、通常版と PRO 版の両方をダウンロードし、通常版は上記に従いインストールを行ってください。
-
-1. ダウンロードした PRO 版の zip ファイルを解凍する
-2. わんコメを起動し、右上の…ボタン　＞　テンプレートを選択
-3. カスタムタブから、インストールしたテンプレートを探し、「フォルダを開く」ボタンをクリック
-4. 開いたフォルダに、解凍したファイルをすべて投げ込み、上書きする
-
-### ライセンスキーでアップグレードする方法
-
-既存のデータがあり、ファイルの上書きが難しい場合は、ライセンスキーを使ってアップグレードできます。
-
-1. コンフィグエディターのアプリを開き、表示設定＞エディター設定を開く
-2. PRO 版の zip ファイルの中にある「readme.txt」を開き、ライセンスキーをコピーする
-3. コンフィグエディターの「ライセンスキー」欄にコピーした内容を貼り付ける
-4. 「設定を出力」ボタンをクリックして、既存の js ファイルを上書きする
-
-このアップグレードを行う場合、PRO 版に入っているデータは「テンプレート読み込み (JSON)」から読み込んでください。
+![[Installation_51_ProUpgradeTemplate]]
 
 ## つかいかた (Usage)
 
@@ -120,7 +102,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 
 ## よくある質問 (FAQ)
 
@@ -134,7 +116,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ### フキダシ・キャラクター表示関連
 
@@ -150,7 +132,7 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. 自前のキャラクター画像を追加したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ### おみくじ関連
 
@@ -160,7 +142,7 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. おみくじをメンバー限定にしたい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q. Omiken って何？
 

@@ -1,6 +1,6 @@
 # おみくじ BOT 用 WordParty
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 WordParty テンプレート です。
 
@@ -35,7 +35,7 @@
 
 ## インストール方法 (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
+> テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
 

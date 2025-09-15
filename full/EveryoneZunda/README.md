@@ -1,6 +1,6 @@
 # おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -18,7 +18,7 @@
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ずんだもんが懸命に頑張るテンプレートです。
 - イラストは 坂本アヒル さんのを使用してます。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
 ### ずんだもん のキャラクター設定
 
@@ -36,9 +36,11 @@
 - 原作とは異なる「二次創作」キャラクターのため、一般的に知られているようなキャラクター像とは異なる言動やセリフが見られる場合があります。
 - 原作では「プライドの高い不幸キャラ」なのですが、おみくじ BOT のずんだもんは他人への思いやりが強かったり、不幸さが薄いかもしれません。ずんだもち 1 個贈呈なのだ。
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
 ![Installation_41_GotoTemplate](/sharedTemplate/Installation/Installation_41_GotoTemplate.md)
+
+![Installation_52_VersionUp](installation/Installation_52_VersionUp.md)
 
 ### PRO(有料) 版へのアップグレードの方法
 
@@ -69,7 +71,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -91,7 +93,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
 
@@ -107,7 +109,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -123,7 +125,7 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 
@@ -135,7 +137,8 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 
 ### 素材の取り扱いについて
 
-- イラスト素材・動画・音源の再配布は禁止です。
+- イラスト素材・動画・音源の再配布は禁止
+- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
 
 ![](images/sleepy.webp)
 
@@ -173,7 +176,7 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 ### ver.250828-v0.8.0-Beta.09
 
 - おみくじ BOT のバージョン: v0.8.0-Beta.09
-- 「[おみくじ BOT](../../core/OmikujiBot/README.md)」のバージョンアップに伴い、内容をリニューアルしました。
+- 「おみくじ BOT」のバージョンアップに伴い、内容をリニューアルしました。
   - じゃんけんでは「僕」と言い換えています。
   - 公式に合わせ、ユーザーへの呼び方を「さん」付けから、呼び捨てにしました。
   - ユーザーに対して「オマエ」と呼ぶパターンを増やしました。

@@ -1,6 +1,6 @@
 # おみくじ BOT じゃんけん OmikujiBot HondaJanken
 
-最終更新日：2025/09/11
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -19,11 +19,11 @@
 ### 「じゃんけん」ミニゲームが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
 ## インストール (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
+テンプレートのインストールは、[テンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/tree/main/docs/TemplateInstall) をご覧ください。
 
 ### アップグレード
 
@@ -48,7 +48,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -84,7 +84,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
 
@@ -100,7 +100,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q. じゃんけんの勝率低すぎない？
 
@@ -120,7 +120,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 

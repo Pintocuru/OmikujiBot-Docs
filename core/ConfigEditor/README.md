@@ -1,6 +1,6 @@
 # おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 ジェネレーター BOT 「おみくじ BOT」のデータを編集できるアプリケーションです。
 
@@ -25,7 +25,7 @@
 
 ### おみくじ BOT を自分好みに設定できる専用エディター
 
-【おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor】は、[おみくじ BOT](../../core/OmikujiBot/README.md) 専用のエディターです。おみくじの内容や演出を、直感的にカスタマイズできます。
+【おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor】は、[おみくじ BOT](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) 専用のエディターです。おみくじの内容や演出を、直感的にカスタマイズできます。
 
 1. **おみくじの確率や制限が自由に行える**
    - おみくじの内容や、演出のタイミングを自由に変更可能
@@ -59,9 +59,10 @@
 - [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
 
-## バージョンアップ (Installation)
+### アップグレード
 
 > バージョンアップは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
+> 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
 
 - **アップグレード手順**：
   1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
@@ -79,10 +80,11 @@
 	- フキダシのフォント設定・アニメーション設定を自在に選べるようになります。
 - PRO 版をご購入いただくと、配布ファイル内の `readme.txt` にライセンスキーが記載されています。
 - コンフィグエディターの「表示設定 ＞ エディター設定」に、ライセンスキーを入力する欄がありますので、そこへコピー＆ペーストしてください。
+- PRO 版へのインストールに関する方法は [PRO(有料) 版へのアップグレードの方法](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#pro%E6%9C%89%E6%96%99-%E7%89%88%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%AE%E6%96%B9%E6%B3%95) をご覧ください。
 
 ## つかいかた (Usage)
 
-おみくじデータに関する設定方法は、それぞれエディターに詳細が書かれています。機能が多岐にわたるため、すべてをこの README に記載することはしていません。
+おみくじデータに関する設定方法は、それぞれエディターに詳細が書かれています。現在も開発中であり、機能が多岐にわたるため、すべてをこの README に記載することはしていません。
 
 **基本的な使い方のヒント**：
 - エディターを開くと、各項目にツールチップや説明が表示されます
@@ -130,7 +132,7 @@
 
 #### Q. このエディターで何が編集できる？
 
-A. [おみくじ BOT](../../core/OmikujiBot/README.md) で表示させるおみくじ結果を編集できます。
+A. [おみくじ BOT](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) で表示させるおみくじ結果を編集できます。
 
 #### Q. 元に戻す（Undo）はできる？
 
@@ -142,7 +144,7 @@ A. 配布データをそのまま再配布することは禁止です。内容�
 
 #### Q. おみくじ BOT 用 WordParty を編集したい
 
-A. 通常の WordParty と同様に編集が可能です。
+A. 通常の WordParty と同様に編集が可能です。詳しくは [WordPartyエディタの見方と設定](https://onecomme.com/docs/feature/wordparty-editor) をご覧ください。
 
 #### Q. 最新のバージョンより古いデータで作成したファイルは読めますか？
 

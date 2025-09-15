@@ -1,6 +1,6 @@
 # おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -14,11 +14,10 @@
 
 ## 1.このテンプレートは何？
 
-### めたんがリスナーを歓迎してくれるジェネレーター
+### 四国めたんがリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
-
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
 ### 四国めたん のキャラクター設定
 
@@ -62,7 +61,6 @@
 
 このアップグレードを行う場合、PRO 版に入っているデータは「テンプレート読み込み (JSON)」から読み込んでください。
 
-
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
 ![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
@@ -72,9 +70,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
-
-
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -96,9 +92,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
-
-
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。(/template/customization/customization_11.md)
 
@@ -114,9 +108,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
-
-
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -132,13 +124,11 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
-
+A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 
 わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
-
 
 ## クレジット（Credits）
 
@@ -175,18 +165,16 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 - 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
-
 ## バージョン情報 (Version)
 
 ### ver.250910-v1.1.0
 
 - おみくじ BOT のバージョン: v1.1.0
-- 「[おみくじ BOT](../../core/OmikujiBot/README.md)」のバージョンアップに伴い、内容をリニューアルしました。
+- 「おみくじ BOT」 のバージョンアップに伴い、内容をリニューアルしました。
 
 ### ver.240831
 
 - 「初見判定ちゃん 高飛車な四国めたん」としてリリース。
-
 
 ---
 

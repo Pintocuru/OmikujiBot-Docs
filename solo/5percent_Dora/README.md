@@ -1,6 +1,6 @@
 # どこでもドラちゃん Bot OmikujiBot 5percent_Dora
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -19,11 +19,25 @@
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 3 分ごとに自動でつぶやいてくれる、テンプレートです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
+テンプレートのインストールは、[テンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/tree/main/docs/TemplateInstall) をご覧ください。
+
+### アップグレード
+
+> バージョンアップは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
+> 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
+
+- **アップグレード手順**：
+  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
+  2. ダウンロードしたファイルを解凍
+  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
+  4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
+  5. 解凍したファイルを、該当フォルダに上書き保存
+  6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
+- **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
@@ -34,7 +48,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -66,7 +80,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、配信に合わせて自由にカスタマイズできます。
 - パロディ・ネタ要素が強いため、発言や結果の責任はすべて自己責任でお願いします。
 - 元ネタや BOT 本体の意図とは関係ありません。
@@ -83,7 +97,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q.ドラえもんでしょ？
 
@@ -103,7 +117,7 @@ A: 違います。
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 

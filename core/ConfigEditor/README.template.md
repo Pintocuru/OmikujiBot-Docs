@@ -16,7 +16,7 @@
 
 ### おみくじ BOT を自分好みに設定できる専用エディター
 
-【おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor】は、[おみくじ BOT](../../core/OmikujiBot/README.md) 専用のエディターです。おみくじの内容や演出を、直感的にカスタマイズできます。
+【おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor】は、[おみくじ BOT](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) 専用のエディターです。おみくじの内容や演出を、直感的にカスタマイズできます。
 
 1. **おみくじの確率や制限が自由に行える**
    - おみくじの内容や、演出のタイミングを自由に変更可能
@@ -52,7 +52,7 @@
 
 ## つかいかた (Usage)
 
-おみくじデータに関する設定方法は、それぞれエディターに詳細が書かれています。機能が多岐にわたるため、すべてをこの README に記載することはしていません。
+おみくじデータに関する設定方法は、それぞれエディターに詳細が書かれています。現在も開発中であり、機能が多岐にわたるため、すべてをこの README に記載することはしていません。
 
 **基本的な使い方のヒント**：
 - エディターを開くと、各項目にツールチップや説明が表示されます
@@ -100,7 +100,7 @@
 
 #### Q. このエディターで何が編集できる？
 
-A. [おみくじ BOT](../../core/OmikujiBot/README.md) で表示させるおみくじ結果を編集できます。
+A. [おみくじ BOT](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) で表示させるおみくじ結果を編集できます。
 
 #### Q. 元に戻す（Undo）はできる？
 
@@ -112,7 +112,7 @@ A. 配布データをそのまま再配布することは禁止です。内容�
 
 #### Q. おみくじ BOT 用 WordParty を編集したい
 
-A. 通常の WordParty と同様に編集が可能です。
+A. 通常の WordParty と同様に編集が可能です。詳しくは [WordPartyエディタの見方と設定](https://onecomme.com/docs/feature/wordparty-editor) をご覧ください。
 
 #### Q. 最新のバージョンより古いデータで作成したファイルは読めますか？
 

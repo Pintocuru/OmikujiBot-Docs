@@ -28,7 +28,7 @@
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
    - `じゃんけん` のような複雑なおみくじ結果も表示できる
    - スイカジェネレーターなどのミニゲームで楽しむ
-2. **[【コンフィグエディター】](/packages/OmikujiBot/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
+2. **[【コンフィグエディター】](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
    - おみくじの内容は、自由に編集可能
    - フキダシの大きさ・色替え・アニメーションも自由に変更可能
    - わんコメの機能「WordParty」を使い、自由に演出を表示可能
@@ -55,7 +55,7 @@
 
 - 表示サイズは柔軟に調整可能で、コンパクトにもワイドにも対応できます。
 - 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
-	- それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
+  - それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
 
 ![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
@@ -87,7 +87,7 @@
 
 #### Q. 自前のキャラクター画像を追加したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ### おみくじ関連
 
@@ -97,7 +97,7 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. おみくじをメンバー限定にしたい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 #### Q. Omiken って何？
 

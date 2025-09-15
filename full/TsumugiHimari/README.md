@@ -1,10 +1,10 @@
 # おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
 
-最終更新日：2025/08/26
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]()の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]() の readme となります。
 
 ## はじめに（Intro）
 
@@ -17,7 +17,7 @@
 ### つむぎとひまりがノリノリでリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、春日部つむぎ と 冥鳴ひまりが、「先輩後輩コンビ」として対応するテンプレートです。
-- インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](../../core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
 ### 春日部つむぎ のキャラクター設定
 
@@ -49,16 +49,18 @@
 
 ## インストール方法
 
-テンプレートのインストールは、[テンプレートの導入方法](/docs/TemplateInstall/README.md) をご覧ください。
+> テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
+
+![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた
 

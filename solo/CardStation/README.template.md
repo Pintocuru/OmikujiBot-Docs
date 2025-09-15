@@ -52,7 +52,7 @@
 
 ### ver.250911-v1.1.1
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙](/docs/OmikujiBotReimuMarisa/README.md) (v0.73) の機能「桃鉄 カード」を分離する形で新規作成
+- おみくじ BOT ゆっくり霊夢&魔理沙 (v0.73) の機能「桃鉄 カード」を分離する形で新規作成
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 

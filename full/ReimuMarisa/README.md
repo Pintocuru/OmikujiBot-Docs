@@ -1,6 +1,6 @@
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa
 
-最終更新日：2025/09/10
+最終更新日：2025/09/15
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -17,7 +17,7 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot for わんコメ README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+  - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
 ### ゆっくり霊夢のキャラクター設定
 
@@ -51,9 +51,11 @@
 
 - キャラクターが常駐するようになった [「ちょこっと版」](https://pintocuru.booth.pm/items/7366004) もリリース。ゆっくり魔理沙が占う「フラワー占い」が無料版に入りました。良かったら使って下さい。
 
-## インストール方法 (Installation)
+## インストール (Installation)
 
 ![Installation_41_GotoTemplate](/sharedTemplate/Installation/Installation_41_GotoTemplate.md)
+
+![Installation_52_VersionUp](installation/Installation_52_VersionUp.md)
 
 ### PRO(有料) 版へのアップグレードの方法
 
@@ -84,7 +86,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](/packages/OmikujiBot/core/OmikujiBot/README.md) をご覧ください。
+詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -166,7 +168,7 @@
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
-- 詳しくは [おみくじ BOT コンフィグエディター README](/packages/OmikujiBot/core/ConfigEditor/README.md) をご覧ください。
+- 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
 
@@ -182,7 +184,7 @@
 
 #### Q. 1 日 1 回と、回数を制限したい
 
-A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/ConfigEditor/README.md) で設定が可能です。
+A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -198,7 +200,7 @@ A: [おみくじ BOT コンフィグエディター](/packages/OmikujiBot/core/C
 
 #### Q. おみくじを連続で行うとコメントが反映されなくなる
 
-A. [おみくじ BOT README トラブルシューティング](/packages/OmikujiBot/core/OmikujiBot/README.md) をお読みください。
+A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
 #### Q. WordParty の音が配信に出ない
 
@@ -279,7 +281,7 @@ A. [おみくじ BOT README トラブルシューティング](/packages/Omikuji
 
 ### v0.8.0 25/07/24
 
-- システムファイルを「[おみくじ BOT](../../core/OmikujiBot/README.md)」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
+- システムファイルを「おみくじ BOT」に移しました。以降、システム的なバージョン情報はそちらの ReadMe に記載します。
 - ゆっくり霊夢とゆっくり魔理沙の画像を png から webp に変更し、大幅にファイルを小さくしました。
 
 これ以前のリリースノートは [こちら](https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v0.7.0) に移動しました。
