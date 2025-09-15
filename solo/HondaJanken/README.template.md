@@ -15,19 +15,17 @@
 ### 「じゃんけん」ミニゲームが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+- 負けた時のセリフが豊富で、つい何度も挑戦したくなります。
+
+![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
 ![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
 
 ## つかいかた (Usage)
 
-![](../../core/OmikujiBot/images/faq-01.webp)
-
-![usage_12_MiniGame](/packages/OmikujiBot/template/usage/usage_12_MiniGame.md)
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
-
-![usage_91_Column](/packages/OmikujiBot/template/usage/usage_91_Column.md)
 
 ## カスタマイズ（Customization）
 

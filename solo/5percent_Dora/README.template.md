@@ -10,31 +10,32 @@
 
 ## このテンプレートは何？（Features）
 
-![](./images/default.webp)
+![](./images/250816_1.jpg)
 
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 3 分ごとに自動でつぶやいてくれる、テンプレートです。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+- 古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
+	- (上記の説明は実際とは異なります。[某有名 Bot](https://x.com/5percent_dora) を模したおみくじ BOT となります。非公式パロディです。)
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
-
-## つかいかた (Usage)
-
-![](./images/250816_1.jpg)
-
-古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
-
-(上記の説明は実際とは異なります。[某有名 Bot](https://x.com/5percent_dora) を模したおみくじ BOT となります。非公式パロディです。)
+### シーン別・活用例
 
 - **雑談配信**
   - コメントで反応するので、配信が賑やかになります。
   - 「誰がボロンさせたか」も表示してくれます。
 - **ゲーム配信**
   - ガチャ要素のあるソーシャルゲームで使えるかもしれません。
-  - 3 分に 1 回出現するので「5%」を引いたときにガチャを引くと、いいかもしれません。
+    - ガチャ結果に関しては責任を持ちません。
+
+![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+
+## つかいかた (Usage)
+
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ### ドラちゃん
+
+> 発動ワード : `ドラちゃん` / `どらちゃん` / `dorachan` / `5percent_dora`
 
 - 「ドラちゃん」と呼ぶと、ひみつ道具をランダムで 1 つ出してくれます。
   - 「ボロン」した時は、ボロンさせたユーザー名が表示されます

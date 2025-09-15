@@ -15,17 +15,17 @@
 ### 全国各地 (海外・地球外含む) でカード集めが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+- 多彩な役職や地名が出るので、楽しく勉強にもなります。どこの都道府県かわかるでしょうか？
+
+![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
 ![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
 
 ## つかいかた (Usage)
 
-![usage_12_MiniGame](/packages/OmikujiBot/template/usage/usage_12_MiniGame.md)
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ![usage_27_MomotetsuCard](/packages/OmikujiBot/template/usage/usage_27_MomotetsuCard.md)
-
-![usage_91_Column](/packages/OmikujiBot/template/usage/usage_91_Column.md)
 
 ## カスタマイズ（Customization）
 
