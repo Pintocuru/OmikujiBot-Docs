@@ -1,6 +1,6 @@
 # どこでもドラちゃん Bot OmikujiBot 5percent_Dora
 
-最終更新日：2025/09/15
+最終更新日：2025/09/16
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -23,7 +23,7 @@
 
 ## インストール (Installation)
 
-![Installation_41_GotoTemplate](Installation_41_GotoTemplate.md)
+> テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
 ### アップグレード
 

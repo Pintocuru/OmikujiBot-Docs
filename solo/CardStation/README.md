@@ -1,6 +1,6 @@
 # おみくじ BOT カード駅 OmikujiBot CardStation
 
-最終更新日：2025/09/15
+最終更新日：2025/09/16
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -23,7 +23,7 @@
 
 ## インストール (Installation)
 
-![Installation_41_GotoTemplate](Installation_41_GotoTemplate.md)
+> テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
 ### アップグレード
 
@@ -59,6 +59,8 @@
   - コメントに**リアクションが生まれる**ことで、コメントする楽しさが生まれ、**自然とコメント数が増加**します。
 
 ### カード駅
+
+> 発動ワード : `カード` / `かーど`/ `card`/ `station`
 
 - 「桃太郎電鉄」の黄色いマスをモチーフにしたミニゲームです。
 - 全国各地 (海外・地球外含む) でカード集めが楽しめます。
