@@ -11,6 +11,8 @@
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
 - おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
 - [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
+- [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088)
+- [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
 
 ## はじめに（Intro）
@@ -86,12 +88,13 @@
 
 > パッケージによって、利用シーンは様々です。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/packages/OmikujiBot/full/ReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/packages/OmikujiBot/full/EveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/packages/OmikujiBot/full/DivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/packages/OmikujiBot/full/TsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/packages/OmikujiBot/solo/5percent_Dora/README.md)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/ReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/EveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/DivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/TsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/5percent_Dora/README.md)
+- [おみくじ BOT じゃんけん OmikujiBot HondaJanken README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/HondaJanken/README.md)
+- [おみくじ BOT カード駅 OmikujiBot CardStation README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/CardStation/README.md)
 
 ## カスタマイズ（Customization）
 
@@ -190,12 +193,13 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](/packages/OmikujiBot/full/ReimuMarisa/README.md)
-- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](/packages/OmikujiBot/full/EveryoneZunda/README.md)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](/packages/OmikujiBot/full/DivaMetan/README.md)
-- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](/packages/OmikujiBot/full/TsumugiHimari/README.md)
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](/packages/OmikujiBot/solo/5percent_Dora/README.md)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator README](/docs/GouseiSuika/README.md)
+- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/ReimuMarisa/README.md)
+- [おみくじ BOT みんなのずんだもん OmikujiBot Everyone Zunda README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/EveryoneZunda/README.md)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/DivaMetan/README.md)
+- [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/TsumugiHimari/README.md)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/5percent_Dora/README.md)
+- [おみくじ BOT じゃんけん OmikujiBot HondaJanken README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/HondaJanken/README.md)
+- [おみくじ BOT カード駅 OmikujiBot CardStation README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/CardStation/README.md)
 
 ## ライセンス（License）
 
