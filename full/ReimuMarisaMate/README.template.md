@@ -13,11 +13,13 @@
 ### ゆっくり霊夢と魔理沙がリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ゆっくり霊夢と魔理沙が楽しく出演するテンプレートです。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+- 解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
+
+![features_11_HowToPlay](../../template/features/features_11_HowToPlay.md)
 
 ### ゆっくり霊夢のキャラクター設定
 
-![](images/reimu.webp)
+![](./images/reimu.webp)
 
 このジェネレーターでは、ゆっくり霊夢を以下のようなキャラクターとして登場させています。
 
@@ -27,7 +29,7 @@
 
 ### ゆっくり魔理沙のキャラクター設定
 
-![](images/marisa.webp)
+![](./images/marisa.webp)
 
 ゆっくり魔理沙は、ゆっくり霊夢の相棒のような立ち位置で登場します。
 
@@ -54,9 +56,7 @@
 
 ## つかいかた (Usage)
 
-解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
-
-![usage_11_HowToPlay](/packages/OmikujiBot/template/usage/usage_11_HowToPlay.md)
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ![OmikujiBotReimuMarisa_12_flowerOmikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
 
@@ -93,7 +93,7 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
-![](images/surprised.webp)
+![](./images/surprised.webp)
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 

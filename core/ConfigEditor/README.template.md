@@ -12,7 +12,7 @@
 
 ## このアプリは何？（Features）
 
-![](images/features-04.webp)
+![](./images/features-04.webp)
 
 ### おみくじ BOT を自分好みに設定できる専用エディター
 
@@ -58,7 +58,7 @@
 - エディターを開くと、各項目にツールチップや説明が表示されます
 - 設定項目は直感的に操作できるように設計されています
 
-![](images/usage-05.webp)
+![](./images/usage-05.webp)
 
 ### 【重要】 設定の保存方法
 
@@ -79,7 +79,7 @@
 
 ### 【PRO 版】 テンプレート読み込み (json)
 
-![](images/usage-06.webp)
+![](./images/usage-06.webp)
 
 配布されている JSON ファイルや、バックアップとして出力した JSON ファイルを読み込むことができます。
 

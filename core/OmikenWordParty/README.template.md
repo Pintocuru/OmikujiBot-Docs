@@ -13,7 +13,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/features-03.webp)
+![](./images/features-03.webp)
 
 ### おみくじ BOT を賑やかに演出する WordParty セット
 

@@ -14,7 +14,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/default.webp)
+![](./images/default.webp)
 
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーター
 
@@ -23,7 +23,7 @@
 
 ## インストール (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/tree/main/docs/TemplateInstall) をご覧ください。
+![Installation_41_GotoTemplate](Installation_41_GotoTemplate.md)
 
 ### アップグレード
 
@@ -41,7 +41,7 @@
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
-![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
+![](../../core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
@@ -52,7 +52,7 @@
 
 ## つかいかた (Usage)
 
-![](images/250816_1.jpg)
+![](./images/250816_1.jpg)
 
 古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
 
@@ -75,7 +75,7 @@
 
 ### 「コンフィグエディター」で自由におみくじを編集できる
 
-![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
+![](../../core/ConfigEditor/images/features-04.webp)
 
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
@@ -123,7 +123,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
 
-![](images/dorachan_konjac_2.webp)
+![](./images/dorachan_konjac_2.webp)
 
 「はぁーい、どこでもしずちゃん～」
 

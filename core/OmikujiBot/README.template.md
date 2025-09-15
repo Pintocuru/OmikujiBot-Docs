@@ -12,7 +12,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/features-01.webp)
+![](./images/features-01.webp)
 
 ### 🎯 わんコメに BOT 機能を付与するジェネレーター
 
@@ -22,7 +22,7 @@
 
 ### ✨【おみくじ BOT OmikujiBot】で、できること
 
-![](images/features-02.webp)
+![](./images/features-02.webp)
 
 1. **コメントに反応する【おみくじシステム】**
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
@@ -51,7 +51,7 @@
 
 ### OBS でジェネレーターを表示させる際の「幅」について
 
-![](images/Installation-05.webp)
+![](./images/Installation-05.webp)
 
 - 表示サイズは柔軟に調整可能で、コンパクトにもワイドにも対応できます。
 - 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。

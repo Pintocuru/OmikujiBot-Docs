@@ -1,6 +1,6 @@
 ### 「コンフィグエディター」で自由におみくじを編集できる
 
-![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
+![](../../core/ConfigEditor/images/features-04.webp)
 
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。

@@ -14,7 +14,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/250910.webp)
+![](./images/250910.webp)
 
 ### 全国各地 (海外・地球外含む) でカード集めが楽しめるジェネレーター
 
@@ -23,7 +23,7 @@
 
 ## インストール (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/tree/main/docs/TemplateInstall) をご覧ください。
+![Installation_41_GotoTemplate](Installation_41_GotoTemplate.md)
 
 ### アップグレード
 
@@ -41,7 +41,7 @@
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
-![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
+![](../../core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
@@ -76,7 +76,7 @@
 
 ### 「コンフィグエディター」で自由におみくじを編集できる
 
-![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
+![](../../core/ConfigEditor/images/features-04.webp)
 
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。

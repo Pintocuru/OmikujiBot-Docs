@@ -10,7 +10,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/default.webp)
+![](./images/default.webp)
 
 ### 「ドラちゃん」を名乗るキャラクターが「ひみつ道具」をランダムに出してくれるジェネレーター
 
@@ -21,7 +21,7 @@
 
 ## つかいかた (Usage)
 
-![](images/250816_1.jpg)
+![](./images/250816_1.jpg)
 
 古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
 
@@ -54,7 +54,7 @@ A: 違います。
 
 ![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
-![](images/dorachan_konjac_2.webp)
+![](./images/dorachan_konjac_2.webp)
 
 「はぁーい、どこでもしずちゃん～」
 

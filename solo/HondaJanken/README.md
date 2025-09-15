@@ -23,7 +23,7 @@
 
 ## インストール (Installation)
 
-テンプレートのインストールは、[テンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/tree/main/docs/TemplateInstall) をご覧ください。
+![Installation_41_GotoTemplate](Installation_41_GotoTemplate.md)
 
 ### アップグレード
 
@@ -41,7 +41,7 @@
 
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
-![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
+![](../../core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
@@ -52,7 +52,7 @@
 
 ## つかいかた (Usage)
 
-![](/packages/OmikujiBot/core/OmikujiBot/images/faq-01.webp)
+![](../../core/OmikujiBot/images/faq-01.webp)
 
 コメントをトリガーにした「ミニゲーム」により、**コメント数やリスナーの視聴時間増加**に貢献します。
 
@@ -79,7 +79,7 @@
 
 ### 「コンフィグエディター」で自由におみくじを編集できる
 
-![](/packages/OmikujiBot/core/ConfigEditor/images/features-04.webp)
+![](../../core/ConfigEditor/images/features-04.webp)
 
 - すべての配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
@@ -131,7 +131,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 - コーラを持ってじゃんけんする女性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/250911_3.webp)
+![](./images/250911_3.webp)
 
 ### 素材の取り扱いについて
 

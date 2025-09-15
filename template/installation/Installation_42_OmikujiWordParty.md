@@ -1,6 +1,6 @@
 ### 【推奨】おみくじ BOT 用 WordParty の導入について
 
-![](/packages/OmikujiBot/core/OmikenWordParty/images/features-03.webp)
+![](../../core/OmikenWordParty/images/features-03.webp)
 
 この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 

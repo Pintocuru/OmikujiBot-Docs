@@ -52,7 +52,7 @@
 
 解説動画でも良く使われる、「ゆっくり霊夢」「ゆっくり魔理沙」を BOT キャラクターにしました。
 
-![usage_11_HowToPlay](/packages/OmikujiBot/template/usage/usage_11_HowToPlay.md)
+![features_11_HowToPlay](../../template/features/features_11_HowToPlay.md)
 
 ![OmikujiBotReimuMarisa_11_omikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
 

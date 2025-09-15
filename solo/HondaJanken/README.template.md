@@ -21,7 +21,7 @@
 
 ## つかいかた (Usage)
 
-![](/packages/OmikujiBot/core/OmikujiBot/images/faq-01.webp)
+![](../../core/OmikujiBot/images/faq-01.webp)
 
 ![usage_12_MiniGame](/packages/OmikujiBot/template/usage/usage_12_MiniGame.md)
 
@@ -48,7 +48,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 - コーラを持ってじゃんけんする女性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/250911_3.webp)
+![](./images/250911_3.webp)
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
