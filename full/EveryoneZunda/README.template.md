@@ -13,6 +13,7 @@
 ### ずんだもんがリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ずんだもんが懸命に頑張るテンプレートです。
+- 解説動画や配信の読み上げでも良く使われる、「ずんだもん」を BOT キャラクターにしました。元気に明るく、リスナーを迎えてくれます。ちょっと生意気なのも、可愛いポイント。
 - イラストは 坂本アヒル さんのを使用してます。
   ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
 
@@ -35,14 +36,29 @@
 
 ## つかいかた (Usage)
 
-解説動画や配信の読み上げでも良く使われる、「ずんだもん」を BOT キャラクターにしました。元気に明るく、リスナーを迎えてくれます。ちょっと生意気なのも、可愛いポイント。
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-- **朝活配信**
-  - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
-- **雑談配信**
-  - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
-- **ゲーム配信**
-  - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+### ずんだもんのおみくじ
+
+> 発動ワード : `おみくじ` / `omikuji`
+
+- 巫女さん手製のおみくじを、ずんだもんが読んでくれます。
+- 「残念賞」に関する内容がすべて白紙だったため、代わりにずんだもんが一発芸をしてくれます。
+	- 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
+
+![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
+
+![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
+
+![usage_23_Gift](/packages/OmikujiBot/template/usage/usage_23_Gift.md)
+
+![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
+
+![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
+
+## PRO 版ボーナスデータ (Usage)
+
+![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
@@ -56,7 +72,8 @@
 
 ## クレジット（Credits）
 
-- **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**[https://www.pixiv.net/artworks/92641351](https://www.pixiv.net/artworks/92641351)
+- **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**
+  <https://www.pixiv.net/artworks/92641351>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

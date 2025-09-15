@@ -13,7 +13,9 @@
 ### 四国めたんがリスナーを歓迎してくれるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、四国めたんが上から目線で対応するテンプレートです。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+- [VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクター。公式よりもややアッパーな厨二病になっているかもしれません。おみくじとじゃんけんでは、二つ名である「漆黒のめたん」で対応します。
+
+![features_11_HowToPlay](../../template/features/features_11_HowToPlay.md)
 
 ### 四国めたん のキャラクター設定
 
@@ -33,20 +35,35 @@
 
 ## つかいかた (Usage)
 
-[VOICEVOX](https://voicevox.hiroshiba.jp/) では定番のキャラクター。公式よりもややアッパーな厨二病になっているかもしれません。おみくじとじゃんけんでは、二つ名である「漆黒のめたん」で対応します。
+![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-- **朝活配信**
-  - 今日 1 日の運勢を占う「おみくじ」で、配信が賑やかに。
-- **雑談配信**
-  - リスナーのコメントに対してキャラクターがボケたりツッコミを入れたりして、自然に会話が広がります。
-- **ゲーム配信**
-  - ゲームに集中していても、BOT が代わりに挨拶してくれるので、初見さんを見逃しません。
+### ✞神託✞ 漆黒のおみくじ
+
+> 発動ワード : `おみくじ` / `omikuji`
+
+- " 博麗神社の巫女 " 手製のおみくじを読んだ 四国めたんが、漆黒の力 (自称) を使いアレンジしたようです。
+- 斜め上の励まし方が特徴的。きっと元気になれます。たぶん。
+- 「残念賞」の代わりに「接吻賞」が追加されており、キスにまつわる話が聞けます。
+
+![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
+
+![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
+
+![usage_23_Gift](/packages/OmikujiBot/template/usage/usage_23_Gift.md)
+
+![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
+
+![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
+
+## PRO 版ボーナスデータ (Usage)
+
+![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
-![](/packages/OmikujiBot/template/customization/customization_11_illust.md)(/template/customization/customization_11.md)
+![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 

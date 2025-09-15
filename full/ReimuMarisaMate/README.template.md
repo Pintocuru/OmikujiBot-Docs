@@ -72,7 +72,12 @@
 
 ## PRO 版ボーナスデータ (Usage)
 
-![OmikujiBotReimuMarisa_11_omikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
+### おみくじ (ちょこんとバージョン)
+
+> 発動ワード : `れいむ` / `霊夢`/ `reimu`/ `御神籤`
+
+- 「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
+- 「大凶」の代わりに「残念賞」が入ってますが…入れたのは魔理沙らしい。
 
 ![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
