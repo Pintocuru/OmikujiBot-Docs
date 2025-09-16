@@ -1,21 +1,21 @@
-# おみくじ BOT カード駅 OmikujiBot CardStation
+# おみくじ BOT タロットカード OmikujiBot TarotCard
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT タロットカード OmikujiBot TarotCard](https://pintocuru.booth.pm/items/7432682) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
-![](./images/250910.webp)
+![](./images/250916_6.webp)
 
-### 全国各地 (海外・地球外含む) でカード集めが楽しめるジェネレーター
+### 大アルカナの 22 枚で占う、気軽にできるタロットカードジェネレーター
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-- 多彩な役職や地名が出るので、楽しく勉強にもなります。どこの都道府県かわかるでしょうか？
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。
+- 大アルカナの 22 枚に、正位置と逆位置の 44 種類の結果が入っています。
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
@@ -25,7 +25,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_27_MomotetsuCard](/packages/OmikujiBot/template/usage/usage_27_MomotetsuCard.md)
+![usage_28_TarotCard](../../template/usage/usage_28_TarotCard.md)
 
 ## カスタマイズ（Customization）
 
@@ -39,12 +39,8 @@
 
 ## クレジット（Credits）
 
-- 車掌さんっぽい格好をした女性
+- タロットカード 3 種
   生成：ChatGPT <https://chatgpt.com/>
-- ボンビュラス星
-  陣内智則のネタジン <https://www.youtube.com/watch?v=Fp4SRDcGcnI>
-
-![](./images/250916_4.webp)
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
