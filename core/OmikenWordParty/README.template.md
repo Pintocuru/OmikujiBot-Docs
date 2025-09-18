@@ -72,55 +72,82 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 ### 🎵 効果音・BGM
 
 - **さまざまな効果音**
-  [効果音ラボ](https://soundeffect-lab.info/)
+  効果音ラボ
+  <https://soundeffect-lab.info/>
 
 - **ボンバースロット：ジングル**
-  [red bears (rock OP1) - Nakano Sound](https://www.nakano-sound.com/free/rock.html)
+  red bears (rock OP1) - Nakano Sound
+  <https://www.nakano-sound.com/free/rock.html>
 
 - **うさぎスロット：ジングル**
-  [ミュージックノート - distress（加工して使用）](https://www.music-note.jp/bgm/short.html)
+  ミュージックノート - distress（加工して使用）
+  <https://www.music-note.jp/bgm/short.html>
 
 - **かけざんスロット：ジングル**
-  [ガレトコ - Let's Battle](https://garetoco.com/material/2/)
+  ガレトコ - Let's Battle
+  <https://garetoco.com/material/2/>
 
 - **パルプンテ：効果音**
-  [イワシロ音楽素材 - ほがほが](https://iwashiro-sounds.work/bgm/iwashiro_se2/)
+  イワシロ音楽素材 - ほがほが
+  <https://iwashiro-sounds.work/bgm/iwashiro_se2/>
 
 - **ドラちゃん：波音リツの音声**
-  [本格的 ガチムチパンツレスリング](https://www.nicovideo.jp/watch/sm1175788)
+  本格的 ガチムチパンツレスリング
+  <https://www.nicovideo.jp/watch/sm1175788>
 
 ### 🎨 イラスト・グラフィック
 
 - **ゆびをふるの指**
-- \*\* ボンバースロットのフルーツ
+- ボンバースロットのフルーツ
 - **ドラちゃんの背景の集中線**
 - **桃鉄カードの顔**
 - **あとなんか色々**
-  [ダーヤマ TOPECONHEROES](https://twitter.com/topeconheroes)
+  ダーヤマ TOPECONHEROES
+  <https://twitter.com/topeconheroes>
+  <https://icooon-mono.com/>
+  <https://fukidesign.com/>
+  <https://icon-z.com/>
+  <https://mangasozai.com/>
+  <http://flat-icon-design.com/>
 
-- **ボンバースロット / うさぎスロット：爆発アニメーション**
-  [ニコニ・コモンズ：爆発して画面を覆う炎（フル HD）](https://commons.nicovideo.jp/works/nc121868)
+- ボンバースロット など：爆発アニメーション
+  ニコニ・コモンズ：爆発して画面を覆う炎（フル HD）
+  <https://commons.nicovideo.jp/works/nc121868>
 
-- **じゃんけん（グーチョキパーのイラスト）**
-  [ツカッテ - じゃんけんプレート](https://tsukatte.com/rock-paper-scissors_plate/)
+- じゃんけん：グーチョキパーのイラスト
+  ツカッテ - じゃんけんプレート
+  <https://tsukatte.com/rock-paper-scissors_plate/>
 
-- **幻獣ガチャ（飛んでいくお札のイラスト）**
-  [ツカッテ - じゃんけんプレート](https://tsukatte.com/money-with-wings/)
+- 幻獣ガチャ：飛んでいくお札のイラスト
+  ツカッテ - じゃんけんプレート
+  <https://tsukatte.com/money-with-wings/>
+
+- 超おみくじ：地球
+  ゲームまてりあるず 宇宙から見た地球（8 枚）
+  <https://game-materials.com/earth/>
 
 - **ボンバースロット：ガム（BAR シンボル）**
-  [イラストくん - 板ガムのイラスト](https://illustkun.com/07358-20230417-b/)
+  イラストくん - 板ガムのイラスト
+  <https://illustkun.com/07358-20230417-b/>
 
 - **スイカゲーム：クジラモードのクジラたち**
-  [いらすとや - マッコウクジラのイラスト](https://www.irasutoya.com/2013/07/blog-post_6885.html)
+  いらすとや - マッコウクジラのイラスト
+  <https://www.irasutoya.com/2013/07/blog-post_6885.html>
 
 ### 🤖 その他
 
-- **うさぎスロット：うさぎ（生成系）**
+- うさぎスロット：うさぎ（生成系）
+- タロットカード：カード（3 種）
 - 幻獣ガチャ：金のドラゴン
-  [ChatGPT](https://chatgpt.com/)
+  ChatGPT
+  <https://chatgpt.com/>
+  
+- 超おみくじ：超の文字
+  Microsoft Copilot
+  <https://copilot.microsoft.com/>
 
-- **じゃんけん：YouWin/YouLose**
-- \*\* 幻獣ガチャ：カプセル、激レア!など
+- じゃんけん：YouWin/YouLose
+- 幻獣ガチャ：カプセル、激レア!など
 - **初見さん参戦**
 - **初見なのにモデレーターさん参戦**
 - **挑戦者が現れました**
@@ -134,6 +161,11 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 - 再配布は禁止です。
 
 ## バージョン情報 (Version)
+
+### v1.2.0-beta3 25/09/18
+
+- [効果音ラボ](https://soundeffect-lab.info/) から新しい効果音素材を 2 種類追加。
+- 「タロットカード」と「超おみくじ」用に新しい素材を追加。
 
 ### v1.1.0 25/09/09
 
