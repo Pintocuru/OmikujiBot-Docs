@@ -156,7 +156,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ## バージョン情報 (Version)
 
-### ver.250918-v1.2.0-beta02
+### ver.250918-v1.2.0-beta03
 
 - 新規作成
 
