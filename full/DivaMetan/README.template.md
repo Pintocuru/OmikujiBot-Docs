@@ -8,7 +8,7 @@
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
-## 1.このテンプレートは何？
+## このプラグインは何？（Features）
 
 ### 四国めたんがリスナーを歓迎してくれるジェネレーター
 
@@ -81,6 +81,11 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
+
+### ver.2025.09.29-v1.2.0
+
+- おみくじ BOT のバージョン: v1.2.0
+- 一部挨拶がめたんのデータでなかったので修正
 
 ### ver.250910-v1.1.0
 
