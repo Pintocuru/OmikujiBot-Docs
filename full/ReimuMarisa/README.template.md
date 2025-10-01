@@ -84,8 +84,10 @@
 
 ## クレジット（Credits）
 
-- ゆっくり霊夢・ゆっくり魔理沙イラスト
-  提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
+#### ゆっくり霊夢、ゆっくり魔理沙
+
+- 凪ぽんの素材置き場
+	- <https://nagipon-sozai.studio.site/>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

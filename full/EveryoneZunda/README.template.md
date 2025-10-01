@@ -72,8 +72,10 @@
 
 ## クレジット（Credits）
 
-- **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**
-  <https://www.pixiv.net/artworks/92641351>
+#### ずんだもん
+
+- ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv
+	- <https://www.pixiv.net/artworks/92641351>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

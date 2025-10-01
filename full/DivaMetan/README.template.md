@@ -71,12 +71,16 @@
 
 ## クレジット（Credits）
 
-- **【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)**
-  <https://seiga.nicovideo.jp/seiga/im11022280>
+#### 四国めたん
+
+- 【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)
+	- <https://seiga.nicovideo.jp/seiga/im11022280>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ![](../EveryoneZunda/images/wink.webp)
+
+「ここまで見てくれてありがとう。お礼にキスしてあげる…」
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 

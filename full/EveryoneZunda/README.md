@@ -1,6 +1,6 @@
 # おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda
 
-最終更新日：2025/09/16
+最終更新日：2025/09/30
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -105,6 +105,8 @@
 	- 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
 
 ### じゃんけん
+
+![](../../core/OmikujiBot/images/faq-01.webp)
 
 > 発動ワード : `じゃんけん` / `janken`/ `グー`/ `チョキ`/ `パー`
 
@@ -236,8 +238,10 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ## クレジット（Credits）
 
-- **ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv**
-  <https://www.pixiv.net/artworks/92641351>
+#### ずんだもん
+
+- ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv
+	- <https://www.pixiv.net/artworks/92641351>
 
 ### 素材の取り扱いについて
 
