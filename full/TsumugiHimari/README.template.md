@@ -1,19 +1,19 @@
-# おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
+# おみくじ BOT ズッ友!つむぎ&ひまり ネットミームマシマシ ver OmikujiBot Tsumugi & Himari
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-![](/sharedTemplate/intro/intro_12.md) [おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari]() の readme となります。
+![](/sharedTemplate/intro/intro_12.md) [おみくじ BOT ズッ友!つむぎ&ひまり  ネットミームマシマシ ver OmikujiBot Tsumugi & Himari](https://pintocuru.booth.pm/items/7530206) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
-### 【使用上の注意】時事ネタ・ネットスラングをふんだんに取り入れた内容となっています
+### 【使用上の注意】時事ネタ・ネットミームをふんだんに取り入れた内容となっています
 
 - 人を選ぶ内容が多いです。リスナー層を十分考えて導入を検討して下さい。
-- 「[冥鳴ひまり exVOICE](https://www.meimeihimari.com/goods)」を参考にしていますが、このボイスにない時事ネタも多数もあります。
-	- いわゆる「[淫夢要素](https://ja.wikipedia.org/wiki/%E5%A4%9A%E7%94%B0%E9%87%8E%E6%95%B0%E4%BA%BA)」もふんだんに採用しており、作品に由来する暴言も多いです。
-	- 「[恥を知れ！](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C)」「[お前ら人間じゃねぇ！](https://dic.nicovideo.jp/a/%E3%81%8A%E5%89%8D%E3%82%89%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%AD%E3%81%87%21)」「[ガキが…舐めてると潰すぞ](https://dic.pixiv.net/a/%E3%82%AC%E3%82%AD%E3%81%8C%E2%80%A6%E8%88%90%E3%82%81%E3%81%A6%E3%82%8B%E3%81%A8%E6%BD%B0%E3%81%99%E3%81%9E)」等暴言もかなり多いです ([ネットミーム](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C) 的な意味で)
+- 「[冥鳴ひまり exVOICE](https://www.meimeihimari.com/goods)」を参考にしていますが、このボイスにない時事ネタ・ネットミームも多数もあります。
+	- いわゆる「[淫夢要素](https://ja.wikipedia.org/wiki/%E5%A4%9A%E7%94%B0%E9%87%8E%E6%95%B0%E4%BA%BA)」もふんだんに採用しており、AV 作品に由来する暴言も多いです。
+	- 「[恥を知れ！](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C)」「[お前ら人間じゃねぇ！](https://dic.nicovideo.jp/a/%E3%81%8A%E5%89%8D%E3%82%89%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%AD%E3%81%87%21)」「[舐めてると潰すぞ](https://dic.pixiv.net/a/%E3%82%AC%E3%82%AD%E3%81%8C%E2%80%A6%E8%88%90%E3%82%81%E3%81%A6%E3%82%8B%E3%81%A8%E6%BD%B0%E3%81%99%E3%81%9E)」等暴言もかなり多いです ([ネットミーム](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C) 的な意味で)
 - 本テンプレートの使用に伴ういかなる損害についても責任を負いません。ご利用は自己責任でお願いします。
 
 ## このテンプレートは何？（Features）
