@@ -1,6 +1,6 @@
 # おみくじ BOT OmikujiBot
 
-最終更新日：2025/09/15
+最終更新日：2025/10/20
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 BOT ソフトウェア です。
 
@@ -14,7 +14,6 @@
 - [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088)
 - [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
-
 
 ## はじめに（Intro）
 
@@ -83,7 +82,6 @@
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
-
 ![[Installation_51_ProUpgradeTemplate]]
 
 ## つかいかた (Usage)
@@ -98,7 +96,6 @@
 - [おみくじ BOT じゃんけん OmikujiBot HondaJanken README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/HondaJanken/README.md)
 - [おみくじ BOT カード駅 OmikujiBot CardStation README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/CardStation/README.md)
 
-
 ## カスタマイズ（Customization）
 
 ### 「コンフィグエディター」で自由におみくじを編集できる
@@ -109,7 +106,6 @@
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 - 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
-
 
 ## よくある質問 (FAQ)
 
@@ -124,8 +120,6 @@
 #### Q. 1 日 1 回と、回数を制限したい
 
 A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
-
-
 
 ### フキダシ・キャラクター表示関連
 
@@ -197,6 +191,12 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ## クレジット（Credits）
 
+### 🎵 効果音・BGM
+
+#### **さまざまな効果音**
+
+効果音ラボ <https://soundeffect-lab.info/>
+
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/full/ReimuMarisa/README.md)
@@ -207,7 +207,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 - [おみくじ BOT じゃんけん OmikujiBot HondaJanken README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/HondaJanken/README.md)
 - [おみくじ BOT カード駅 OmikujiBot CardStation README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/CardStation/README.md)
 
-
 ## ライセンス（License）
 
 ### アプリ本体（ジェネレーター・コンフィグエディター）
@@ -216,6 +215,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
 - 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
+
 ### パッケージデータ
 
 パッケージごとにライセンス形態（商用利用可否・改変可否など）が異なります。詳しくは各パッケージの README または商品ページをご確認ください。
@@ -223,7 +223,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 ## バージョン情報 (Version)
 
 > 詳細な変更履歴は [Releases](https://github.com/Pintocuru/OmikujiBot-Docs/releases) をご覧ください。
-
 
 ---
 

@@ -1,4 +1,4 @@
-# おみくじ BOT ズッ友!つむぎ&ひまり ネットミームマシマシ ver OmikujiBot Tsumugi & Himari
+# おみくじ BOT ズッ友!つむぎ&ひまり ネットミームマシマシ ver OmikujiBot Tsumugi Himari
 
 最終更新日：2025/10/13
 

@@ -143,6 +143,12 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ## クレジット（Credits）
 
+### 🎵 効果音・BGM
+
+#### **さまざまな効果音**
+
+効果音ラボ <https://soundeffect-lab.info/>
+
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
 ![OmikujiBotPackageReadme](/packages/OmikujiBot/template/_common/OmikujiBotPackageReadme.md)
