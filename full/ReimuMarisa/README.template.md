@@ -68,7 +68,7 @@
 
 ## PRO 版ボーナスデータ (Usage)
 
-![OmikujiBotReimuMarisa_12_flowerOmikuji](template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
+![OmikujiBotReimuMarisa_12_FlowerFortune](template/OmikujiBotReimuMarisa_12_FlowerFortune.md)
 
 ![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
@@ -84,10 +84,10 @@
 
 ## クレジット（Credits）
 
-#### ゆっくり霊夢、ゆっくり魔理沙
+### ゆっくり霊夢・ゆっくり魔理沙イラスト
 
-- 凪ぽんの素材置き場
-	- <https://nagipon-sozai.studio.site/>
+- 凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
+- 本素材の同梱は通常、再配布にあたる行為ですが、作者様より特別にご許可を頂いております。
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

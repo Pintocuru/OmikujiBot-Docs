@@ -58,7 +58,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![OmikujiBotReimuMarisa_12_flowerOmikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_12_flowerOmikuji.md)
+![OmikujiBotReimuMarisa_12_FlowerFortune](../ReimuMarisa/template/OmikujiBotReimuMarisa_12_FlowerFortune.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 
@@ -93,8 +93,10 @@
 
 ## クレジット（Credits）
 
-- ゆっくり霊夢・ゆっくり魔理沙イラスト
-  提供元：凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
+### ゆっくり霊夢・ゆっくり魔理沙イラスト
+
+- 凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
+- 本素材の同梱は通常、再配布にあたる行為ですが、作者様より特別にご許可を頂いております。
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

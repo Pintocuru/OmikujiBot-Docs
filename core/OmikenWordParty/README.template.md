@@ -1,4 +1,4 @@
-# おみくじ BOT 用 WordParty
+# おみくじ BOT 用 WordParty V2
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
@@ -69,98 +69,19 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 
 ## クレジット・ライセンス（Credits/License）
 
-### 🎵 効果音・BGM
-
-- **さまざまな効果音**
-  効果音ラボ
-  <https://soundeffect-lab.info/>
-
-- **ボンバースロット：ジングル**
-  red bears (rock OP1) - Nakano Sound
-  <https://www.nakano-sound.com/free/rock.html>
-
-- **うさぎスロット：ジングル**
-  ミュージックノート - distress（加工して使用）
-  <https://www.music-note.jp/bgm/short.html>
-
-- **かけざんスロット：ジングル**
-  ガレトコ - Let's Battle
-  <https://garetoco.com/material/2/>
-
-- **パルプンテ：効果音**
-  イワシロ音楽素材 - ほがほが
-  <https://iwashiro-sounds.work/bgm/iwashiro_se2/>
-
-- **ドラちゃん：波音リツの音声**
-  本格的 ガチムチパンツレスリング
-  <https://www.nicovideo.jp/watch/sm1175788>
-
-### 🎨 イラスト・グラフィック
-
-- **ゆびをふるの指**
-- ボンバースロットのフルーツ
-- **ドラちゃんの背景の集中線**
-- **桃鉄カードの顔**
-- **あとなんか色々**
-  ダーヤマ TOPECONHEROES
-  <https://twitter.com/topeconheroes>
-  <https://icooon-mono.com/>
-  <https://fukidesign.com/>
-  <https://icon-z.com/>
-  <https://mangasozai.com/>
-  <http://flat-icon-design.com/>
-
-- ボンバースロット など：爆発アニメーション
-  ニコニ・コモンズ：爆発して画面を覆う炎（フル HD）
-  <https://commons.nicovideo.jp/works/nc121868>
-
-- じゃんけん：グーチョキパーのイラスト
-  ツカッテ - じゃんけんプレート
-  <https://tsukatte.com/rock-paper-scissors_plate/>
-
-- 幻獣ガチャ：飛んでいくお札のイラスト
-  ツカッテ - じゃんけんプレート
-  <https://tsukatte.com/money-with-wings/>
-
-- 超おみくじ：地球
-  ゲームまてりあるず 宇宙から見た地球（8 枚）
-  <https://game-materials.com/earth/>
-
-- **ボンバースロット：ガム（BAR シンボル）**
-  イラストくん - 板ガムのイラスト
-  <https://illustkun.com/07358-20230417-b/>
-
-- **スイカゲーム：クジラモードのクジラたち**
-  いらすとや - マッコウクジラのイラスト
-  <https://www.irasutoya.com/2013/07/blog-post_6885.html>
-
-### 🤖 その他
-
-- うさぎスロット：うさぎ（生成系）
-- タロットカード：カード（3 種）
-- 幻獣ガチャ：金のドラゴン
-  ChatGPT
-  <https://chatgpt.com/>
-  
-- 超おみくじ：超の文字
-  Microsoft Copilot
-  <https://copilot.microsoft.com/>
-
-- じゃんけん：YouWin/YouLose
-- 幻獣ガチャ：カプセル、激レア!など
-- **初見さん参戦**
-- **初見なのにモデレーターさん参戦**
-- **挑戦者が現れました**
-  Pintocuru (自作)
-
-![](/sharedTemplate/credits/credits_11_sozai.md)
-
-### Pintocuru(この製作者) 作の素材の取り扱いについて
-
-- WordParty に入っているイラスト素材は、わんコメの WordParty でのみ使用できます。
-- 再配布は禁止です。
+- [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) にまとめています。
+- このアプリに収録されている効果音データは、クリエイティブ・コモンズではないものも含まれております。それらは別途利用規約があるものか、本アプリ専用に制作された画像・動画です。他の用途での使用・転載・再配布は禁止します。
 
 ## バージョン情報 (Version)
+
+### v1.4.0-beta5 25/11/03
+
+- [効果音ラボ](https://soundeffect-lab.info/) での利用規約の問題に触れている可能性があったため、ファイルを大きく変更しています。(前バージョンの配布は停止しています)
+	- 特に、おみくじ BOT のアプリと組み合わせるケースで問題があった（効果音を任意に選んで鳴らせるような仕組みがあった）ためです。
+	- そのため、過去の「おみくじ BOT」のデータとは互換性がありません。
+	- また、再配布にならないよう、わんコメの WordParty エディターで編集できないようになっています。
+- また、これにより、フキダシ表示時の効果音は、この WordParty からではなく、ジェネレーター本体から鳴らすように変更しています。
+- クリエイティブ・コモンズの素材を使用するようになったため、クレジット・ライセンス の表記を細かく記載するようにしました。
 
 ### v1.2.0-beta3 25/09/18
 
