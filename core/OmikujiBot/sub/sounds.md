@@ -2,122 +2,126 @@
 
 - 収録されているサウンドは [Freesound](https://freesound.org/) から取得しています。
 - すべての素材は、容量削減のため、カット編集や音量調整などの加工を施しています。
-- 本アプリ (おみくじ BOT) に収録されているサウンド素材は、すべて CC0 ライセンスです。
+- 本アプリ (おみくじ BOT) に収録されているサウンド素材は、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) ライセンスです。
 	- CC0 ライセンスの素材を加工した一部のサウンドについては、加工後も CC0 ライセンスを適用しています。(自由にお使いください)
 
-### 🎯 成果・フィードバック系（成功・失敗・リアクション）: 5 種
+### 🎯 成功系 Positive（6 種）
 
-#### `success`
+#### `congrats`
 
-- Success2.wav <https://freesound.org/people/Kagateni/sounds/404359/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Congrats [https://freesound.org/people/Fupicat/sounds/607207/](https://freesound.org/people/Fupicat/sounds/607207/)
 
-#### `success_chime`
+#### `baseball`
 
-- Congrats <https://freesound.org/people/Fupicat/sounds/607207/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Baseball cavalry sting short sustain.wav [https://freesound.org/people/vckhaze/sounds/380695/](https://freesound.org/people/vckhaze/sounds/380695/)
 
-#### `success_jingle`
+#### `carnival`
 
-- Success Jingle <https://freesound.org/people/Kastenfrosch/sounds/521949/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `ta_da` – レベルアップな達成・登場音
-
-- Baseball cavalry sting short sustain.wav <https://freesound.org/people/vckhaze/sounds/380695/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `fail_beeps` – 不正解・ミス時の音
-
-- negative_beeps.wav <https://freesound.org/people/themusicalnomad/sounds/253886/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `fail_sigh` – 残念な音
-
-- twanger with banjo hit.aif <https://freesound.org/people/scola/sounds/51616/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `cheer_applause` – 歓声と拍手（成功・盛り上げ）
-
-- Voice_Crowd_Small_Expression_Applause_Cheer_Stereo <https://freesound.org/people/Nox_Sound/sounds/752709/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-### 🎬 演出・切り替え系（シーン・UI・演出強化）: 7 種
-
-#### `drum_roll` – 結果発表前のドラムロール
-
-#### `drum_roll_hit` – ドラムロール後のシンバル
-
-- Drum Roll Please.wav <https://freesound.org/people/Scheffler/sounds/201211/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- fasching fanfare - Karnevals Tusch Tataa (short) [https://freesound.org/people/Audeption/sounds/418525/](https://freesound.org/people/Audeption/sounds/418525/)
 
 #### `fanfare`
 
-- Success Fanfare Trumpets.mp3 <https://freesound.org/people/FunWithSound/sounds/456966/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Success Fanfare Trumpets.mp3 [https://freesound.org/people/FunWithSound/sounds/456966/](https://freesound.org/people/FunWithSound/sounds/456966/)
 
-#### `impact_boom` – ドーン！とした衝撃音
+#### `jingle`
 
-- <https://freesound.org/people/ShawnyBoy/sounds/166191/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Success Jingle [https://freesound.org/people/Kastenfrosch/sounds/521949/](https://freesound.org/people/Kastenfrosch/sounds/521949/)
 
-#### `transition` – シーンや画面切り替えの音
+#### `applause`
 
-- xylophone melody <https://freesound.org/people/PhonosUPF/sounds/487668/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Voice_Crowd_Small_Expression_Applause_Cheer_Stereo [https://freesound.org/people/Nox_Sound/sounds/752709/](https://freesound.org/people/Nox_Sound/sounds/752709/)
 
-#### `reveal` – 登場音
+---
 
-#### `reveal_full` – 登場音
+### 🎯 否定系 Negative（5 種）
 
-- <https://freesound.org/people/jimhancock/sounds/256128/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+#### `cancel`
 
-### 🐾 キャラクター・動作・感情（演技の肉付け）: 5 種
+- High-Tech UI Cancel [https://freesound.org/people/plasterbrain/sounds/419494/](https://freesound.org/people/plasterbrain/sounds/419494/)
 
-#### `boing_bounce` – 跳ねる・転ぶ・間抜けな動作
+#### `warn`
 
-- Bounce - Boing - Jump - Hit - Cartoon - Comedy - Jews - Jaw - Harp.wav <https://freesound.org/people/td6d/sounds/533946/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Sonic Skid [https://freesound.org/people/Fupicat/sounds/802738/](https://freesound.org/people/Fupicat/sounds/802738/)
 
-#### `cute_pop` – 可愛い動作・表情・UI 演出
+#### `bounce`
 
-- Cute Question Mark <https://freesound.org/people/plasterbrain/sounds/396195/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Bounce - Boing - Jump - Hit - Cartoon - Comedy - Jews - Jaw - Harp.wav [https://freesound.org/people/td6d/sounds/533946/](https://freesound.org/people/td6d/sounds/533946/)
 
-#### `news` – トースト表示音
+#### `negative`
 
-- Level Up <https://freesound.org/people/qubodup/sounds/442943/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- negative_beeps.wav [https://freesound.org/people/themusicalnomad/sounds/253886/](https://freesound.org/people/themusicalnomad/sounds/253886/)
 
-#### `bubble_pop` – ポコっとした音
+#### `fail`
 
-- pop effect <https://freesound.org/people/ninoing/sounds/693363/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- twanger with banjo hit.aif [https://freesound.org/people/scola/sounds/51616/](https://freesound.org/people/scola/sounds/51616/)
 
-#### `nya` – にゃーな音
+---
 
-- Nya.wav <https://freesound.org/people/Mike_bes/sounds/336012/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+### 🎬 告知系 Announcement（7 種）
 
-### ✨ 装飾・アクセント系（演出の彩り）: 2 種
+#### `collect`
+
+- collect.wav [https://freesound.org/people/Wagna/sounds/325805/](https://freesound.org/people/Wagna/sounds/325805/)
+
+#### `decision`
+
+- Success2.wav [https://freesound.org/people/Kagateni/sounds/404359/](https://freesound.org/people/Kagateni/sounds/404359/)
+
+#### `bubble`
+
+- pop effect [https://freesound.org/people/ninoing/sounds/693363/](https://freesound.org/people/ninoing/sounds/693363/)
+
+#### `cute`
+
+- Cute Question Mark [https://freesound.org/people/plasterbrain/sounds/396195/](https://freesound.org/people/plasterbrain/sounds/396195/)
+
+#### `news`
+
+- Level Up [https://freesound.org/people/qubodup/sounds/442943/](https://freesound.org/people/qubodup/sounds/442943/)
+
+#### `transition`
+
+- xylophone melody [https://freesound.org/people/PhonosUPF/sounds/487668/](https://freesound.org/people/PhonosUPF/sounds/487668/)
+
+#### `notification`
+
+- Notification [https://freesound.org/people/Fupicat/sounds/538149/](https://freesound.org/people/Fupicat/sounds/538149/)
+
+---
+
+### 🎬 演出系 Flavor（6 種）
+
+#### `nya`
+
+- Nya.wav [https://freesound.org/people/Mike_bes/sounds/336012/](https://freesound.org/people/Mike_bes/sounds/336012/)
 
 #### `twinkle`
 
-- fairy-twinklemp3 <https://freesound.org/people/sparklepunk_/sounds/620672/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- fairy-twinklemp3 [https://freesound.org/people/sparklepunk_/sounds/620672/](https://freesound.org/people/sparklepunk_/sounds/620672/)
 
-#### `cash_register` – 金額表示・決済・チャリン系
+#### `drum_hit`
 
-- Buying Sounds.wav <https://freesound.org/people/wobesound/sounds/488377/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Drum Roll Please.wav [https://freesound.org/people/Scheffler/sounds/201211/](https://freesound.org/people/Scheffler/sounds/201211/)
+
+#### `explosion`
+
+- Gunshot 4.wav [https://freesound.org/people/ShawnyBoy/sounds/166191/](https://freesound.org/people/ShawnyBoy/sounds/166191/)
+
+#### `cash`
+
+- Buying Sounds.wav [https://freesound.org/people/wobesound/sounds/488377/](https://freesound.org/people/wobesound/sounds/488377/)
+
+#### `reveal`/`reveal_full`
+
+- TaDa!.aif [https://freesound.org/people/jimhancock/sounds/256128/](https://freesound.org/people/jimhancock/sounds/256128/)
+
+---
 
 ### ✉️ テキスト送り音: 1 種
 
 #### `rpg_voice_a5`
 
 - Text Scroll A#5 200 OpenMpt (Echo Pan).wav <https://freesound.org/people/EVRetro/sounds/524478/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ### WordParty
 

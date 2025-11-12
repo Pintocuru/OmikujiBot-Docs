@@ -60,10 +60,8 @@ A: 自由に行ってください。 [おみくじ BOT コンフィグエディ�
 
 ### 効果音・ジングル
 
-- [効果音・ジングルに関するライセンス](sub/sounds.md) にまとめています。
-	- このアプリに収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
-
-![](/sharedTemplate/credits/credits_11_sozai.md)
+- [効果音・ジングルに関するライセンス](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/sub/sounds.md) にまとめています。
+	- このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
