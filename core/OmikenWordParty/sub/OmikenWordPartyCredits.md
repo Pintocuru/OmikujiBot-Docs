@@ -1,4 +1,4 @@
-## おみくじ BOT 用 WordParty クレジット・ライセンス（Credits/License）
+## おみくじ BOT 演出用 WordParty2.0 クレジット・ライセンス（Credits/License）
 
 ### 共通演出 (common)
 

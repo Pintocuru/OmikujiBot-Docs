@@ -1,4 +1,4 @@
-# おみくじ BOT 用 WordParty V2
+# おみくじ BOT 演出用 WordParty2.0
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
@@ -18,10 +18,8 @@
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
 - 【おみくじ BOT 用 WordParty】は、わんコメの機能 「[WordParty](https://onecomme.com/docs/feature/wordparty)」のセットです。
-- 通常の用途でも使用できますが、[おみくじ BOT](app://obsidian.md/OmikujiBot/README.md)  と組み合わせることで、最大限の演出を引き出せます。
-  - 遅延を利用して、複数の演出を順番に再生 (WordParty の PRO 版機能「コネクター」のようなもの)
-  - おみくじの結果に応じて、ランダムに演出を発動
-  - 複数の演出を同時に発動し、画面全体を覆い尽くす ([スイカゲーム](https://suikagame.jp/) のような表現が可能です)
+- [おみくじ BOT](app://obsidian.md/OmikujiBot/README.md)  シリーズ専用の、演出用 WordParty です。
+  - わんコメの WordParty のエディターでの編集ができないようになっています。
 
 ![](../OmikujiBot/images/features-02.webp)
 
@@ -35,9 +33,8 @@
 
 ## つかいかた・カスタマイズ (Usage/Customization)
 
-使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
-
-カスタマイズも、「素材に関する注意事項」さえ守っていただければ、既存の WordParty と同じように扱えます。
+- 使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
+- 再配布にならないよう、わんコメの WordParty のエディターでの編集ができないようになっています。
 
 ## よくある質問 (FAQ)
 
@@ -47,25 +44,17 @@ WordParty に関する内容は、[コメントによる演出 - WordParty](http
 
 ### 設定関連
 
-#### Q. パターンに入っている、「^」ってなに？「!」ってなに？
-
-A: **「^」は、前方一致と呼ばれる正規表現です。** **正規表現については、生成 AI に聞いてみてください。**「!」が付いているのは、コメントでその演出が意図せず出現しないようにする対処です。_ID で発動させればよかったよね？_
-
-#### Q. 一部 PRO 版の機能使っていない？大丈夫？
-
-A: 大丈夫だって製作者さんが言ってた！
-
 #### Q. 「初見さん参戦」は おみくじ BOT 以外で使ってもいい?
 
-A: わんコメの WordParty と一緒に使っていれば、どんな使い方でも OK です。それ以外の場所で使うのはご遠慮ください。
+A: 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しており、クレジット不要で使用できます。素材に関するクレジットは [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) をご覧ください。
 
 ## トラブルシューティング (Troubleshooting)
 
 ![troubleshooting_11_infoOneComme](/packages/OmikujiBot/template/troubleshooting/troubleshooting_11_infoOneComme.md)
 
-### フォルダ名を変えたら WordPatry エディタで開けなくなる
+### WordPatry エディタで開けない
 
-A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB%96%E4%BB%95%E6%A7%98) です。名前を変える場合、テンプレート名の最初が「word-party」の文字列から始まるようにしてください。
+A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB%96%E4%BB%95%E6%A7%98) です。WordPatry エディタの仕様上、素材の再配布になる恐れがあるため、エディターでひらけないようになっています。
 
 ## クレジット・ライセンス（Credits/License）
 
@@ -73,6 +62,13 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 - このアプリに収録されている効果音データは、クリエイティブ・コモンズではないものも含まれております。それらは別途利用規約があるものか、本アプリ専用に制作された画像・動画です。他の用途での使用・転載・再配布は禁止します。
 
 ## バージョン情報 (Version)
+
+### v1.4.0 25/11/20
+
+- 下記に記載しています。
+	- <https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v1.4.0>
+- 素材の再配布ガイドライン上の違反（またはその懸念）があったため、新しく作り直しました。
+	- そのため、v1.3 以前のおみくじ BOT シリーズとは互換性がありません。
 
 ### v1.4.0-beta5 25/11/03
 
