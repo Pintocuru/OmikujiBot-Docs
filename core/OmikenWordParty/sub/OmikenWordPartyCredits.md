@@ -12,11 +12,6 @@
 	- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - 本アプリ専用に制作された動画です。他の用途での使用・転載・再配布は禁止します。
 
-#### `cracker`
-
-- Balloon Pop / Christmas cracker / Confetti Cannon <https://freesound.org/people/Breviceps/sounds/458398/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
 #### `flash`
 
 - Cute Magic Sounds.mp3 <https://freesound.org/people/LittleRainySeasons/sounds/368323/>
@@ -78,6 +73,10 @@
 - Microsoft Copilot <https://copilot.microsoft.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
+#### `cute_pop`
+
+- Cute Question Mark [https://freesound.org/people/plasterbrain/sounds/396195/](https://freesound.org/people/plasterbrain/sounds/396195/)
+
 #### `fanfare` – 勝利のファンファーレ
 
 - Success Fanfare Trumpets.mp3 <https://freesound.org/people/FunWithSound/sounds/456966/>
@@ -86,6 +85,11 @@
 #### `gong`
 
 - Gong.wav <https://freesound.org/people/DiArchangeli/sounds/127265/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `drum_roll`
+
+- Drum Roll Please.wav [https://freesound.org/people/Scheffler/sounds/201211/](https://freesound.org/people/Scheffler/sounds/201211/)
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ### 初見判定ちゃん (FirstSyoken)
@@ -108,7 +112,22 @@
 - 1600s.mp3 <https://freesound.org/people/outerandeventhorizon/sounds/488809/>
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
+#### `cracker`
+
+- Balloon Pop / Christmas cracker / Confetti Cannon <https://freesound.org/people/Breviceps/sounds/458398/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 ### スイカゲーム (GouseiSuika)
+
+#### `pop_in`
+
+- 4 Pop in a row <https://freesound.org/people/lem120/sounds/567087/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `boing_bounce`
+
+- Bounce - Boing - Jump - Hit - Cartoon - Comedy - Jews - Jaw - Harp.wav [https://freesound.org/people/td6d/sounds/533946/](https://freesound.org/people/td6d/sounds/533946/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 #### クジラモードのクジラたち
 
@@ -116,6 +135,14 @@
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
 ### じゃんけん (HondaJanken)
+
+#### `drum_roll_hit`
+
+- Drum Roll Please.wav [https://freesound.org/people/Scheffler/sounds/201211/](https://freesound.org/people/Scheffler/sounds/201211/)
+
+#### `carnival`
+
+- fasching fanfare - Karnevals Tusch Tataa (short) [https://freesound.org/people/Audeption/sounds/418525/](https://freesound.org/people/Audeption/sounds/418525/)
 
 #### `janken_win`
 
@@ -176,6 +203,11 @@
 - ChatGPT <https://chatgpt.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
+#### `twinkle`
+
+- fairy-twinklemp3 [https://freesound.org/people/sparklepunk_/sounds/620672/](https://freesound.org/people/sparklepunk_/sounds/620672/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 #### `slide_card`
 
 - <https://freesound.org/people/SilverDubloons/sounds/817577/>
@@ -183,7 +215,7 @@
 
 ### パルプンテ (parupunte)
 
-#### DQ5 の主人公のコスプレの人
+#### `DQ5 の主人公のコスプレの人`
 
 - 効果音 : イワシロ音楽素材 - ほがほが <https://iwashiro-sounds.work/bgm/iwashiro_se2/>
 - 声 : 効果音ラボ <https://soundeffect-lab.info/>

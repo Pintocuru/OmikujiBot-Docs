@@ -122,15 +122,3 @@
 #### `rpg_voice_a5`
 
 - Text Scroll A#5 200 OpenMpt (Echo Pan).wav <https://freesound.org/people/EVRetro/sounds/524478/>
-
-### WordParty
-
-#### `popIn`
-
-- 4 Pop in a row <https://freesound.org/people/lem120/sounds/567087/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `tic_tac`
-
-- Loading_SS_CT1_HQ_(loop).wav <https://freesound.org/people/SkibkaMusic/sounds/478944/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
