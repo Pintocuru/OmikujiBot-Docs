@@ -1,6 +1,6 @@
 # おみくじ BOT 超おみくじ OmikujiBot BigBangFortune
 
-最終更新日：2025/09/29
+最終更新日：2025/11/20
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -46,11 +46,11 @@
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
-### 【推奨】おみくじ BOT 用 WordParty の導入について
+### 【推奨】おみくじ BOT 演出用 WordParty2.0 の導入について
 
 ![](../../core/OmikenWordParty/images/features-03.webp)
 
-この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
+この【おみくじ BOT OmikujiBot】は、[おみくじBOT 演出用WordParty2.0](https://pintocuru.booth.pm/items/7670038) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
@@ -157,7 +157,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 - Copyright © 2025 Pintocuru(せすじピンとしてます)
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
-- 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
+- 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
 ## バージョン情報 (Version)
@@ -168,6 +168,6 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ---
 
-作成者：せすじピンとしてます @pintocuru
+作成者：Pintocuru(せすじピンとしてます) @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)

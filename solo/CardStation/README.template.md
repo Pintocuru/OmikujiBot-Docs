@@ -48,9 +48,14 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
-![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
+![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_94_PackageLicenseBasic2.md)
 
 ## バージョン情報 (Version)
+
+### ver.251120-v1.4.0
+
+- [桃太郎電鉄2 ～あなたの町も きっとある～](https://www.konami.com/games/momotetsu/2/) 発売により、駅名を追加しました。
+	- <a href='https://www.konami.com/games/momotetsu/2/map/'>まるっと全駅！マップ | 桃太郎電鉄２ ～あなたの町も きっとある～ (桃鉄２)</a> を参照しています。
 
 ### ver.250911-v1.1.1
 

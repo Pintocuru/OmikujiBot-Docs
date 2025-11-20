@@ -50,7 +50,7 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
-![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
+![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_94_PackageLicenseBasic2.md)
 
 ## バージョン情報 (Version)
 
