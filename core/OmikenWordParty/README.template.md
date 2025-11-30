@@ -25,11 +25,11 @@
 
 ## インストール方法 (Installation)
 
-![Installation_41_GotoTemplate](/sharedTemplate/installation/Installation_41_GotoTemplate.md)
+![Installation_41_GotoTemplate](../../../../sharedTemplate/installation/Installation_41_GotoTemplate.md)
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
 
-![Installation_32_AddWordParty](/sharedTemplate/installation/Installation_32_AddWordParty.md)
+![Installation_32_AddWordParty](../../../../sharedTemplate/installation/Installation_32_AddWordParty.md)
 
 ## つかいかた・カスタマイズ (Usage/Customization)
 
@@ -40,7 +40,7 @@
 
 WordParty に関する内容は、[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご参照ください。
 
-![faq_11_infoOneComme](/packages/OmikujiBot/template/faq/faq_11_infoOneComme.md)
+![faq_11_infoOneComme](../../../../packages/OmikujiBot/template/faq/faq_11_infoOneComme.md)
 
 ### 設定関連
 
@@ -50,7 +50,7 @@ A: 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org
 
 ## トラブルシューティング (Troubleshooting)
 
-![troubleshooting_11_infoOneComme](/packages/OmikujiBot/template/troubleshooting/troubleshooting_11_infoOneComme.md)
+![troubleshooting_11_infoOneComme](../../../../packages/OmikujiBot/template/troubleshooting/troubleshooting_11_infoOneComme.md)
 
 ### WordPatry エディタで開けない
 

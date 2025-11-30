@@ -1,11 +1,12 @@
 # おみくじ BOT 演出用 WordParty2.0
 
-最終更新日：2025/11/20
+最終更新日：2025/11/30
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 WordParty テンプレート です。
 
 - このテンプレートは、下記のパッケージで使用するほか、独自に使用できます。
 - それぞれ、最新版で使用できます。バージョンが古い場合、正常に機能しない可能性があります。
+
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
 - [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
 - [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
@@ -15,6 +16,7 @@
 - [おみくじ BOT タロットカード OmikujiBot TarotCard](https://pintocuru.booth.pm/items/7432682)
 - [おみくじ BOT 超おみくじ OmikujiBot BigBangFortune](https://pintocuru.booth.pm/items/7440428)
 - [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
+
 
 ## はじめに（Intro）
 
@@ -37,6 +39,7 @@
 ## インストール方法 (Installation)
 
 > テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
+
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
 
@@ -101,6 +104,7 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 
 - 「おみくじ BOT」「おみくじ BOT コンフィグエディター」と揃えるため、バージョニングを揃えることにしました。
 - 過去のリリースノートは [こちら](https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v1.0.0-OmikujiBotWordParty)
+
 
 ---
 
