@@ -65,8 +65,8 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 
 ### v1.4.0 25/11/20
 
-- 下記に記載しています。
-	- <https://github.com/Pintocuru/OmikujiBot-Docs/releases/tag/v1.4.0>
+- 今後のバージョン情報の詳細は、下記に記載するようにしました。
+	- <<https://github.com/Pintocuru/OmikujiBot-Docs/releases>
 - 素材の再配布ガイドライン上の違反（またはその懸念）があったため、新しく作り直しました。
 	- そのため、v1.3 以前のおみくじ BOT シリーズとは互換性がありません。
 
