@@ -172,6 +172,37 @@
 
 - ダーヤマ TOPECONHEROES <https://fukidesign.com/>
 
+### 桜吹雪スロット (MultiplyBonanza)
+
+#### `MultiplyBonanzaIntro`
+
+- taiko2.wav <https://freesound.org/people/Anuj_Shrestha1/sounds/486141/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `explosion1`
+
+- BOOMING PUNCHY EXPLOSION - close, big SCHOEPS MK41.wav <https://freesound.org/people/misosound/sounds/251759/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `explosion2`
+
+- Cannon explosion sound <https://freesound.org/people/SamsterBirdies/sounds/621000/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `explosion3`
+
+- Firework Explosion <https://freesound.org/people/LukaCafuka/sounds/750683/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### 風神・雷神・桜の着物を着たショコラ
+
+- Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### 図柄のフォント
+
+- 玉ねぎ楷書「激」無料版 - 玉点堂 <https://booth.pm/ja/items/2929647>
+
 ### ドラちゃん (PercentDora)
 
 #### `レベルアップ `/ `回想`
