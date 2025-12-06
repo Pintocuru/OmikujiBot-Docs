@@ -44,17 +44,17 @@
   - でも、お賽銭はもっと欲しいそうです。
 - おみくじ BOT のゆっくり魔理沙は、キノコだけでなく、花にも詳しい設定になっています。（フラワー占い という機能で実装しています）
 
-### 「ちょこっと版」もリリース
-
-- キャラクターが常駐するようになった [「ちょこっと版」](https://pintocuru.booth.pm/items/7366004) もリリース。ゆっくり魔理沙が占う「フラワー占い」が無料版に入りました。良かったら使って下さい。
-
 ![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
+
+![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![OmikujiBotReimuMarisa_11_omikuji](../ReimuMarisa/template/OmikujiBotReimuMarisa_11_omikuji.md)
+![OmikujiBotReimuMarisa_11_omikuji](../../template/usage/OmikujiBotReimuMarisa_11_omikuji.md)
+
+![OmikujiBotReimuMarisa_12_FlowerFortune](../../template/usage/OmikujiBotReimuMarisa_12_FlowerFortune.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 
@@ -65,12 +65,6 @@
 ![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
 
 ![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
-
-## PRO 版ボーナスデータ (Usage)
-
-![OmikujiBotReimuMarisa_12_FlowerFortune](template/OmikujiBotReimuMarisa_12_FlowerFortune.md)
-
-![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
@@ -97,7 +91,20 @@
 
 ## バージョン情報 (Version)
 
-### ver.250910-v1.1.0
+### ver.251206
+
+- **おみくじ BOT のバージョン**: v1.4.3
+- 今後は【通常版】のみのリリースとなります。
+  - これまで PRO 版にはミニゲームが搭載されていましたが、今後は個別パッケージとして提供します。
+    - 搭載されていたミニゲームは以下の 2 パッケージです。
+      - [おみくじ BOT ボンバースロット OmikujiBot BomberSpin - ピンとくる企画 - BOOTH](https://pintocuru.booth.pm/items/7730686)
+      - [おみくじ BOT スイカジェネレーター + カボチャ&クジラ OmikujiBot GouseiSuika - ピンとくる企画 - BOOTH](https://pintocuru.booth.pm/items/5813323)
+  - 今後は【通常版】をダウンロードしてご利用いただくか、JSON データをインポートしてご利用ください。
+- キャラクターは常時表示するように変更しました。また、「ちょこんと版」の配布終了とします。
+	- これらの設定変更は、同梱している コンフィグエディター で変更できます。
+- 【通常版】のみの変更に伴い、「フラワー占い」を【通常版】に搭載するようにしました。遊んでみてね。
+
+### ver.250910
 
 - おみくじ BOT のバージョン: v1.1.0
 

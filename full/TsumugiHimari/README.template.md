@@ -11,9 +11,10 @@
 ### 【使用上の注意】時事ネタ・ネットミームをふんだんに取り入れた内容となっています
 
 - 人を選ぶ内容が多いです。リスナー層を十分考えて導入を検討して下さい。
-- 「[冥鳴ひまり exVOICE](https://www.meimeihimari.com/goods)」を参考にしていますが、このボイスにない時事ネタ・ネットミームも多数もあります。
+- 「[冥鳴ひまり exVOICE](https://www.meimeihimari.com/goods)」を参考にしています。
 	- いわゆる「[淫夢要素](https://ja.wikipedia.org/wiki/%E5%A4%9A%E7%94%B0%E9%87%8E%E6%95%B0%E4%BA%BA)」もふんだんに採用しており、AV 作品に由来する暴言も多いです。
-	- 「[恥を知れ！](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C)」「[お前ら人間じゃねぇ！](https://dic.nicovideo.jp/a/%E3%81%8A%E5%89%8D%E3%82%89%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%AD%E3%81%87%21)」「[舐めてると潰すぞ](https://dic.pixiv.net/a/%E3%82%AC%E3%82%AD%E3%81%8C%E2%80%A6%E8%88%90%E3%82%81%E3%81%A6%E3%82%8B%E3%81%A8%E6%BD%B0%E3%81%99%E3%81%9E)」等暴言もかなり多いです ([ネットミーム](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C) 的な意味で)
+	- 「[恥を知れ！](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C)」「[お前ら人間じゃねぇ！](https://dic.nicovideo.jp/a/%E3%81%8A%E5%89%8D%E3%82%89%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%AD%E3%81%87%21)」「[舐めてると潰すぞ](https://dic.pixiv.net/a/%E3%82%AC%E3%82%AD%E3%81%8C%E2%80%A6%E8%88%90%E3%82%81%E3%81%A6%E3%82%8B%E3%81%A8%E6%BD%B0%E3%81%99%E3%81%9E)」「[詐欺罪と器物損壊罪で訴えます！](https://dic.pixiv.net/a/%E3%83%AF%E3%82%B6%E3%83%83%E3%83%97%E3%82%B8%E3%83%A7%E3%83%AB%E3%83%8E)」等暴言もかなり多いです ([ネットミーム](https://dic.pixiv.net/a/%E6%81%A5%E3%82%92%E7%9F%A5%E3%82%8C) 的な意味で)
+	- このボイスにない時事ネタ・ネットミームも多数もあります。
 - 本テンプレートの使用に伴ういかなる損害についても責任を負いません。ご利用は自己責任でお願いします。
 
 ## このテンプレートは何？（Features）
@@ -51,6 +52,8 @@
 
 ![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
 
+![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
+
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
@@ -60,6 +63,8 @@
 ![usage_28_TarotCard](../../template/usage/usage_28_TarotCard.md)
 
 ![usage_29_BigBangFortune](../../template/usage/usage_29_BigBangFortune.md)
+
+![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
 
 ![usage_23_Gift](/packages/OmikujiBot/template/usage/usage_23_Gift.md)
 
@@ -92,7 +97,7 @@
 
 「使ってくれたら超ハッピー★ あーしに教えてね！」
 
-![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
+![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
 
@@ -145,7 +150,7 @@
 - 乙であります！
 	- 童貞諸君、乙であります！
 - にゃんぱすー
-	- <https://dic.pixiv.net/a/%E3%81%AB%E3%82%83%E3%82%93%E3%81%B1%E3%81%99%E3%83%BC>
+	- のんのんびより <https://dic.pixiv.net/a/%E3%81%AB%E3%82%83%E3%82%93%E3%81%B1%E3%81%99%E3%83%BC>
 - あじゃどう!
 	- <a href='https://dic.pixiv.net/a/%E3%83%92%E3%83%86%E3%83%83%E3%83%9E%E3%83%B3%E3%83%AA%E3%82%B9%E3%83%9A%E3%82%AF%E3%83%88'>ヒテッマンリスペクト (ひてっまんりすぺくと) とは【ピクシブ百科事典】</a>
 - わはー
@@ -187,7 +192,7 @@
 - どんどんしまっちゃおうねぇ
 	- <a href='https://dic.pixiv.net/a/%E3%81%97%E3%81%BE%E3%81%A3%E3%81%A1%E3%82%83%E3%81%86%E3%81%8A%E3%81%98%E3%81%95%E3%82%93'>しまっちゃうおじさん (しまっちゃうおじさん) とは【ピクシブ百科事典】</a>
 - 少し･･･頭冷やそうか･･･？
-	- <a href='https://dic.nicovideo.jp/a/%E3%83%BB%E3%83%BB%E3%83%BB%E5%B0%91%E3%81%97%E3%83%BB%E3%83%BB%E3%83%BB%E9%A0%AD%E5%86%B7%E3%82%84%E3%81%9D%E3%81%86%E3%81%8B%E3%83%BB%E3%83%BB%E3%83%BB%3F'>･･･少し･･･頭冷やそうか･･･？とは (スコシアタマヒヤソウカとは) [単語記事] - ニコニコ大百科</a>
+	- 魔法少女リリカルなのは StrikerS <a href='https://dic.nicovideo.jp/a/%E3%83%BB%E3%83%BB%E3%83%BB%E5%B0%91%E3%81%97%E3%83%BB%E3%83%BB%E3%83%BB%E9%A0%AD%E5%86%B7%E3%82%84%E3%81%9D%E3%81%86%E3%81%8B%E3%83%BB%E3%83%BB%E3%83%BB%3F'>･･･少し･･･頭冷やそうか･･･？とは (スコシアタマヒヤソウカとは) [単語記事] - ニコニコ大百科</a>
 - お前それサバンナでも同じ事言えんの？
 	- <a href='https://dic.pixiv.net/a/%E3%81%8A%E5%89%8D%E3%81%9D%E3%82%8C%E3%82%B5%E3%83%90%E3%83%B3%E3%83%8A%E3%81%A7%E3%82%82%E5%90%8C%E3%81%98%E3%81%93%E3%81%A8%E8%A8%80%E3%81%88%E3%82%93%E3%81%AE%3F'>お前それサバンナでも同じこと言えんの? (おまえそれさばんなでもおなじこといえんの) とは【ピクシブ百科事典】</a>
 - マジ勘弁ｗｗｗ
@@ -207,6 +212,7 @@
 - とにかく拷問だ 拷問にかけろ！
 - そんなことよりおなかがすいたよ。
 	- <a href='https://dic.nicovideo.jp/a/%E3%81%9D%E3%82%93%E3%81%AA%E3%81%93%E3%81%A8%E3%82%88%E3%82%8A%E3%81%8A%E3%81%AA%E3%81%8B%E3%81%8C%E3%81%99%E3%81%84%E3%81%9F%E3%82%88'>そんなことよりおなかがすいたよとは (トニカクゴウモンダゴウモンニカケロとは) [単語記事] - ニコニコ大百科</a>
+	- <a href='https://dic.nicovideo.jp/a/%E3%82%A2%E3%82%A4%E3%83%AC%E3%83%A0'>アイレムとは [単語記事] - ニコニコ大百科</a>
 - お前ら人間じゃねぇ!
 	- <a href='https://dic.pixiv.net/a/%E3%81%8A%E5%89%8D%E3%82%89%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%AD%E3%81%87%21%21'>お前ら人間じゃねぇ!! (おまえらにんげんじゃねぇ) とは【ピクシブ百科事典】</a>
 - お前は最後に殺すと約束したな。

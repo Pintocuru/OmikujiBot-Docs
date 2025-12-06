@@ -34,6 +34,8 @@
 
 ![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
 
+![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
+
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
@@ -55,10 +57,6 @@
 ![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
 
 ![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
-
-## PRO 版ボーナスデータ (Usage)
-
-![usage_26_GameScripts](/packages/OmikujiBot/template/usage/usage_26_GameScripts.md)
 
 ## カスタマイズ（Customization）
 
@@ -86,6 +84,16 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
+
+### ver.251206
+
+- **おみくじ BOT のバージョン**: v1.4.3
+- 今後は【通常版】のみのリリースとなります。
+  - これまで PRO 版にはミニゲームが搭載されていましたが、今後は個別パッケージとして提供します。
+    - 搭載されていたミニゲームは以下の 2 パッケージです。
+      - [おみくじ BOT ボンバースロット OmikujiBot BomberSpin - ピンとくる企画 - BOOTH](https://pintocuru.booth.pm/items/7730686)
+      - [おみくじ BOT スイカジェネレーター + カボチャ&クジラ OmikujiBot GouseiSuika - ピンとくる企画 - BOOTH](https://pintocuru.booth.pm/items/5813323)
+  - 今後は【通常版】をダウンロードしてご利用いただくか、JSON データをインポートしてご利用ください。
 
 ### ver.250910-v1.1.0
 

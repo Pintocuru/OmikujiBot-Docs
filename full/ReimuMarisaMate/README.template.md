@@ -58,7 +58,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![OmikujiBotReimuMarisa_12_FlowerFortune](../ReimuMarisa/template/OmikujiBotReimuMarisa_12_FlowerFortune.md)
+![OmikujiBotReimuMarisa_12_FlowerFortune](../../template/usage/OmikujiBotReimuMarisa_12_FlowerFortune.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 
