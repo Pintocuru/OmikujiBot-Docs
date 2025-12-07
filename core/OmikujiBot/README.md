@@ -1,19 +1,22 @@
 # おみくじ BOT OmikujiBot
 
-最終更新日：2025/10/20
+最終更新日：2025/12/07
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 BOT ソフトウェア です。
 
 このテンプレートは、下記のパッケージの内容を含みます。
 
+- [おみくじBOT ストロベリーショコラ OmikujiBot StrawberryChocolate](https://pintocuru.booth.pm/items/7733810)
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
-- [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
-- おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
+- [おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda](https://pintocuru.booth.pm/items/6053855)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot DivaMetan](https://pintocuru.booth.pm/items/6058829)
 - [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088)
 - [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
+- [おみくじ BOT タロットカード OmikujiBot TarotCard](https://pintocuru.booth.pm/items/7432682)
+- [おみくじ BOT 超おみくじ OmikujiBot BigBangFortune](https://pintocuru.booth.pm/items/7440428)
+- [おみくじ BOT スイカジェネレーター +カボチャ&クジラ OmikujiBot GouseiSuika](https://pintocuru.booth.pm/items/5813323)
+- [おみくじ BOT ボンバースロット OmikujiBot BomberSpin](https://pintocuru.booth.pm/items/7730686)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
 
 ## はじめに（Intro）
 
@@ -82,7 +85,32 @@
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
-![[Installation_51_ProUpgradeTemplate]]
+## PRO 版へのアップグレード (Installation)
+
+### PRO(有料) 版でできること
+
+- PRO 版は以下の機能が追加されます
+	- コンフィグエディターの「テンプレートの読み込み・出力」が可能になります。
+	- フキダシのフォント設定・アニメーション設定を自在に選べるようになります。
+- PRO 版をご購入いただくと、配布ファイル内の `readme.txt` にライセンスキーが記載されています。
+- コンフィグエディターの「表示設定 ＞ エディター設定」に、ライセンスキーを入力する欄がありますので、そこへコピー＆ペーストしてください。
+- PRO 版へのインストールに関する方法は [PRO(有料) 版へのアップグレードの方法](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#pro%E6%9C%89%E6%96%99-%E7%89%88%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%AE%E6%96%B9%E6%B3%95) をご覧ください。
+
+### PRO 版へのアップグレードの方法
+
+ライセンスキーを使ってアップグレードできます。
+
+1. [おみくじBOT ストロベリーショコラ OmikujiBot StrawberryChocolate](https://pintocuru.booth.pm/items/7733810) より **【PRO 版＋ライセンスキー】** を購入する
+2. ダウンロードした PRO 版の zip ファイル内にある `readme.txt` を開き、ライセンスキーをコピーする
+3. コンフィグエディターのアプリを開き、**表示設定 ＞ エディター設定** を開く
+4. 「ライセンスキー」欄にコピーしたキーを貼り付ける
+5. 「設定を出力」ボタンをクリックして、既存の js ファイルを上書きする
+
+このアップグレードを行う場合、PRO 版に入っているデータは「テンプレート読み込み (JSON)」から読み込んでください。
+
+### 過去に上記以外の方法で PRO 版をご購入いただいた方
+
+ライセンスキーはそのまま有効です。今後も PRO 版としてご利用いただけます。アップデートは無償で提供されますので安心してお使いください。
 
 ## つかいかた (Usage)
 
@@ -191,11 +219,10 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ## クレジット（Credits）
 
-### 🎵 効果音・BGM
+### ♫ 効果音・ジングル
 
-#### **さまざまな効果音**
-
-効果音ラボ <https://soundeffect-lab.info/>
+- [効果音・ジングルに関するライセンス](sub/sounds.md) にまとめています。
+	- このアプリに収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
 
 それぞれのパッケージでは、各種イラスト素材を使用しています。詳しくは、下記の Readme をご覧ください。
 
@@ -213,7 +240,7 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 - Copyright © 2025 Pintocuru(せすじピンとしてます)
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
-- 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
+- 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
 ### パッケージデータ
@@ -226,6 +253,6 @@ A: おみくじを短時間に何度も行うと、配信プラットフォー�
 
 ---
 
-作成者：せすじピンとしてます @pintocuru
+作成者：Pintocuru(せすじピンとしてます) @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)

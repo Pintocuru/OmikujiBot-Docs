@@ -4,7 +4,7 @@
 
 ![[/sharedTemplate/intro/intro_11]] WordParty テンプレート です。
 
-- このテンプレートは、下記のパッケージで使用するほか、独自に使用できます。
+- このテンプレートは、下記の「おみくじ BOT」シリーズのパッケージでのみ使用可能です。
 - それぞれ、最新版で使用できます。バージョンが古い場合、正常に機能しない可能性があります。
 
 ![[/packages/OmikujiBot/template/_common/OmikujiBotPackageBOOTH]]
@@ -66,7 +66,7 @@ A: [仕様](https://onecomme.com/docs/feature/wordparty#%E3%81%9D%E3%81%AE%E4%BB
 ### v1.4.0 25/11/20
 
 - 今後のバージョン情報の詳細は、下記に記載するようにしました。
-	- <<https://github.com/Pintocuru/OmikujiBot-Docs/releases>
+	- <https://github.com/Pintocuru/OmikujiBot-Docs/releases>
 - 素材の再配布ガイドライン上の違反（またはその懸念）があったため、新しく作り直しました。
 	- そのため、v1.3 以前のおみくじ BOT シリーズとは互換性がありません。
 

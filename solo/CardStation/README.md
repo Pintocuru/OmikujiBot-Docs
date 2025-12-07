@@ -1,6 +1,6 @@
-# おみくじ BOT カード駅 OmikujiBot CardStation
+# おみくじ BOT カード駅 OmikujiBot CardStation README
 
-最終更新日：2025/11/21
+最終更新日：2025/12/07
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -54,7 +54,7 @@
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
-詳しくは [おみくじ BOT 用 WordParty README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
+詳しくは [おみくじ BOT 演出用 WordParty2.0 README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
 ## つかいかた (Usage)
 
@@ -133,8 +133,9 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ### 素材の取り扱いについて
 
-- イラスト素材・動画・音源の再配布は禁止
-- イラストや音源の利用については、各配布サイトの利用規約をご確認ください。
+1. 本アプリに含まれる素材は、各権利者からの許諾を得て使用しています。
+2. 素材は、配信でのみ使用してください。抽出・再配布は禁止です。
+3. 詳細は各配布サイトの利用規約をご参照ください。
 
 ## ライセンス（License）
 

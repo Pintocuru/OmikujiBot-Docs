@@ -1,4 +1,4 @@
-# どこでもドラちゃん Bot OmikujiBot 5percent_Dora
+# どこでもドラちゃん Bot OmikujiBot 5percent_Dora README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

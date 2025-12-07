@@ -1,4 +1,4 @@
-# おみくじ BOT スイカジェネレーター + カボチャ&クジラ OmikujiBot GouseiSuika
+# おみくじ BOT スイカジェネレーター + カボチャ&クジラ OmikujiBot GouseiSuika README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

@@ -1,4 +1,4 @@
-# おみくじ BOT ボンバースロット OmikujiBot BomberSpin
+# おみくじ BOT ボンバースロット OmikujiBot BomberSpin README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

@@ -1,4 +1,4 @@
-# おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda
+# おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

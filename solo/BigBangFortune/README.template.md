@@ -1,4 +1,4 @@
-# おみくじ BOT 超おみくじ OmikujiBot BigBangFortune
+# おみくじ BOT 超おみくじ OmikujiBot BigBangFortune README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

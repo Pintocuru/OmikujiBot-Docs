@@ -1,4 +1,4 @@
-# おみくじ BOT カード駅 OmikujiBot CardStation
+# おみくじ BOT カード駅 OmikujiBot CardStation README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

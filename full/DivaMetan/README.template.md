@@ -1,4 +1,4 @@
-# おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan
+# おみくじ BOT 高飛車な四国めたん OmikujiBot DivaMetan README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

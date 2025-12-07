@@ -1,4 +1,4 @@
-# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa
+# おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

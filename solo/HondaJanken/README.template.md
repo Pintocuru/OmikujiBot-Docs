@@ -1,4 +1,4 @@
-# おみくじ BOT じゃんけん OmikujiBot HondaJanken
+# おみくじ BOT じゃんけん OmikujiBot HondaJanken README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

@@ -1,4 +1,4 @@
-# おみくじ BOT タロットカード OmikujiBot TarotCard
+# おみくじ BOT タロットカード OmikujiBot TarotCard README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 

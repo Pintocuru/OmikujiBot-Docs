@@ -1,4 +1,4 @@
-# おみくじ BOT ストロベリーショコラ OmikujiBot StrawberryChocolate
+# おみくじ BOT ストロベリーショコラ OmikujiBot StrawberryChocolate README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
