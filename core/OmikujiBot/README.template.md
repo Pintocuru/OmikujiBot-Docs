@@ -18,7 +18,7 @@
 
 - 【おみくじ BOT OmikujiBot】は、わんコメに BOT 機能を付与するジェネレーターです。
 - 特定のワード (おみくじ 等) と、チャットに投稿することで、ランダムな結果を配信画面に表示します。
-- 初見さん (初めてのコメント) や、通算 100 回目のコメントなど、特定の条件で発動し、配信画面に表示する機能
+- 初見さん (初めてのコメント) や、通算 100 回目のコメントなど、特定の条件で発動し、配信画面に表示することも可能です。
 
 ### ✨【おみくじ BOT OmikujiBot】で、できること
 
@@ -27,7 +27,7 @@
 1. **コメントに反応する【おみくじシステム】**
    - `おみくじ` とコメントすると、今日の運勢をランダムで表示
    - `じゃんけん` のような複雑なおみくじ結果も表示できる
-   - スイカジェネレーターなどのミニゲームで楽しむ
+   - `スイカジェネレーター` などのミニゲームで楽しむ
 2. **[【コンフィグエディター】](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で多彩なおみくじを自作できる**
    - おみくじの内容は、自由に編集可能
    - フキダシの大きさ・色替え・アニメーションも自由に変更可能
@@ -57,7 +57,7 @@
 - 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
   - それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
 
-![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
+![Installation_52_VersionUp](template/installation/Installation_52_VersionUp.md)
 
 ![Installation_51_ProUpgradeTemplate](/sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
 

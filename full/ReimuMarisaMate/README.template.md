@@ -52,7 +52,7 @@
 2. 「フラワー占い」が無料版で、「おみくじ」が PRO 版に
    1. 新規に作成した、「フラワー占い」がデフォルトになります。
 
-![Installation_92_OmikujiBotPROSet](/packages/OmikujiBot/template/installation/Installation_92_OmikujiBotPROSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 

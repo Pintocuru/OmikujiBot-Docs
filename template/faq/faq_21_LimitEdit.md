@@ -1,7 +1,13 @@
-#### Q. ギフト・スパチャされた時にだけ発動させたい
+#### [Q. ギフト・スパチャされた時にだけ発動させたい](./21_LimitEdit/faq_2101_Gift.md)
 
-#### Q. メンバー限定で発動させたい
+#### [Q. メンバー限定で発動させたい](./21_LimitEdit/faq_2102_Member.md)
 
-#### Q. 1 日 1 回と、回数を制限したい
+#### [Q. 1 日 1 回と、回数を制限したい](21_LimitEdit/faq_2103_Limit.md)
 
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
+#### [Q. 配信者をおみくじから外すには？](./21_LimitEdit/faq_2104_Owner.md)
+
+#### [Q. 特定のおみくじを、一時的にオフにしたい](21_LimitEdit/faq_2103_Limit.md)
+
+#### [Q. 同じ人に何回もおみくじされると困る](21_LimitEdit/faq_2106_LimitOne.md)
+
+#### [Q. 特定のユーザーを制限したい](21_LimitEdit/faq_2107_LimitOther.md)

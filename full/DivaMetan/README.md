@@ -1,6 +1,6 @@
 # おみくじ BOT 高飛車な四国めたん OmikujiBot DivaMetan README
 
-最終更新日：2025/12/07
+最終更新日：2026/01/03
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -54,12 +54,15 @@
 > 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
 
 - **アップグレード手順**：
-  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
+  1. ![](template/installation/images/Pasted%20image%2020260103155223.png)
+     リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
   2. ダウンロードしたファイルを解凍
-  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
+  3. ![](template/installation/images/Pasted%20image%2020260103155557.png)
+     わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
   4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
   5. 解凍したファイルを、該当フォルダに上書き保存
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
+
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
 
 ### 【推奨】おみくじ BOT 演出用 WordParty2.0 の導入について
@@ -72,6 +75,8 @@
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
 詳しくは [おみくじ BOT 演出用 WordParty2.0 README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
+
+<%* await tp.user.expandEmbeds(tp) %>
 
 ## PRO 版へのアップグレード (Installation)
 
@@ -196,13 +201,19 @@
 
 ### システム関連
 
-#### Q. ギフト・スパチャされた時にだけ発動させたい
+#### [Q. ギフト・スパチャされた時にだけ発動させたい](./21_LimitEdit/faq_2101_Gift.md)
 
-#### Q. メンバー限定で発動させたい
+#### [Q. メンバー限定で発動させたい](./21_LimitEdit/faq_2102_Member.md)
 
-#### Q. 1 日 1 回と、回数を制限したい
+#### [Q. 1 日 1 回と、回数を制限したい](21_LimitEdit/faq_2103_Limit.md)
 
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
+#### [Q. 配信者をおみくじから外すには？](./21_LimitEdit/faq_2104_Owner.md)
+
+#### [Q. 特定のおみくじを、一時的にオフにしたい](21_LimitEdit/faq_2103_Limit.md)
+
+#### [Q. 同じ人に何回もおみくじされると困る](21_LimitEdit/faq_2106_LimitOne.md)
+
+#### [Q. 特定のユーザーを制限したい](21_LimitEdit/faq_2107_LimitOther.md)
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -251,7 +262,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ### アプリ本体（ジェネレーター・コンフィグエディター）
 
-- Copyright © 2025 Pintocuru(せすじピンとしてます)
+- Copyright © 2023-2026 Pintocuru(せすじピンとしてます)
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
 - 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
