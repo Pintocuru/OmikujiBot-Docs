@@ -1,6 +1,6 @@
-#### [Q. ギフト・スパチャされた時にだけ発動させたい](packages/OmikujiBot/template/faq/21_LimitEdit/faq_2101_Gift.md)
+#### [Q. ギフト・スパチャされた時にだけ発動させたい](/packages/OmikujiBot/template/faq/21_LimitEdit/faq_2101_Gift.md)
 
-#### [Q. メンバー限定で発動させたい](packages/OmikujiBot/template/faq/21_LimitEdit/21_LimitEdit/faq_2102_Member.md)
+#### [Q. メンバー限定で発動させたい](/packages/OmikujiBot/template/faq/21_LimitEdit/21_LimitEdit/faq_2102_Member.md)
 
 #### [Q. 1 日 1 回と、回数を制限したい](packages/OmikujiBot/template/faq/21_LimitEdit/21_LimitEdit/faq_2103_Limit.md)
 
