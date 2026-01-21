@@ -1,6 +1,6 @@
 # おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda README
 
-最終更新日：2025/12/07
+最終更新日：2026/01/21
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -21,6 +21,7 @@
 - イラストは 坂本アヒル さんのを使用してます。
   - インストールやカスタマイズ等、機能に関する内容は [おみくじ BOT OmikujiBot README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) をご覧ください。
 
+
 ### ずんだもん のキャラクター設定
 
 ![](images/happy.webp)
@@ -35,11 +36,13 @@
 ### キャラクターの立ち位置・セリフについて
 
 - 原作とは異なる「二次創作」キャラクターのため、一般的に知られているようなキャラクター像とは異なる言動やセリフが見られる場合があります。
+
 - 原作では「プライドの高い不幸キャラ」なのですが、おみくじ BOT のずんだもんは他人への思いやりが強かったり、不幸さが薄いかもしれません。ずんだもち 1 個贈呈なのだ。
 
 ## インストール (Installation)
 
 > テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
+
 
 ### アップグレード
 
@@ -47,32 +50,39 @@
 > 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
 
 - **アップグレード手順**：
-  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
+  1. ![](template/installation/images/Pasted%20image%2020260103155223.png)
+     リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
   2. ダウンロードしたファイルを解凍
-  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
+  3. ![](template/installation/images/Pasted%20image%2020260103155557.png)
+     わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
   4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
   5. 解凍したファイルを、該当フォルダに上書き保存
   6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
+
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
+
 
 ### 【推奨】おみくじ BOT 演出用 WordParty2.0 の導入について
 
 ![](../../core/OmikenWordParty/images/features-03.webp)
 
-この【おみくじ BOT OmikujiBot】は、[おみくじ BOT 演出用 WordParty2.0](https://pintocuru.booth.pm/items/7670038) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
+この【おみくじ BOT OmikujiBot】は、[おみくじBOT 演出用WordParty2.0](https://pintocuru.booth.pm/items/7670038) の演出を前提として作られています。この WordParty を導入することで、配信がより華やかで視覚的に楽しいものになります。
 
 - キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
 - おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
 詳しくは [おみくじ BOT 演出用 WordParty2.0 README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md) をご覧ください。
 
+
+
 ## PRO 版へのアップグレード (Installation)
 
 ### PRO(有料) 版でできること
 
 - PRO 版は以下の機能が追加されます
-  - コンフィグエディターの「テンプレートの読み込み・出力」が可能になります。
-  - フキダシのフォント設定・アニメーション設定を自在に選べるようになります。
+	- コンフィグエディターの「テンプレートの読み込み・出力」が可能になります。
+	- フキダシのフォント設定・アニメーション設定を自在に選べるようになります。
+	- プラグイン使用時「プリセット管理」機能で、複数のおみくじデータを管理できます
 - PRO 版をご購入いただくと、配布ファイル内の `readme.txt` にライセンスキーが記載されています。
 - コンフィグエディターの「表示設定 ＞ エディター設定」に、ライセンスキーを入力する欄がありますので、そこへコピー＆ペーストしてください。
 - PRO 版へのインストールに関する方法は [PRO(有料) 版へのアップグレードの方法](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#pro%E6%9C%89%E6%96%99-%E7%89%88%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%AE%E6%96%B9%E6%B3%95) をご覧ください。
@@ -81,7 +91,7 @@
 
 ライセンスキーを使ってアップグレードできます。
 
-1. [おみくじ BOT ストロベリーショコラ OmikujiBot StrawberryChocolate](https://pintocuru.booth.pm/items/7733810) より **【PRO 版＋ライセンスキー】** を購入する
+1. [おみくじBOT ストロベリーショコラ OmikujiBot StrawberryChocolate](https://pintocuru.booth.pm/items/7733810) より **【PRO 版＋ライセンスキー】** を購入する
 2. ダウンロードした PRO 版の zip ファイル内にある `readme.txt` を開き、ライセンスキーをコピーする
 3. コンフィグエディターのアプリを開き、**表示設定 ＞ エディター設定** を開く
 4. 「ライセンスキー」欄にコピーしたキーを貼り付ける
@@ -109,7 +119,7 @@
 
 - 巫女さん手製のおみくじを、ずんだもんが読んでくれます。
 - 「残念賞」に関する内容がすべて白紙だったため、代わりにずんだもんが一発芸をしてくれます。
-  - 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
+	- 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
 
 ### じゃんけん
 
@@ -119,9 +129,9 @@
 
 - じゃんけんの勝率は 1/2、あいこを「負け」とカウントしても、1/3 だと考えていませんか。
 - この「じゃんけん」は、じゃんけんの猛者 [「ケイスケ ホンダ」](https://dic.pixiv.net/a/%E6%9C%AC%E7%94%B0%E3%81%A8%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93) を導入することにより、勝率をたったの 5% まで劇的に減少させることに成功しました。
-  - 負けた時の「挑発的なコメント」が豊富です
-  - 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
-- [勝ったらコーラ 1 本プレゼント！](https://www.j-cast.com/2019/04/17355553.html)
+	- 負けた時の「挑発的なコメント」が豊富です
+	- 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
+- [勝ったらコーラ1本プレゼント！](https://www.j-cast.com/2019/04/17355553.html)
 
 ### 初見判定ちゃん
 
@@ -149,6 +159,7 @@
 - 実際には初見でないのに「初見」とコメントしたユーザーに対して、ツッコミで返答します。
   - コメント数が 5 回以下の場合は、許容バージョンとして「ホントの初見」というデータも用意しています。
 - 複数アカウントを利用している場合など、同一人物であってもアカウントが異なる場合、わんコメでは区別できないため、「初見」と判定されてしまいます。
+
 
 ### ギフトのお礼
 
@@ -180,6 +191,8 @@
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 配布パッケージの種類によっては、一部機能が制限または非表示になっている場合があります。
 - 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
+
+
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
 - ただし、使用している**キャラクターには著作権があります**ので、原作やイラスト制作者の方々へのご配慮をお願いします。
 
@@ -189,13 +202,20 @@
 
 ### システム関連
 
-#### Q. ギフト・スパチャされた時にだけ発動させたい
+#### [Q. ギフト・スパチャされた時にだけ発動させたい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2101_Gift.md)
 
-#### Q. メンバー限定で発動させたい
+#### [Q. メンバー限定で発動させたい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2102_Member.md)
 
-#### Q. 1 日 1 回と、回数を制限したい
+#### [Q. 1 日 1 回と、回数を制限したい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2103_Limit.md)
 
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
+#### [Q. 配信者をおみくじから外すには？](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2104_Owner.md)
+
+#### [Q. 特定のおみくじを、一時的にオフにしたい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2103_Limit.md)
+
+#### [Q. 同じ人に何回もおみくじされると困る](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2106_LimitOne.md)
+
+#### [Q. 特定のユーザーを制限したい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2107_LimitOther.md)
+
 
 ## トラブルシューティング (Troubleshooting)
 
@@ -213,22 +233,27 @@ A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocur
 
 A. [おみくじ BOT README トラブルシューティング](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-troubleshooting) をお読みください。
 
+
 #### Q. WordParty の音が配信に出ない
 
 わんコメ公式の [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください
+
 
 ## クレジット（Credits）
 
 #### ずんだもん
 
 - ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv
-  - <https://www.pixiv.net/artworks/92641351>
+	- <https://www.pixiv.net/artworks/92641351>
 
 ### 素材の取り扱いについて
 
 1. 本アプリに含まれる素材は、各権利者からの許諾を得て使用しています。
-2. 素材は、配信でのみ使用してください。抽出・再配布は禁止です。
-3. 詳細は各配布サイトの利用規約をご参照ください。
+	1. これらの素材は**アプリの機能提供のために同梱**しているものであり、素材そのものを再配布することを目的としたものではありません。
+2. 素材は、**本アプリを利用した配信・演出の範囲内でのみ**ご使用ください。
+	1. アプリからの抽出、素材データの単体利用、再配布、二次配布は禁止されています。
+3. 各素材の利用条件については、配布元サイトの利用規約をご確認ください。
+4. 素材の権利や利用条件について万が一不備や問題がございましたら、権利者様よりご連絡いただければ、速やかに確認・対応いたします。
 
 ![](images/sleepy.webp)
 
@@ -236,20 +261,34 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 
 ## ライセンス（License）
 
-### パッケージデータ
+**このパッケージには、ライセンスの異なる複数の種類のデータが含まれています。**
+
+### JSON データ
 
 - 【CC-BY 4.0】 このパッケージのデータ (Json データ) は、 [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) に基づいて提供されます。
-- クレジット表記をすれば、改変・再利用が可能です。
-- パッケージに含まれるイラスト画像等は、CC-BY 4.0 の対象外です。
+- クレジット表記を行うことで、改変・再利用が可能です。
+
+### 画像・イラスト等について
+
+- パッケージに含まれる画像・イラスト等は **CC-BY 4.0 の対象外** です。
+- これらは各権利者の許諾に基づき、**アプリ内での利用に限り同梱しているものです。**
+- 抽出・再配布・単体利用は禁止されています。
 
 ### アプリ本体（ジェネレーター・コンフィグエディター）
 
-- Copyright © 2025 Pintocuru(せすじピンとしてます)
+- Copyright © 2023-2026 Pintocuru(せすじピンとしてます)
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
 - 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
+
 ## バージョン情報 (Version)
+
+### ver.260120
+
+- **おみくじ BOT のバージョン**: v2.0.3
+- 各おみくじのバリエーションを増やしました
+- 新機能に合わせて一部データが変更されています
 
 ### ver.251206
 
@@ -277,6 +316,7 @@ A. [おみくじ BOT README トラブルシューティング](https://github.co
 ### ver.240830
 
 - 「初見判定ちゃん ずんだもん」としてリリース。
+
 
 ---
 
