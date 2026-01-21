@@ -191,7 +191,7 @@ A: わんコメ公式の [読み上げ設定](https://onecomme.com/docs/settings
 
 #### Q. OBS 側で非表示にしていても、BOT のコメントが勝手に動いてしまう
 
-![](images/troubleshooting-01.webp)
+![](../../template/troubleshooting/12_infoOmikujiBot/images/troubleshooting-01.webp)
 
 A: OBS のソース＞該当する html ファイル＞プロパティ から、**「表示されていないときにソースをシャットダウンする」のチェックは外して下さい。** （デフォルトでは OFF になっています）
 

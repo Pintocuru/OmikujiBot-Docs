@@ -107,14 +107,8 @@ A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[�
 
 ![troubleshooting_11_infoOneComme](/sharedTemplate/troubleshooting/troubleshooting_11_infoOneComme.md)
 
-### 設定・表示・音声関連
 
 
-#### Q. OBS 側で非表示にしていても、BOT のコメントが勝手に動いてしまう
-
-![](images/troubleshooting-01.webp)
-
-A: OBS のソース＞該当する html ファイル＞プロパティ から、**「表示されていないときにソースをシャットダウンする」のチェックは外して下さい。** （デフォルトでは OFF になっています）
 
 #### Q. キャラクター画像が表示されない
 
