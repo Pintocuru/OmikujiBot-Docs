@@ -4,4 +4,4 @@
 
 ![troubleshooting_12_infoOmikujiBot](troubleshooting_12_infoOmikujiBot.md)
 
-![troubleshooting_13_infoWordParty](troubleshooting_13_infoWordParty.md)
+

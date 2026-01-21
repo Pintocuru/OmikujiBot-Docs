@@ -77,18 +77,6 @@
 
 > キャラクターに関する扱いについては、各パッケージごとに異なります。
 
-#### Q. フキダシの色を変更したい
-
-#### Q. キャラクターを消してフキダシだけにしたい
-
-#### Q. 右下のアイコンを消したい
-
-#### Q. 文字やキャラクターを大きく・小さく表示したい
-
-#### Q. 自前のキャラクター画像を追加したい
-
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
-
 ### おみくじ関連
 
 #### Q. おみくじの内容を変更したい
@@ -99,38 +87,7 @@ A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocur
 
 A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
 
-#### Q. Omiken って何？
-
-A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[初見判定ちゃん](https://booth.pm/ja/items/5471598) 」の名残です。
-
-## トラブルシューティング (Troubleshooting)
-
-![troubleshooting_11_infoOneComme](/sharedTemplate/troubleshooting/troubleshooting_11_infoOneComme.md)
-
-
-
-
-#### Q. キャラクター画像が表示されない
-
-**A:** キャラクター画像は、配布パッケージの `Characters` フォルダに格納されています。各キャラクターごとにサブフォルダがあり、その中に画像が入っています。何らかの理由で画像ファイルが存在しない場合は、インストールをやり直してください。
-
-### おみくじ関連
-
-#### Q. コメントでおみくじが反応しない
-
-A: わんコメでコメントが受信できていないと、おみくじも反応しません。詳しくは、わんコメ公式 [Q.コメントがうまく表示されない](https://onecomme.com/docs/faq#%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E9%96%A2%E9%80%A3) をご覧ください。
-
-#### Q. おみくじが Youtube のコメントに反映されていない
-
-A: おみくじをはじめとする BOT のコメントは、わんコメを通じてジェネレーターでのみ表示されます。YouTube や Twitch のチャットには投稿・反映されません。
-
-#### Q. どうしても、BOT コメントを Youtube のチャットに表示させたい
-
-A: Youtube・Twitch 限定で [SAMMI](https://sammi.solutions/) を使ってコメントを投稿する方法もありますが、素直に [Nightbot](https://nightbot.tv/) や、 [CastCraft](https://castcraft.live/) を使うほうが簡単かも。
-
-#### Q. おみくじを連続で行うとコメントが反映されなくなる
-
-A: おみくじを短時間に何度も行うと、配信プラットフォームの自動規制（ソフト BAN）により、コメントが反映されなくなることがあります。**テストの場合は、わんコメの コメントテスター をお使いください。**
+![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
 ## クレジット（Credits）
 
