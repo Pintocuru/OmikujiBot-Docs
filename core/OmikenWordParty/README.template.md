@@ -18,8 +18,9 @@
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
 - 【おみくじ BOT 用 WordParty】は、わんコメの機能 「[WordParty](https://onecomme.com/docs/feature/wordparty)」のセットです。
-- [おみくじ BOT](app://obsidian.md/OmikujiBot/README.md)  シリーズ専用の、演出用 WordParty です。
-  - わんコメの WordParty のエディターでの編集ができないようになっています。
+- このセットを導入することで、配信がより華やかで視覚的に楽しいものになります。
+	- キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
+	- おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
 ![](../OmikujiBot/images/features-02.webp)
 
