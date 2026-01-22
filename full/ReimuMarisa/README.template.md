@@ -46,8 +46,6 @@
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
-![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
-
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
@@ -87,9 +85,17 @@
 
 ![](images/excited.webp)
 
+神社も私も、あなたを応援しているわ。
+
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
+
+### ver.260120
+
+- **おみくじ BOT のバージョン**: v2.0.3
+- 各おみくじのバリエーションを増やしました
+- 新機能に合わせて一部データが変更されています
 
 ### ver.251206
 

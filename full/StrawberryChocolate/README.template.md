@@ -31,10 +31,9 @@
 	- 丁寧で柔らかい言葉遣いが基本。
 	- 相手を優しく包み込むようなトーンで話し、時折ユーモアを交えて場を和ませます。
 	- 呼びかけは「〜さん」と親しみを込めつつ、少し甘えさせてくれるようなニュアンスを持っています。
+		- 悪いことをすると「～ちゃん」とからかうことも？
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
-
-![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
 
@@ -83,9 +82,18 @@
 
 ![](images/Pasted%20image%2020251206151648.png)
 
+あたしのデータはサンプル用だから、自由に置き換えしてもらって結構よ♡
+
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
+
+### ver.260120
+
+- **おみくじ BOT のバージョン**: v2.0.3
+- 各おみくじのバリエーションを増やしました
+- 新機能に合わせて一部データが変更されています
+	- 最近までずっと「ずんだもん」のデータが残っていました…失礼しました
 
 ### ver.251206
 

@@ -8,7 +8,7 @@
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
-## このプラグインは何？（Features）
+## このテンプレートは何？（Features）
 
 ### 四国めたんがリスナーを歓迎してくれるジェネレーター
 
@@ -32,8 +32,6 @@
 ![features_31_InfoCharacter](/packages/OmikujiBot/template/features/features_31_InfoCharacter.md)
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
-
-![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
 
@@ -89,7 +87,6 @@
 - **おみくじ BOT のバージョン**: v2.0.3
 - バリエーションを増やしました
 - 新機能に合わせて一部データが変更されています
-
 
 ### ver.251206
 

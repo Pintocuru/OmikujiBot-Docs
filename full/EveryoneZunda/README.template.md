@@ -15,7 +15,8 @@
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ずんだもんが懸命に頑張るテンプレートです。
 - 解説動画や配信の読み上げでも良く使われる、「ずんだもん」を BOT キャラクターにしました。元気に明るく、リスナーを迎えてくれます。ちょっと生意気なのも、可愛いポイント。
 - イラストは 坂本アヒル さんのを使用してます。
-  ![features_21_InfoOmikujiBotReadMe](/packages/OmikujiBot/template/features/features_21_InfoOmikujiBotReadMe.md)
+
+![features_11_HowToPlay](../../template/features/features_11_HowToPlay.md)
 
 ### ずんだもん のキャラクター設定
 
