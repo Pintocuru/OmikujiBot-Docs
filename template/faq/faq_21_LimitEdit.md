@@ -14,6 +14,4 @@
 
 #### [Q. 特定のユーザーを制限したい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/21_LimitEdit/faq_2107_LimitOther.md)
 
-
-  
 コメントテスターで「初見コメント」を確認する

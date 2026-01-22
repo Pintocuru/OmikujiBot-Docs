@@ -34,18 +34,17 @@
    - キャラクター画像が使えます。自作画像の使用も可能！
    - キャラクターごとに読み上げを変えられます
 5. **PRO 版限定機能**
-   - プラグインと組み合わせて、ワンボタンで保存
-   - PRO 版では「テンプレート出力」が可能（特定条件で配布も可能）
+   - 「テンプレート出力」が可能（特定条件で配布も可能）
+   - プラグインを使うことで、複数のデータを管理可能
 
 ## インストール (Installation)
 
-- コンフィグエディターは、各種おみくじ BOT のパッケージに付属しています。
+### [1. おみくじ BOT のアップグレード / コンフィグエディターの新規導入](../../template/installation/Installation_52_VersionUp.md)
 
-![OmikujiBotPackageBOOTH](/packages/OmikujiBot/template/_common/OmikujiBotPackageBOOTH.md)
+- コンフィグエディターは、一部のおみくじ BOT のパッケージに付属しています。
+- 付属していない場合でも、無料で コンフィグエディター の導入が可能です。
 
-![Installation_52_VersionUp](template/installation/Installation_52_VersionUp.md)
-
-![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
+### [2. おみくじBOT コンフィグエディター PRO (有料版) のご案内](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
 
@@ -86,13 +85,9 @@
 
 > 📝 読み込み前に、現在のテンプレートをバックアップしておくことをおすすめします。 読み込み後は、設定内容を確認し、必要に応じて微調整してください。
 
-## よくある質問 (FAQ)
+![faq_21_LimitEdit](../../template/faq/faq_91_OmikujiBotSet.md)
 
 ### エディター関連
-
-#### Q. このエディターで何が編集できる？
-
-A. [おみくじ BOT](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/README.md) で表示させるおみくじ結果を編集できます。
 
 #### Q. 元に戻す（Undo）はできる？
 
@@ -102,27 +97,23 @@ A. Undo 機能は付いていません。こまめに保存していただくよ
 
 A. 配布データをそのまま再配布することは禁止です。内容を編集し、配布データにない要素を付与した json データについては、配布できる場合があります。詳しくは Readme をお読み下さい。
 
-#### Q. おみくじ BOT 用 WordParty を編集したい
-
-A. 通常の WordParty と同様に編集が可能です。詳しくは [WordPartyエディタの見方と設定](https://onecomme.com/docs/feature/wordparty-editor) をご覧ください。
-
 #### Q. 最新のバージョンより古いデータで作成したファイルは読めますか？
 
-- **v1.0.0 以降**で作成されたファイルは、問題なく読み込めます。
-- **v0.8-beta** のファイルも、かろうじて読み込める可能性はありますが、動作の保証はできません。
-- **v0.73 以前**のデータは互換性がないため、読み込むことはできません。
+- **v1.0.0 以降**に作成されたファイルは、問題なく読み込めます。
+- それ以前 のデータは互換性がないため、読み込むことはできません。
 
 ## トラブルシューティング (Troubleshooting)
 
+
+希望するおみくじとは異なるものが出てしまう
+
+
 ### Q. データを記入したのに、ジェネレーターに反映されていない
 
-A. **このコンフィグエディターは、自動保存ではありません。** 保存ボタンを押し、出力されたファイルを上書きする方法で保存を行う必要があります。詳しくはつかいかた (Usage) の、【重要】 設定の保存方法をご覧ください。
-
-### Q. ダイアログを出した時、一部表記が隠れる
-
-### Q. エディターで記入したが反映されない、ボタンを押しても反応しない、等
-
-A. 一部動作に不具合がある可能性があります。バグを見つけたら連絡ください。
+- このコンフィグエディターは、自動保存ではありません。
+- 保存ボタンを押し、出力されたファイルを上書きする方法で保存を行う必要があります。
+	- 詳しくはつかいかた (Usage) の、【重要】 設定の保存方法をご覧ください。
+- おみくじ BOT プラグイン という、専用プラグインを併用することで、保存作業を大幅に簡略化できます。
 
 ![license_91_AppLicense](/packages/OmikujiBot/template/license/license_91_AppLicense.md)
 

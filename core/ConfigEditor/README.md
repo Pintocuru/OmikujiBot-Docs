@@ -1,19 +1,22 @@
 # おみくじ BOT コンフィグエディター OmikujiBot ConfigEditor
 
-最終更新日：2025/09/15
+最終更新日：2026/01/22
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 ジェネレーター BOT 「おみくじ BOT」のデータを編集できるアプリケーションです。
 
 この内容は、BOOTH で配布している、 下記に同梱している 「コンフィグエディター」 の readme となります。
 
+- [おみくじBOT ストロベリーショコラ OmikujiBot StrawberryChocolate](https://pintocuru.booth.pm/items/7733810)
 - [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
-- [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
-- おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
+- [おみくじ BOT みんなのずんだもん OmikujiBot EveryoneZunda](https://pintocuru.booth.pm/items/6053855)
+- [おみくじ BOT 高飛車な四国めたん OmikujiBot DivaMetan](https://pintocuru.booth.pm/items/6058829)
 - [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088)
 - [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
+- [おみくじ BOT タロットカード OmikujiBot TarotCard](https://pintocuru.booth.pm/items/7432682)
+- [おみくじ BOT 超おみくじ OmikujiBot BigBangFortune](https://pintocuru.booth.pm/items/7440428)
+- [おみくじ BOT スイカジェネレーター +カボチャ&クジラ OmikujiBot GouseiSuika](https://pintocuru.booth.pm/items/5813323)
+- [おみくじ BOT ボンバースロット OmikujiBot BomberSpin](https://pintocuru.booth.pm/items/7730686)
+- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
 
 ## はじめに（Intro）
 
@@ -23,7 +26,7 @@
 
 ## このアプリは何？（Features）
 
-![](images/features-04.webp)
+![](./images/features-04.webp)
 
 ### おみくじ BOT を自分好みに設定できる専用エディター
 
@@ -31,60 +34,31 @@
 
 1. **おみくじの確率や制限が自由に行える**
    - おみくじの内容や、演出のタイミングを自由に変更可能
-   - 出現確率も 0.01% 単位で表示可能、パチスロのような 1/65536 にも
-   - 発動条件を自由に設定（例：「メンバー限定」「ギフトしたユーザーのみ」）
+   - 出現確率も自由に設定可能、パチスロのような 1/65536 にも
+   - 「メンバー限定」「ギフト」など、発動条件を自由に設定
    - 引ける回数を制限（例：1 日 1 回、連投制限）
 2. **多彩なおみくじ結果をサポートする「プレースホルダー」機能**
    - 抽選の重さを使った簡易設定から、プレースホルダー機能を使った高度なおみくじまで対応
-   - 最大 1000 通り以上の結果を持つおみくじも簡単に作成
-   - プレースホルダー設定の「テキストモード」で、大量データ（約 1000 行）も楽に入力
+   - 1000 通り以上の複雑なおみくじも簡単に作成
+   - プレースホルダー設定の「テキストモード」で、大量データも楽に入力
 3. **フキダシのカラーやスタイルを変更できる**
-   - フキダシ色やアニメーションの変更、エディター内で動作確認
-   - カラーテンプレートも用意してます
+   - フキダシ色やアニメーションの変更を、エディター内で動作確認
+   - DaisyUi を使用した、可読性と装飾性を兼ねたカラーテンプレート
 4. **シンプルにも賑やかにもできるキャラクター関連**
-   - キャラクター画像の指定（自作画像の使用も可能）
-   - キャラクターごとに読み上げを変えられる、補助機能
-5. **管理のしやすいおみくじ**
-   - おみくじの抽選テストや演出確認機能
-   - カラー分類でおみくじを整理管理
-6. **便利機能・PRO 版限定**
-   - WordParty のポン出し機能
-   - PRO 版では「テンプレート出力」が可能（特定条件で配布も可能）
+   - キャラクター画像が使えます。自作画像の使用も可能！
+   - キャラクターごとに読み上げを変えられます
+5. **PRO 版限定機能**
+   - 「テンプレート出力」が可能（特定条件で配布も可能）
+   - プラグインを使うことで、複数のデータを管理可能
 
 ## インストール (Installation)
 
-- コンフィグエディターは、各種おみくじ BOT のパッケージに付属しています。
-- [おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa](https://pintocuru.booth.pm/items/5471598)
-- [おみくじ BOT ずんだもん OmikujiBot Zundamon](https://pintocuru.booth.pm/items/6053855)
-- [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829)
-- おみくじ BOT ズッ友!つむぎ&ひまり OmikujiBot Tsumugi & Himari
-- [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931)
-- [おみくじ BOT じゃんけん OmikujiBot HondaJanken](https://pintocuru.booth.pm/items/7383088)
-- [おみくじ BOT カード駅 OmikujiBot CardStation](https://pintocuru.booth.pm/items/7412886)
-- [スイカ 🍉 ジェネレーター Gousei Suika Generator](https://pintocuru.booth.pm/items/5813323)
+### [1. おみくじ BOT のアップグレード / コンフィグエディターの新規導入](../../template/installation/Installation_52_VersionUp.md)
 
-### アップグレード
+- コンフィグエディターは、一部のおみくじ BOT のパッケージに付属しています。
+- 付属していない場合でも、無料で コンフィグエディター の導入が可能です。
 
-> バージョンアップは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
-> 現在のバージョンについては、コンフィグエディターを開くか、readme.txt でご確認下さい。
-
-- **アップグレード手順**：
-  1. リリースノートの下部にある「Assets」から、「OmikujiBot」と書かれたファイルをダウンロード
-  2. ダウンロードしたファイルを解凍
-  3. わんコメを開き、「テンプレート」画面から、アップグレードしたいテンプレートを選び、右側の「フォルダを開く」をクリック
-  4. 念のため、フォルダ内の `omikujiData.js` を別の場所にバックアップ
-  5. 解凍したファイルを、該当フォルダに上書き保存
-  6. コンフィグエディターを起動し、バージョンが最新になっていることを確認
-- **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
-
-### PRO(有料) 版 のご案内
-
-- PRO 版は以下の機能が追加されます
-	- コンフィグエディターの「テンプレートの読み込み・出力」が可能になります。
-	- フキダシのフォント設定・アニメーション設定を自在に選べるようになります。
-- PRO 版をご購入いただくと、配布ファイル内の `readme.txt` にライセンスキーが記載されています。
-- コンフィグエディターの「表示設定 ＞ エディター設定」に、ライセンスキーを入力する欄がありますので、そこへコピー＆ペーストしてください。
-- PRO 版へのインストールに関する方法は [PRO(有料) 版へのアップグレードの方法](https://github.com/Pintocuru/OmikujiBot-Docs/tree/main/core/OmikujiBot#pro%E6%9C%89%E6%96%99-%E7%89%88%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%AE%E6%96%B9%E6%B3%95) をご覧ください。
+### [2. おみくじBOT コンフィグエディター PRO (有料版) のご案内](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
 
@@ -94,7 +68,7 @@
 - エディターを開くと、各項目にツールチップや説明が表示されます
 - 設定項目は直感的に操作できるように設計されています
 
-![](images/usage-05.webp)
+![](./images/usage-05.webp)
 
 ### 【重要】 設定の保存方法
 
@@ -115,18 +89,13 @@
 
 ### 【PRO 版】 テンプレート読み込み (json)
 
-![](images/usage-06.webp)
+![](./images/usage-06.webp)
 
 配布されている JSON ファイルや、バックアップとして出力した JSON ファイルを読み込むことができます。
 
-読み込み時には、適用するデータの範囲を選択できます：
-
-- **すべてのデータを上書き** 既存のテンプレート設定をすべて削除し、JSON データを完全に適用します。
-    - ライセンス情報を含む、すべての項目が上書きされます。
-- **部分的な追加・上書き** Record データ（コメントルール・タイマールール・プレースホルダー・キャラクターデータ）に対して、以下の操作が可能です：
-    - **置き換え**：既存データを削除して、新しいデータに差し替え
-    - **マージ**：既存データに新しいデータを追加（重複は上書き）
-    - このモードでは、ライセンス情報や一部の設定は上書きされません。
+- **マージ**：既存データに新しいデータを追加（重複は上書き）
+- **置き換え**：既存データを削除して、新しいデータに差し替え
+- ライセンス情報や一部の設定は上書きされません。
 
 > 📝 読み込み前に、現在のテンプレートをバックアップしておくことをおすすめします。 読み込み後は、設定内容を確認し、必要に応じて微調整してください。
 
@@ -172,9 +141,9 @@ A. 一部動作に不具合がある可能性があります。バグを見つ�
 
 ### アプリ本体（ジェネレーター・コンフィグエディター）
 
-- Copyright © 2025 Pintocuru(せすじピンとしてます)
+- Copyright © 2023-2026 Pintocuru(せすじピンとしてます)
 - 本ソフトウェア (おみくじ BOT) は、著作権者の許可なく再配布することを禁じます。
-- 本ソフトウェアは、BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
+- 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
 ### パッケージデータ

@@ -34,8 +34,6 @@
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
-![Installation_51_ProUpgradeTemplate](../../../../sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
-
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
@@ -70,7 +68,7 @@
 
 ## クレジット（Credits）
 
-#### ずんだもん
+### ずんだもん
 
 - ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv
 	- <https://www.pixiv.net/artworks/92641351>

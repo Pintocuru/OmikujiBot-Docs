@@ -57,7 +57,7 @@
 - 幅の最大値は `2xl = 42rem`（672px）、最小値は `10rem`（160px）です。
   - それ以下にすると、はみ出しなどの表示崩れが起こる可能性があります。
 
-![Installation_52_VersionUp](template/installation/Installation_52_VersionUp.md)
+![Installation_52_VersionUp](../../template/installation/Installation_52_VersionUp.md)
 
 ![Installation_51_ProUpgradeTemplate](/sharedTemplate/installation/Installation_51_ProUpgradeTemplate.md)
 
@@ -71,21 +71,17 @@
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
-![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
+## よくある質問 (FAQ)
 
-### フキダシ・キャラクター表示関連
+![faq_11_infoOneComme](/sharedTemplate/faq/faq_11_infoOneComme.md)
 
-> キャラクターに関する扱いについては、各パッケージごとに異なります。
+> おみくじの内容、エディター関連についての内容は [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) の [よくある質問](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md#%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F-faq) をご覧ください。
 
-### おみくじ関連
+- コメントテスターで「初見コメント」を確認するには
 
-#### Q. おみくじの内容を変更したい
+#### Q. Omiken って何？
 
-#### Q. おみくじが出てくる確率を変更したい
-
-#### Q. おみくじをメンバー限定にしたい
-
-A: [おみくじ BOT コンフィグエディター](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) で設定が可能です。
+A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[初見判定ちゃん](https://booth.pm/ja/items/5471598) 」の名残です。
 
 ![troubleshooting_91_OmikujiBotSet](../../template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 

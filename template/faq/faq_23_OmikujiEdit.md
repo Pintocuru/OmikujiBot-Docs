@@ -8,9 +8,6 @@
 
 #### [Q. おみくじをメンバー限定にしたい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2203_Thumbnail.md)
 
-#### Q. Omiken って何？
-
-A: おみくじ (omikuji)＋初見 (syoken) から取ってます。前作「[初見判定ちゃん](https://booth.pm/ja/items/5471598) 」の名残です。
 
 おみくじの出現確率を上げる
 

@@ -29,13 +29,12 @@
 ![Installation_41_GotoTemplate](../../../../sharedTemplate/installation/Installation_41_GotoTemplate.md)
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
-
-![Installation_32_AddWordParty](../../../../sharedTemplate/installation/Installation_32_AddWordParty.md)
+- 音声を OBS に乗せる場合、追加の設定が必要です。詳細は、わんコメ公式 [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください。
 
 ## つかいかた・カスタマイズ (Usage/Customization)
 
 - 使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
-- 再配布にならないよう、わんコメの WordParty のエディターでの編集ができないようになっています。
+- 再配布にならないよう、**わんコメの WordParty のエディターでの編集ができない**ようになっています。
 
 ## よくある質問 (FAQ)
 
@@ -47,7 +46,8 @@ WordParty に関する内容は、[コメントによる演出 - WordParty](http
 
 #### Q. 「初見さん参戦」は おみくじ BOT 以外で使ってもいい?
 
-A: 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しており、クレジット不要で使用できます。素材に関するクレジットは [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) をご覧ください。
+- 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しており、クレジット不要で使用できます。
+- 素材に関するクレジットは [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) をご覧ください。
 
 ## トラブルシューティング (Troubleshooting)
 

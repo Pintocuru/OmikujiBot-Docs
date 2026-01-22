@@ -1,6 +1,6 @@
 # おみくじ BOT 演出用 WordParty2.0
 
-最終更新日：2025/12/07
+最終更新日：2026/01/22
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 WordParty テンプレート です。
 
@@ -31,8 +31,9 @@
 ### おみくじ BOT を賑やかに演出する WordParty セット
 
 - 【おみくじ BOT 用 WordParty】は、わんコメの機能 「[WordParty](https://onecomme.com/docs/feature/wordparty)」のセットです。
-- [おみくじ BOT](app://obsidian.md/OmikujiBot/README.md)  シリーズ専用の、演出用 WordParty です。
-  - わんコメの WordParty のエディターでの編集ができないようになっています。
+- このセットを導入することで、配信がより華やかで視覚的に楽しいものになります。
+	- キャラクターのセリフに、効果音やアニメーションが追加で表示されるように。
+	- おみくじの結果やじゃんけんの勝敗が、視覚的にわかりやすく表示されます。
 
 ![](../OmikujiBot/images/features-02.webp)
 
@@ -41,15 +42,12 @@
 > テンプレートのインストールは、[わんコメ カスタムテンプレートの導入方法](https://github.com/Pintocuru/OmikenReadme/blob/main/docs/TemplateInstall/README.md) をご覧ください。
 
 - WordPatry のテンプレートは、他のジェネレーターと同様の導入が可能です。
-
-### WordParty の場合の追加設定
-
-WordParty は上記のほか、追加の設定が必要です。詳細は、わんコメ公式 [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください。
+- 音声を OBS に乗せる場合、追加の設定が必要です。詳細は、わんコメ公式 [音声を配信にのせる方法](https://onecomme.com/docs/feature/wordparty#%E9%9F%B3%E5%A3%B0%E3%82%92%E9%85%8D%E4%BF%A1%E3%81%AB%E3%81%AE%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95) をご覧ください。
 
 ## つかいかた・カスタマイズ (Usage/Customization)
 
 - 使い方は、既存の WordParty と同じです。[コメントによる演出 - WordParty](https://onecomme.com/docs/feature/wordparty) をご覧ください。
-- 再配布にならないよう、わんコメの WordParty のエディターでの編集ができないようになっています。
+- 再配布にならないよう、**わんコメの WordParty のエディターでの編集ができない**ようになっています。
 
 ## よくある質問 (FAQ)
 
@@ -61,7 +59,8 @@ WordParty に関する内容は、[コメントによる演出 - WordParty](http
 
 #### Q. 「初見さん参戦」は おみくじ BOT 以外で使ってもいい?
 
-A: 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しており、クレジット不要で使用できます。素材に関するクレジットは [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) をご覧ください。
+- 一部の動画・音声・画像は、 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しており、クレジット不要で使用できます。
+- 素材に関するクレジットは [おみくじBOT用WordParty クレジット・ライセンス](sub/OmikenWordPartyCredits.md) をご覧ください。
 
 ## トラブルシューティング (Troubleshooting)
 

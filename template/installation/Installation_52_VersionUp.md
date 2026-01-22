@@ -1,14 +1,15 @@
-### おみくじ BOT のアップグレード
+### おみくじ BOT のアップグレード / コンフィグエディターの新規導入
 
-> 最新バージョンは [github](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) にて配布しております。
-> 現在のバージョンについては、コンフィグエディター から確認できます。
+> 現在のバージョンは **コンフィグエディター** から確認できます。
+> パッケージに「コンフィグエディター」が含まれていない場合でも、**このアップグレード手順を実行すれば新規導入として利用できます。**
 
 #### アップグレード手順
 
 ![](template/installation/images/Pasted%20image%2020260103155223.png)
 
-1. リリースノート下部の **「Assets」** から、 **「OmikujiBot_core_」** と書かれたファイルをダウンロードします。
-2. ダウンロードした ZIP ファイルを **解凍** します。
+1. Github から [最新バージョン](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) をダウンロードします。
+2. リリースノート下部の **「Assets」** から、 **「OmikujiBot_core_」** と書かれたファイルをダウンロードします。
+3. ダウンロードした ZIP ファイルを **解凍** します。
 
 ![](template/installation/images/Pasted%20image%2020260103155557.png)
 
