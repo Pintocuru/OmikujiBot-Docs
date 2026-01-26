@@ -17,6 +17,85 @@
 - Cute Magic Sounds.mp3 <https://freesound.org/people/LittleRainySeasons/sounds/368323/>
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
+### おみくじ (MaidenOmikuji)
+
+#### `おみくじを開ける `/ `「残念でした」`
+
+- 効果音ラボ <https://soundeffect-lab.info/>
+- 利用条件は配布元サイトの利用規約に従ってください。
+
+#### `bingo_spinner`
+
+- <https://freesound.org/people/Kagateni/sounds/404359/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### 運勢の画像の枠
+
+- ダーヤマ TOPECONHEROES <https://fukidesign.com/>
+
+### フラワー占い (FlowerFortune)
+
+#### 花のイラスト (7 種) /キノコのイラスト (2 種)
+
+- Microsoft Copilot <https://copilot.microsoft.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### `Flute`
+
+- 1600s.mp3 <https://freesound.org/people/outerandeventhorizon/sounds/488809/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `cracker`
+
+- Balloon Pop / Christmas cracker / Confetti Cannon <https://freesound.org/people/Breviceps/sounds/458398/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+### タロットカード (TarotCard)
+
+#### タロットカードのイラスト（3 種）
+
+- ChatGPT <https://chatgpt.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### `twinkle`
+
+- fairy-twinklemp3 [https://freesound.org/people/sparklepunk_/sounds/620672/](https://freesound.org/people/sparklepunk_/sounds/620672/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `slide_card`
+
+- <https://freesound.org/people/SilverDubloons/sounds/817577/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+### ルノルマンカード (LenormandOracle)
+
+#### ルノルマンカードのイラスト（4 種）
+
+- Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### `magic`
+
+- [Magic Spell 09, Remastered 01.wav](https://freesound.org/people/LilMati/sounds/659595/) [https://freesound.org/people/LilMati/sounds/659595/](https://freesound.org/people/LilMati/sounds/659595/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+### ルーン占い (RunicOracle)
+
+#### 花崗岩みたいなのとルーンのイラスト（4 種）
+
+- Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### `twinkle`
+
+- fairy-twinklemp3 [https://freesound.org/people/sparklepunk_/sounds/620672/](https://freesound.org/people/sparklepunk_/sounds/620672/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `coinDrop`
+
+- Coin dropped on table 4 <https://freesound.org/people/HoseNoseSounds/sounds/510731/>
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 ### 超おみくじ (BigBangFortune)
 
 #### 地球
@@ -100,23 +179,6 @@
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - 画像のライセンスも CC0 1.0 です。(自由にお使いください)
 
-### フラワー占い (FlowerFortune)
-
-#### 花のイラスト (7 種) /キノコのイラスト (2 種)
-
-- Microsoft Copilot <https://copilot.microsoft.com/>
-- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
-
-#### `Flute`
-
-- 1600s.mp3 <https://freesound.org/people/outerandeventhorizon/sounds/488809/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `cracker`
-
-- Balloon Pop / Christmas cracker / Confetti Cannon <https://freesound.org/people/Breviceps/sounds/458398/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
 ### スイカゲーム (GouseiSuika)
 
 #### `pop_in`
@@ -155,22 +217,6 @@
 - 効果音: <https://freesound.org/people/itmightgetloud/sounds/829455/>
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - 動画のライセンスも CC0 1.0 です。(自由にお使いください)
-
-### おみくじ (MaidenOmikuji)
-
-#### `おみくじを開ける `/ `「残念でした」`
-
-- 効果音ラボ <https://soundeffect-lab.info/>
-- 利用条件は配布元サイトの利用規約に従ってください。
-
-#### `bingo_spinner`
-
-- <https://freesound.org/people/Kagateni/sounds/404359/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### 運勢の画像の枠
-
-- ダーヤマ TOPECONHEROES <https://fukidesign.com/>
 
 ### 桜吹雪スロット (MultiplyBonanza)
 
@@ -225,23 +271,6 @@
 - <https://freesound.org/people/RNAn_SoundDesign/sounds/725876/>
 - <https://freesound.org/people/RNAn_SoundDesign/sounds/725877/>
 - <https://freesound.org/people/rombart/sounds/186747/>
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-### タロットカード (TarotCard)
-
-#### タロットカードのイラスト（3 種）
-
-- ChatGPT <https://chatgpt.com/>
-- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
-
-#### `twinkle`
-
-- fairy-twinklemp3 [https://freesound.org/people/sparklepunk_/sounds/620672/](https://freesound.org/people/sparklepunk_/sounds/620672/)
-- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### `slide_card`
-
-- <https://freesound.org/people/SilverDubloons/sounds/817577/>
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ### パルプンテ (parupunte)
