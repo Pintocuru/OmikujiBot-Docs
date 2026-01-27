@@ -10,28 +10,26 @@
 
 ## このテンプレートは何？（Features）
 
-![](images/250903_2.webp)
+![](images/default.webp)
 
 ### 「じゃんけん」ミニゲームが楽しめるジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるミニゲームです。
-- 負けた時のセリフが豊富で、つい何度も挑戦したくなります。
+	- じゃんけんの勝率は 1/2、あいこを「負け」とカウントしても、1/3 だと考えていませんか。
+	- この「じゃんけん」は、じゃんけんの猛者「ケイスケ ホンダ」を導入することにより、勝率をたったの 5% まで劇的に減少させることに成功しました。
+- じゃんけんの猛者、降臨！激戦を制するのは誰だ！！
+	- 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
+	- 勝ったらコーラ 1 本プレゼント…も夢じゃない!?
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
-
-## カスタマイズ（Customization）
-
-![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
-
-![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
@@ -43,16 +41,24 @@ A: これでも高い方です (勝率は約 5%)。[ケイスケ ホンダ](http
 
 ## クレジット（Credits）
 
-- コーラを持ってじゃんけんする女性
+- コーラを持ってじゃんけんする男性
   生成：Google Gemini <https://gemini.google.com/>
 
-![](./images/250911_3.webp)
+![](images/HondaJankenParts.webp)
+
+「俺の負け! でも、今度は絶対、俺が勝つから!また明日やろう!」
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_94_PackageLicenseBasic2.md)
 
 ## バージョン情報 (Version)
+
+### ver.260123
+
+- **おみくじ BOT のバージョン**: v2.0.4
+- キャラクターを表示するように変更
+- リストを表示するようになりました
 
 ### ver.250911-v1.1.1
 

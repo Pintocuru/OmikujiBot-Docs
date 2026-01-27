@@ -31,8 +31,6 @@
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
-![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
-
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
 ![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
@@ -43,6 +41,7 @@
   生成：ChatGPT <https://chatgpt.com/>
 - ボンビュラス星
   陣内智則のネタジン <https://www.youtube.com/watch?v=Fp4SRDcGcnI>
+	- ポテチは食べましょう
 
 ![](./images/250916_4.webp)
 
@@ -51,6 +50,11 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_94_PackageLicenseBasic2.md)
 
 ## バージョン情報 (Version)
+
+### ver.260123
+
+- **おみくじ BOT のバージョン**: v2.0.4
+- リストを表示するようになりました
 
 ### ver.251120-v1.4.0
 
