@@ -4,7 +4,7 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-![](/sharedTemplate/intro/intro_12.md) [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931) の readme となります。
+この内容は、BOOTH で配布している、 [どこでもドラちゃん Bot OmikujiBot 5percent_Dora](https://pintocuru.booth.pm/items/7291931) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -16,7 +16,8 @@
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、コメントや 3 分ごとに自動でつぶやいてくれる、テンプレートです。
 - 古くから商売繁盛のシンボル「信楽たぬき」「仙台四郎」にあやかり、**現代の運試し＝ソーシャルゲームのガチャにおける縁起物**として人気の「ドラちゃん」を、あなたの手元でいつでも呼び出せるようにしました。
-	- (上記の説明は実際とは異なります。[某有名 Bot](https://x.com/5percent_dora) を模したおみくじ BOT となります。非公式パロディです。)
+	- 上記の説明は実際とは異なります。[某有名 Bot](https://x.com/5percent_dora) を模したおみくじ BOT となります。
+	- 非公式パロディです。
 
 ### シーン別・活用例
 
@@ -27,7 +28,7 @@
   - ガチャ要素のあるソーシャルゲームで使えるかもしれません。
     - ガチャ結果に関しては責任を持ちません。
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
@@ -39,13 +40,6 @@
 
 - 「ドラちゃん」と呼ぶと、ひみつ道具をランダムで 1 つ出してくれます。
   - 「ボロン」した時は、ボロンさせたユーザー名が表示されます
-- 3 分ごとに自動で出してくれますが、配信に支障が出る時は、止めておくと良いです。
-
-## カスタマイズ（Customization）
-
-![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
-
-![customization_12_illust](/packages/OmikujiBot/template/customization/customization_12_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
@@ -66,8 +60,7 @@ A: 違います。
 ### ver.260123
 
 - **おみくじ BOT のバージョン**: v2.0.4
-- 各おみくじのバリエーションを増やしました
-- 新機能に合わせて一部データが変更されています
+- リストを表示するようになりました
 
 ### ver.250910
 

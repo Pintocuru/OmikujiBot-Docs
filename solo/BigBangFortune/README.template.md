@@ -16,11 +16,10 @@
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれるおみくじ機能です。
 - 文字通り「桁違い」のおみくじらしき文字列をふいんきで楽しむ、ネタ系のおみくじです。
-	- いわゆる「考えるな、感じろ」の類です。
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
@@ -28,11 +27,7 @@
 
 ![usage_29_BigBangFortune](../../template/usage/usage_29_BigBangFortune.md)
 
-## カスタマイズ（Customization）
-
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
-
-![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
@@ -40,12 +35,12 @@
 
 ## クレジット（Credits）
 
-- 超おみくじ：地球
-  ゲームまてりあるず 宇宙から見た地球（8 枚）
-  <https://game-materials.com/earth/>
-- 超おみくじ：超の文字
-  Microsoft Copilot
-  <https://copilot.microsoft.com/>
+#### 地球
+
+- 効果音 : 効果音ラボ <https://soundeffect-lab.info/>
+- 超の文字 : Microsoft Copilot <https://copilot.microsoft.com/>
+- 画像 (地球) : ゲームまてりあるず 宇宙から見た地球（8 枚）<https://game-materials.com/earth/>
+- 本アプリ専用に制作された動画です。他の用途での使用・転載・再配布は禁止します。
 
 ![](./images/250918_7.webp)
 
@@ -56,6 +51,11 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
+
+### ver.260123
+
+- **おみくじ BOT のバージョン**: v2.0.4
+- リストを表示するようになりました
 
 ### ver.250929-v1.2.0
 

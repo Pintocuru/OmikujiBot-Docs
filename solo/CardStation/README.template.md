@@ -19,13 +19,13 @@
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_27_MomotetsuCard](/packages/OmikujiBot/template/usage/usage_27_MomotetsuCard.md)
+![usage_27_CardStation](../../template/usage/usage_27_CardStation.md)
 
 ## カスタマイズ（Customization）
 

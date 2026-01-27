@@ -28,8 +28,6 @@
 
 ![usage_30_LenormandOracle](../../template/usage/usage_30_LenormandOracle.md)
 
-## カスタマイズ（Customization）
-
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
@@ -45,11 +43,8 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
-
-
 | ![](images/4.webp) | ![](images/5.webp) | ![](images/6.webp) |
 | ------------------ | ------------------ | ------------------ |
-
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
