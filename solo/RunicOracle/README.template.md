@@ -4,13 +4,13 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT ルーン占い OmikujiBot RunicOracle](https://pintocuru.booth.pm/items/7432682) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT ルーン占い OmikujiBot RunicOracle](https://pintocuru.booth.pm/items/7919298) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
-![](./images/250916_6.webp)
+![](images/3.webp)
 
 ### 24 個のルーンストーンで占う、気軽に使えるルーン占いジェネレーター
 
@@ -28,8 +28,6 @@
 
 ![usage_28_RunicOracle](../../template/usage/usage_31_RunicOracle.md)
 
-## カスタマイズ（Customization）
-
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
@@ -44,6 +42,8 @@
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
+
+![](images/5.webp)
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
