@@ -45,6 +45,12 @@
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
+
+
+| ![](images/4.webp) | ![](images/5.webp) | ![](images/6.webp) |
+| ------------------ | ------------------ | ------------------ |
+
+
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
