@@ -4,7 +4,7 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-![](/sharedTemplate/intro/intro_12.md) [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT 高飛車な四国めたん OmikujiBot Diva Metan](https://pintocuru.booth.pm/items/6058829) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 

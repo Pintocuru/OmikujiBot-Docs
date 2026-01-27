@@ -26,13 +26,11 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_28_TarotCard](../../template/usage/usage_28_TarotCard.md)
+![usage_30_LenormandOracle](../../template/usage/usage_30_LenormandOracle.md)
 
 ## カスタマイズ（Customization）
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
-
-![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
 
@@ -40,8 +38,10 @@
 
 ## クレジット（Credits）
 
-- タロットカード 3 種
-  生成：ChatGPT <https://chatgpt.com/>
+#### ルノルマンカードのイラスト（4 種）
+
+- Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
