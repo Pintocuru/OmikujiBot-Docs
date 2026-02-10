@@ -10,7 +10,7 @@
 
 ## このテンプレートは何？（Features）
 
-![](./images/250916_6.webp)
+![](images/260209_2.webp)
 
 ### コメントしたユーザーをランダムに座らせるジェネレーター
 
@@ -50,6 +50,8 @@
 - CA のうさぎ
 - パッケージの背景（バス内の賑やかな座席）
   生成：Google Gemini <https://gemini.google.com/>
+
+![](images/260209_1.webp)
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
