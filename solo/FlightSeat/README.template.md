@@ -45,8 +45,11 @@
 
 ## クレジット（Credits）
 
-- バスガイド・フライトガールの女性
+- バスガイドの女性
   生成：ChatGPT <https://chatgpt.com/>
+- CA のうさぎ
+- パッケージの背景（バス内の賑やかな座席）
+  生成：Google Gemini <https://gemini.google.com/>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
