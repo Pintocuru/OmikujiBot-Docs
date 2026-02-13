@@ -1,4 +1,4 @@
-# おみくじ BOT バレンタイン・カップリング OmikujiBot WinnerGroup README
+# おみくじ BOT バレンタイン・カップリング OmikujiBot ValentineCoupling README
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
@@ -10,13 +10,13 @@
 
 ## このテンプレートは何？（Features）
 
-![](./images/250916_6.webp)
+![](images/260213_1.webp)
 
 ### 大アルカナの 22 枚を使う、気軽に占えるタロットカードジェネレーター
 
 - わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。
 - 使用するカードは、大アルカナ 22 枚。正位置・逆位置を含めた全 44 種類の結果が用意されています。
-	- カードの意味はしっかり本格派。軽い気持ちで引いても、ふと心に残るかも。
+  - カードの意味はしっかり本格派。軽い気持ちで引いても、ふと心に残るかも。
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
@@ -43,6 +43,8 @@
 - タロットカード 3 種
   生成：ChatGPT <https://chatgpt.com/>
 
+![](images/260213_2.webp)
+
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
@@ -55,4 +57,4 @@
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
 
-<%* await tp.user.expandEmbeds(tp) %>
+<%\* await tp.user.expandEmbeds(tp) %>
