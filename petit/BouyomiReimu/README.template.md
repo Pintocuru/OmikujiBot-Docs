@@ -29,13 +29,13 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_22_FirstCounter](../../template/usage/usage_22b_SyokenChecker.md)
+![usage_22_FirstCounter](../../template/usage/usage_FirstSyoken.md)
 
-![usage_23_Gift](../../template/usage/usage_23_Gift.md)
+![usage_Gift](../../template/usage/usage_Gift.md)
 
-![usage_24_StreamCountTrigger](../../template/usage/usage_24_StreamCountTrigger.md)
+![usage_CountStream](../../template/usage/usage_CountStream.md)
 
-![usage_25_PromotionToast](../../template/usage/usage_25_PromotionToast.md)
+![usage_CheckNumber](../../template/usage/usage_CheckNumber.md)
 
 ## カスタマイズ（Customization）
 

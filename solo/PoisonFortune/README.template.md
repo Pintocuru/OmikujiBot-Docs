@@ -26,7 +26,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_29_BigBangFortune](../../template/usage/usage_29_BigBangFortune.md)
+![usage_BigBangFortune](../../template/usage/usage_BigBangFortune.md)
 
 ## カスタマイズ（Customization）
 

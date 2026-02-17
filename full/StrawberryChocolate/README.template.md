@@ -39,29 +39,29 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![](/packages/OmikujiBot/template/usage/usage_28_TarotCard.md)
+![](../../template/usage/usage_TarotCard.md)
 
-![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
+![usage_JankenHonda](../../template/usage/usage_JankenHonda.md)
 
-![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
+![usage_FirstCounter](../../template/usage/usage_FirstCounter.md)
 
-![usage_23_Gift](/packages/OmikujiBot/template/usage/usage_23_Gift.md)
+![usage_Gift](../../template/usage/usage_Gift.md)
 
-![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
+![usage_CountStream](../../template/usage/usage_CountStream.md)
 
-![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
+![usage_CheckNumber](../../template/usage/usage_CheckNumber.md)
 
 ## PRO 版ボーナスデータ (Usage)
 
 配信で盛り上がる！ミニゲームシリーズが同梱されています。
 
-![](/packages/OmikujiBot/template/usage/usage_26_GouseiSuika.md)
+![](../../template/usage/usage_GouseiSuika.md)
 
-![](../../template/usage/usage_26_BomberSpin.md)
+![](../../template/usage/usage_BomberSpin.md)
 
-![](../../template/usage/usage_26_DwarfBomb.md)
+![](../../template/usage/usage_DwarfBomb.md)
 
-![](../../template/usage/usage_26_MultiplyBonanza.md)
+![](../../template/usage/usage_MultiplyBonanza.md)
 
 ## カスタマイズ（Customization）
 

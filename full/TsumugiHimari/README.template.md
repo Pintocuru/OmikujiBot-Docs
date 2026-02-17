@@ -58,19 +58,19 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
+![usage_FirstCounter](../../template/usage/usage_FirstCounter.md)
 
-![usage_28_TarotCard](../../template/usage/usage_28_TarotCard.md)
+![usage_TarotCard](../../template/usage/usage_TarotCard.md)
 
-![usage_29_BigBangFortune](../../template/usage/usage_29_BigBangFortune.md)
+![usage_BigBangFortune](../../template/usage/usage_BigBangFortune.md)
 
-![usage_22_FirstCounter](/packages/OmikujiBot/template/usage/usage_22_FirstCounter.md)
+![usage_FirstCounter](../../template/usage/usage_FirstCounter.md)
 
-![usage_23_Gift](/packages/OmikujiBot/template/usage/usage_23_Gift.md)
+![usage_Gift](../../template/usage/usage_Gift.md)
 
-![usage_24_StreamCountTrigger](/packages/OmikujiBot/template/usage/usage_24_StreamCountTrigger.md)
+![usage_CountStream](../../template/usage/usage_CountStream.md)
 
-![usage_25_PromotionToast](/packages/OmikujiBot/template/usage/usage_25_PromotionToast.md)
+![usage_CheckNumber](../../template/usage/usage_CheckNumber.md)
 
 ## カスタマイズ（Customization）
 

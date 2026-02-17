@@ -26,11 +26,11 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![](../../template/usage/usage_26_BomberSpin.md)
+![](../../template/usage/usage_BomberSpin.md)
 
-![](../../template/usage/usage_26_DwarfBomb.md)
+![](../../template/usage/usage_DwarfBomb.md)
 
-![](../../template/usage/usage_26_MultiplyBonanza.md)
+![](../../template/usage/usage_MultiplyBonanza.md)
 
 ## カスタマイズ（Customization）
 

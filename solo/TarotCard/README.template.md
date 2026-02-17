@@ -26,7 +26,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_28_TarotCard](../../template/usage/usage_28_TarotCard.md)
+![usage_TarotCard](../../template/usage/usage_TarotCard.md)
 
 ## カスタマイズ（Customization）
 

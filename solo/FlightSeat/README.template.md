@@ -27,11 +27,7 @@
 - 抽選・参加確認・ちょっとした遊びに最適
 	- 「誰が参加したか」「どこに座るか」を視覚的に楽しめるため、 抽選演出やアイスブレイク用途に向いています。
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_93_OmikujiBotSet2nd.md)
-
-## つかいかた (Usage)
-
-![usage_28_TarotCard](../../template/usage/usage_32_FlightSeat.md)
+![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_93_OmikujiBotS![usage_28_TarotCard](../../template/usage/usage_FlightSeat.md)ate/usage/usage_32_FlightSeat.md)
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 

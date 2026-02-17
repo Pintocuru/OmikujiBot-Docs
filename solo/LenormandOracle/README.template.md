@@ -26,7 +26,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_30_LenormandOracle](../../template/usage/usage_30_LenormandOracle.md)
+![usage_LenormandOracle](../../template/usage/usage_LenormandOracle.md)
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 

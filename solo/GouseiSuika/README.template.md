@@ -31,7 +31,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![](../../template/usage/usage_26_GouseiSuika.md)
+![](../../template/usage/usage_GouseiSuika.md)
 
 ## カスタマイズ（Customization）
 

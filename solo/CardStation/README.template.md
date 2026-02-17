@@ -25,7 +25,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_27_CardStation](../../template/usage/usage_27_CardStation.md)
+![usage_CardStation](../../template/usage/usage_CardStation.md)
 
 ## カスタマイズ（Customization）
 

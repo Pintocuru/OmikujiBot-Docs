@@ -26,7 +26,7 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_28_RunicOracle](../../template/usage/usage_31_RunicOracle.md)
+![usage_28_RunicOracle](../../template/usage/usage_RunicOracle.md)
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
