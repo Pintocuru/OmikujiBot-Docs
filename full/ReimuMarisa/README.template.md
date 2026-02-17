@@ -50,9 +50,9 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![OmikujiBotReimuMarisa_11_omikuji](../../template/usage/OmikujiBotReimuMarisa_11_omikuji.md)
+![usage_11_omikuji](../../template/usage/usage_11_omikuji.md)
 
-![OmikujiBotReimuMarisa_12_FlowerFortune](../../template/usage/OmikujiBotReimuMarisa_12_FlowerFortune.md)
+![usage_12_FlowerFortune](../../template/usage/usage_12_FlowerFortune.md)
 
 ![usage_21_JankenHonda](/packages/OmikujiBot/template/usage/usage_21_JankenHonda.md)
 
