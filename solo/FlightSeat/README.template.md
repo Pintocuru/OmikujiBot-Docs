@@ -33,8 +33,6 @@
 
 ![usage_28_TarotCard](../../template/usage/usage_32_FlightSeat.md)
 
-## カスタマイズ（Customization）
-
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
