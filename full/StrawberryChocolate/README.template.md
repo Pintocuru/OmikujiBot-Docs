@@ -39,6 +39,8 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
+![usage_MaidenOmikuji](../../template/usage/usage_MaidenOmikujiNormal.md)
+
 ![](../../template/usage/usage_TarotCard.md)
 
 ![usage_JankenHonda](../../template/usage/usage_JankenHonda.md)
@@ -87,6 +89,15 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
+
+
+### ver.260217
+
+- **おみくじ BOT のバージョン**: v2.1.0
+- 「巫女さんのおみくじ(ノーマル)」を追加。
+- 「メタルール」機能追加により、高評価・視聴数増加で反応する、新しいおみくじが追加されています。
+- 「簡易プレースホルダー」機能追加により、多くの部分で高機能プレースホルダーから変更されています。
+
 
 ### ver.260120
 
