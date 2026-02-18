@@ -35,6 +35,9 @@
 	- 二人称は **「そなた」**
 	- 語尾は **「〜じゃ」「〜のう」** を自然に使用
 	- 古風だが堅苦しくなく、どこか柔らかい年長者の声色。
+- **見た目**
+	- 年齢：20 歳ほど。人間の年齢なら 140 歳。
+	- 見た目：人の姿になると、20 歳ほどの若い女性になる
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
@@ -48,7 +51,6 @@
 
 - 2 分に一度、ぼやきます。
 - 「発動ワード」をコメントすると、きつねとちょっとした会話ができるかも？
-- 大吉・吉・中吉・小吉・末吉・凶・大凶が入っているよ。
 
 ![usage_FirstCounter](../../template/usage/usage_FirstCounter.md)
 
