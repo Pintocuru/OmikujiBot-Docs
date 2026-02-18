@@ -65,8 +65,6 @@
 
 ![](../../template/usage/usage_MultiplyBonanza.md)
 
-## カスタマイズ（Customization）
-
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
 ![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
@@ -90,14 +88,12 @@
 
 ## バージョン情報 (Version)
 
-
 ### ver.260217
 
 - **おみくじ BOT のバージョン**: v2.1.0
-- 「巫女さんのおみくじ(ノーマル)」を追加。
+- 「巫女さんのおみくじ (ノーマル)」を追加。
 - 「メタルール」機能追加により、高評価・視聴数増加で反応する、新しいおみくじが追加されています。
 - 「簡易プレースホルダー」機能追加により、多くの部分で高機能プレースホルダーから変更されています。
-
 
 ### ver.260120
 
