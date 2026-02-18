@@ -21,7 +21,7 @@
 - 「中世（江戸幕府期）の日本、宿場町の外れに暮らすきつね」をテーマに、オリジナルキャラクター「中仙道の村きつね」を作りました。
 	- 宿場町の外れにひっそりと暮らす、齢を重ねた古いきつね。人々の営みを静かに見守り続けています。
 
-![features_11_HowToPlay](../../template/features/features_11_HowToPlay.md)
+![features_11_HowToPlay](../../template/features/features_HowToPlay2.md)
 
 ### 「中仙道の村きつね」のキャラクター設定
 
@@ -55,7 +55,7 @@
 - 2 分に一度、ぼやきます。
 - 「発動ワード」をコメントすると、きつねとちょっとした会話ができるかも？
 
-![usage_FirstCounter](../../template/usage/usage_FirstCounter.md)
+![usage_FirstCounter](../../template/usage/usage_FirstCounterNoSagi.md)
 
 ![usage_Gift](../../template/usage/usage_Gift.md)
 
@@ -68,6 +68,11 @@
 ![](/packages/OmikujiBot/template/customization/customization_11_illust.md)
 
 ![faq_91_OmikujiBotSet](/packages/OmikujiBot/template/faq/faq_91_OmikujiBotSet.md)
+
+#### 「中山道」じゃないの？
+
+- 実在するのは「中山道」ですが、創作なので意図的に「中仙道」としてます。
+- モデルにしている宿場町は、埼玉県本庄市周辺です。
 
 ![troubleshooting_91_OmikujiBotSet](/packages/OmikujiBot/template/troubleshooting/troubleshooting_91_OmikujiBotSet.md)
 
