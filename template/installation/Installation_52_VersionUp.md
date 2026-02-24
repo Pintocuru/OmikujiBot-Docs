@@ -5,13 +5,13 @@
 
 #### アップグレード手順
 
-![](template/installation/images/Pasted%20image%2020260103155223.png)
+![](packages/OmikujiBot/template/installation/images/Pasted%20image%2020260103155223.png)
 
 1. Github から [最新バージョン](https://github.com/Pintocuru/OmikujiBot-Docs/releases/latest) をダウンロードします。
 2. リリースノート下部の **「Assets」** から、 **「OmikujiBot_core_」** と書かれたファイルをダウンロードします。
 3. ダウンロードした ZIP ファイルを **解凍** します。
 
-![](template/installation/images/Pasted%20image%2020260103155557.png)
+![](packages/OmikujiBot/template/installation/images/Pasted%20image%2020260103155557.png)
 
 1. **わんコメを起動** します。
 2. 「テンプレート」画面で、アップグレードしたいテンプレートを選び、右側の **「フォルダを開く」** をクリックします。
@@ -19,3 +19,4 @@
 4. 念のため、**コンフィグエディターを起動し、バージョンが最新になっているか** を確認してください。
 
 - **注意**：アップグレード後、一部設定がデフォルトに戻る場合があります。バックアップは必ず行って下さい。
+

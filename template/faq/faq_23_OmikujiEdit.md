@@ -8,12 +8,12 @@
 
 #### [Q. おみくじをメンバー限定にしたい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2203_Thumbnail.md)
 
-
 おみくじの出現確率を上げる
 
 希望するおみくじとは異なるものが出てしまう
 
 エディターで、おみくじの動作を確認する
+
 おみくじ表示時にチャイムを鳴らす
 
 変数プレースホルダーを使うには

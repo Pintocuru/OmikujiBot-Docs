@@ -13,3 +13,4 @@
 
 - キャラクターモード OFF の状態から表示させるには、新たにキャラクターデータを作成する必要があります。
 - 詳しくは [自前のキャラクター画像を追加したい](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/22_Character/faq_2105_OffOmikuji.md) をご覧ください。
+

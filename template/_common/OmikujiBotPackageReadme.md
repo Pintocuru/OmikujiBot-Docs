@@ -9,3 +9,4 @@
 - [おみくじ BOT スイカジェネレーター + カボチャ&クジラ OmikujiBot GouseiSuika README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/GouseiSuika/README.md)
 - [おみくじ BOT ボンバースロット OmikujiBot BomberSpin](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/BomberSpin/README.md)
 - [どこでもドラちゃん Bot OmikujiBot 5percent_Dora README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/solo/5percent_Dora/README.md)
+
