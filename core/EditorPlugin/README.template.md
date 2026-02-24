@@ -1,4 +1,4 @@
-# おみくじ BOT プラグイン OmikujiBotPluginAddon
+# おみくじ BOT プラグイン OmikujiBotEditorPlugin
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
