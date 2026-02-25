@@ -65,9 +65,9 @@
 
 ## バージョン情報 (Version)
 
-### ver.260224
+### ver.260225
 
-- **おみくじ BOT のバージョン**: v2.3.2
+- **おみくじ BOT のバージョン**: v2.4.0
 - 新規作成
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
