@@ -5,7 +5,7 @@
 - **目的**: 変数の概念を導入し、より複雑で自由度の高いおみくじ結果を表示できるようにします。
 - **特徴**: 簡易的なプログラミング要素を含みます。予約語以外は変数を保存できるため、簡単な TRPG、占いランキングを実装できます。
 	- `expr-eval-fork` ライブラリを使用しています。
-- **チートシート**: [VariablePlaceholderCheatSheet](https://claude.ai/chat/VariablePlaceholderCheatSheet.md)
+- **チートシート**: [VariablePlaceholderCheatSheet](./VariablePlaceholderCheatSheet.md)
 
 ### 利用可能な場所
 
