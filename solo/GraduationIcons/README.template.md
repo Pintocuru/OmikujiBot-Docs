@@ -4,13 +4,13 @@
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT 私を構成する 9 人のユーザー。 OmikujiBot MyNineViewers](https://pintocuru.booth.pm/items/8060471) の readme となります。
+この内容は、BOOTH で配布している、 [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882) の readme となります。
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
-![](images/Pasted%20image%2020260307004657.png)
+![](images/Pasted%20image%2020260310154017.png)
 
 ### コメントしたユーザーをランダムに枠に入れるジェネレーター
 
@@ -47,14 +47,13 @@
 
 ## クレジット（Credits）
 
-- タブレットを持つショコラ
-- アイコン枠で話すうさぎやマモノさん
+- 卒業証書を持つショコラ
 - パッケージの背景
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/Pasted%20image%2020260307012022.png)
+![](images/Pasted%20image%2020260310154204.png)
 
-「僕も "9 人 " に入っているのかなぁ…」
+「あたち、これでも小学校・中学校・高等学校首席なのさー」
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
