@@ -35,8 +35,6 @@
 
 ## つかいかた (Usage)
 
-![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
-
 ![usage_FlightSeat](../../template/usage/usage_FlightSeat.md)
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)

@@ -1,6 +1,6 @@
 # おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons README
 
-最終更新日：2026/03/10
+最終更新日：2026/03/13
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -44,14 +44,6 @@
 4. [おみくじBOT コンフィグエディター PRO (有料版) のご案内](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_51_ProUpgradeTemplate.md)
 
 ## つかいかた (Usage)
-
-### おみくじを発動させるには
-
-![](../../template/usage/images/92_OmikujiActivation.webp)
-
-- 配信で実際に使う前に、**わんコメのコメントテスターで動作確認**することをおすすめします。
-- コメントテスターは、わんコメのメニューから「コメントテスター」を選択してご利用ください。
-- OBS 等のストリーミング配信アプリに正しく導入されていれば、コメントに「おみくじ」などのキーワードを送信することで発動します。
 
 ### フライトシート
 
