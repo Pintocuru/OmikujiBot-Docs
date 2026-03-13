@@ -6,7 +6,8 @@
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882)
+- [おみくじ BOT ライバーカウンター サークル OmikujiBot StreamCounterCircle](https://pintocuru.booth.pm/items/8078258)
+- [おみくじ BOT ライバーカウンター ピクセル OmikujiBot StreamCounterPixel](https://pintocuru.booth.pm/items/8078267)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
