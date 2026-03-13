@@ -61,13 +61,13 @@
 
 ## クレジット（Credits）
 
-- 卒業証書を持つショコラ
+- パーカーを着るショコラ
 - パッケージの背景
   生成：Google Gemini <https://gemini.google.com/>
 
-![](images/Pasted%20image%2020260310154204.png)
+![](images/Pasted%20image%2020260313151032.png)
 
-「あたち、これでも小学校・中学校・高等学校首席なのさー」
+「耳が 6 つあるって？気にしなくていいから（ｗ」
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
