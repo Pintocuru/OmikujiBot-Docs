@@ -1,17 +1,14 @@
 {
   "meta": {
     "id": "MyNineViewers-ver2026.03.19-2.9.0-beta4",
-    "name": "おみくじBOT 私を構成する 9 人のユーザー。 OmikujiBot MyNineViewers",
+    "name": "私を構成する 9 人のユーザー。 MyNineViewers",
     "description": "コメントしたユーザーをランダムに枠に入れるジェネレーター",
     "version": "ver2026.03.19-2.9.0-beta4",
     "generatorName": "omikuji-bot",
     "generatorVersion": "2.9.0-beta4",
     "dataVersion": 2.20090002004,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": [
-      "私を構成する9人のユーザー。",
-      "フライトシート"
-    ],
+    "tags": ["私を構成する9人のユーザー。", "フライトシート"],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/8060471",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/MyNineViewers/MyNineViewers.gif"
@@ -80,9 +77,7 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": [
-          "basicList"
-        ],
+        "targetScriptKeys": ["basicList"],
         "title": "🍉スイカランキング🍉",
         "color": "lofi",
         "limit": 5,
@@ -130,10 +125,7 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": [
-      "flightSeat",
-      "toast"
-    ],
+    "components": ["flightSeat", "toast"],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

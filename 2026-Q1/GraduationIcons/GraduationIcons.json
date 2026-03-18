@@ -1,17 +1,14 @@
 {
   "meta": {
     "id": "GraduationIcons-ver2026.03.19-2.9.0-beta4",
-    "name": "おみくじBOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons",
+    "name": "あつめて！卒業写真メーカー GraduationIcons",
     "description": "コメントしたユーザーをランダムに枠に入れるジェネレーター",
     "version": "ver2026.03.19-2.9.0-beta4",
     "generatorName": "omikuji-bot",
     "generatorVersion": "2.9.0-beta4",
     "dataVersion": 2.20090002004,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": [
-      "卒業写真メーカー",
-      "フライトシート"
-    ],
+    "tags": ["卒業写真メーカー", "フライトシート"],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/8069882",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/GraduationIcons/GraduationIcons.gif"
@@ -76,9 +73,7 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": [
-          "basicList"
-        ],
+        "targetScriptKeys": ["basicList"],
         "title": "🍉スイカランキング🍉",
         "color": "lofi",
         "limit": 5,
@@ -122,9 +117,7 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": [
-      "flightSeat"
-    ],
+    "components": ["flightSeat"],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

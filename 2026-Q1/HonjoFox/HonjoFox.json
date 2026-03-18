@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "HonjoFox-ver2026.03.19-2.9.0-beta4",
-    "name": "おみくじBOT 中仙道の村きつね OmikujiBot HonjoFox",
+    "name": "中仙道の村きつね HonjoFox",
     "description": "古いきつねがぼやきます",
     "version": "ver2026.03.19-2.9.0-beta4",
     "generatorName": "omikuji-bot",
@@ -32,10 +32,7 @@
       "order": 2,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": [
-        "中仙道の村きつね",
-        "コメント数表示"
-      ],
+      "tags": ["中仙道の村きつね", "コメント数表示"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -47,9 +44,7 @@
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
           "editorColor": "#3B82F6",
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -78,15 +73,11 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": [
-          "^コメント$"
-        ]
+        "comment": ["^コメント$"]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -105,10 +96,7 @@
       "order": 3,
       "isEnabled": true,
       "editorColor": "#FF9800",
-      "tags": [
-        "中仙道の村きつね",
-        "ギフト"
-      ],
+      "tags": ["中仙道の村きつね", "ギフト"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -120,9 +108,7 @@
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
           "editorColor": "#3B82F6",
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -156,14 +142,10 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "gift"
-        ],
+        "conditions": ["gift"],
         "userName": [],
         "access": [],
-        "gift": [
-          "all"
-        ],
+        "gift": ["all"],
         "comment": []
       },
       "limits": {
@@ -183,10 +165,7 @@
       "order": 4,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": [
-        "中仙道の村きつね",
-        "初見判定"
-      ],
+      "tags": ["中仙道の村きつね", "初見判定"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -198,9 +177,7 @@
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
           "editorColor": "#3B82F6",
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -225,15 +202,11 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "syoken"
-            ],
+            "conditions": ["syoken"],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": [
-              "syoken"
-            ],
+            "syoken": ["syoken"],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -249,9 +222,7 @@
           "createdAt": "2026-02-09T05:38:10.130Z",
           "updatedAt": "2026-02-09T05:38:10.130Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -276,15 +247,11 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "syoken"
-            ],
+            "conditions": ["syoken"],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": [
-              "again"
-            ],
+            "syoken": ["again"],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -300,9 +267,7 @@
           "createdAt": "2026-02-09T05:39:15.919Z",
           "updatedAt": "2026-02-09T05:39:15.919Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -327,15 +292,11 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "syoken"
-            ],
+            "conditions": ["syoken"],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": [
-              "firstVisit"
-            ],
+            "syoken": ["firstVisit"],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -370,10 +331,7 @@
       "order": 5,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": [
-        "中仙道の村きつね",
-        "コメントチェック"
-      ],
+      "tags": ["中仙道の村きつね", "コメントチェック"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -385,9 +343,7 @@
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
           "editorColor": "#3B82F6",
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -412,9 +368,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -434,9 +388,7 @@
           "createdAt": "2026-02-09T05:39:56.847Z",
           "updatedAt": "2026-02-09T05:39:56.847Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -461,9 +413,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -479,9 +429,7 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "count"
-        ],
+        "conditions": ["count"],
         "userName": [],
         "access": [],
         "gift": [],
@@ -509,10 +457,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": [
-        "中仙道の村きつね",
-        "ぼやき"
-      ],
+      "tags": ["中仙道の村きつね", "ぼやき"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -522,9 +467,7 @@
           "createdAt": "2025-11-18T06:21:10.108Z",
           "updatedAt": "2025-11-18T06:21:10.108Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -557,9 +500,7 @@
           "createdAt": "2026-02-09T04:51:21.906Z",
           "updatedAt": "2026-02-09T04:51:21.906Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -584,9 +525,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -602,19 +541,11 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": [
-          "きつね",
-          "キツネ",
-          "狐",
-          "fox",
-          "🦊"
-        ]
+        "comment": ["きつね", "キツネ", "狐", "fox", "🦊"]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -635,10 +566,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": [
-        "中仙道の村きつね",
-        "ぼやき"
-      ],
+      "tags": ["中仙道の村きつね", "ぼやき"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -648,9 +576,7 @@
           "createdAt": "2025-11-18T07:51:01.769Z",
           "updatedAt": "2025-11-18T07:51:01.769Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -691,10 +617,7 @@
       "order": 2,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": [
-        "中仙道の村きつね",
-        "閲覧数チェック"
-      ],
+      "tags": ["中仙道の村きつね", "閲覧数チェック"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -706,9 +629,7 @@
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
           "editorColor": "#3B82F6",
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -741,9 +662,7 @@
           "createdAt": "2025-10-17T07:47:48.551Z",
           "updatedAt": "2025-10-17T07:47:48.551Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -786,9 +705,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#4CAF50",
-      "tags": [
-        "中仙道の村きつね"
-      ],
+      "tags": ["中仙道の村きつね"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -798,9 +715,7 @@
           "createdAt": "2026-02-09T04:36:37.660Z",
           "updatedAt": "2026-02-09T04:36:37.664Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -845,9 +760,7 @@
       "order": 2,
       "isEnabled": true,
       "editorColor": "#4CAF50",
-      "tags": [
-        "中仙道の村きつね"
-      ],
+      "tags": ["中仙道の村きつね"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -857,9 +770,7 @@
           "createdAt": "2026-02-14T00:48:38.764Z",
           "updatedAt": "2026-02-14T00:48:38.768Z",
           "order": 0,
-          "tags": [
-            "中仙道の村きつね"
-          ],
+          "tags": ["中仙道の村きつね"],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -911,10 +822,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": [
-        "中仙道の村きつね",
-        "ぼやき"
-      ],
+      "tags": ["中仙道の村きつね", "ぼやき"],
       "accessLevel": "basic",
       "values": [
         "おう、<<user>>、また会ったのう！ わっちは古いきつねじゃ。",
@@ -1140,10 +1048,7 @@
       "order": 2,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": [
-        "中仙道の村きつね",
-        "ぼやき"
-      ],
+      "tags": ["中仙道の村きつね", "ぼやき"],
       "accessLevel": "basic",
       "values": [
         "わっちは長年この宿場町を見守ってきた古いきつねじゃ。",
@@ -1568,9 +1473,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#FF9800",
-      "tags": [
-        "中仙道の村きつね"
-      ],
+      "tags": ["中仙道の村きつね"],
       "accessLevel": "basic",
       "version": "0.0.0",
       "author": "Pintocuru",
@@ -1624,20 +1527,14 @@
       "order": 2,
       "isEnabled": true,
       "editorColor": "#FF9800",
-      "tags": [
-        "中仙道の村きつね"
-      ],
+      "tags": ["中仙道の村きつね"],
       "accessLevel": "basic",
       "version": "0.0.0",
       "author": "Pintocuru",
       "displayName": "きつね",
       "image": {
-        "default": [
-          "honjoFox/2d-1.webp"
-        ],
-        "happy": [
-          "honjoFox/2d-1.webp"
-        ],
+        "default": ["honjoFox/2d-1.webp"],
+        "happy": ["honjoFox/2d-1.webp"],
         "excited": [],
         "laughing": [],
         "blushing": [],
@@ -1693,12 +1590,8 @@
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": [
-            "honjoFox_2d"
-          ],
-          "slot1": [
-            "honjoFox"
-          ],
+          "center": ["honjoFox_2d"],
+          "slot1": ["honjoFox"],
           "slot2": [],
           "slot3": [],
           "slot4": []
@@ -1714,9 +1607,7 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": [
-          "basicList"
-        ],
+        "targetScriptKeys": ["basicList"],
         "title": "🍉スイカランキング🍉",
         "color": "lofi",
         "limit": 5,
@@ -1757,10 +1648,7 @@
       "placeholders": "basic",
       "characters": "basic"
     },
-    "components": [
-      "bubble",
-      "toast"
-    ],
+    "components": ["bubble", "toast"],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

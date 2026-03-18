@@ -1,17 +1,14 @@
 {
   "meta": {
     "id": "LenormandOracle-ver2026.03.19-2.9.0-beta4",
-    "name": "おみくじBOT ルノルマンカード OmikujiBot LenormandOracle",
+    "name": "ルノルマンカード LenormandOracle",
     "description": "36 枚のシンボルからメッセージを受け取る、気軽に占えるルノルマンカードジェネレーター",
     "version": "ver2026.03.19-2.9.0-beta4",
     "generatorName": "omikuji-bot",
     "generatorVersion": "2.9.0-beta4",
     "dataVersion": 2.20090002004,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": [
-      "占い",
-      "ルノルマンカード"
-    ],
+    "tags": ["占い", "ルノルマンカード"],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/7915987",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/LenormandOracle/LenormandOracle.gif"
@@ -106,9 +103,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -124,9 +119,7 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
@@ -1088,10 +1081,7 @@
       "order": 1,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": [
-        "おみくじBOT",
-        "シンプル"
-      ],
+      "tags": ["おみくじBOT", "シンプル"],
       "accessLevel": "basic",
       "version": "0.0.1",
       "author": "Pintocuru",
@@ -1130,16 +1120,10 @@
     }
   },
   "components": {
-    "conditions": [
-      "bubble",
-      "toast",
-      "ranking"
-    ],
+    "conditions": ["bubble", "toast", "ranking"],
     "bubble": {
       "showCharacters": {
-        "center": [
-          "omiken"
-        ],
+        "center": ["omiken"],
         "slot1": [],
         "slot2": [],
         "slot3": [],
@@ -1166,9 +1150,7 @@
       "showThumbnail": []
     },
     "ranking": {
-      "targetScriptKeys": [
-        "basicList"
-      ],
+      "targetScriptKeys": ["basicList"],
       "title": "🔮ルノルマンカード 占い履歴🔮",
       "color": "dim",
       "limit": 5,
@@ -1195,11 +1177,7 @@
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": [
-      "toast",
-      "ranking",
-      "bubble"
-    ],
+    "components": ["toast", "ranking", "bubble"],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
