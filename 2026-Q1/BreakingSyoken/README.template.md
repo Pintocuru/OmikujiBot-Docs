@@ -1,4 +1,4 @@
-# おみくじ BOT OBS スクロールの代わりに使うやつ OmikujiBot FlashBannerScroll
+# おみくじ BOT 速報！初見さんいらっしゃい！ OmikujiBot BreakingSyoken
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
