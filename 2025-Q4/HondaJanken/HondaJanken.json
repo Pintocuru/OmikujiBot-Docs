@@ -1,14 +1,16 @@
 {
   "meta": {
-    "id": "HondaJanken-ver2026.03.19-2.9.0-beta4",
-    "name": "じゃんけん HondaJanken",
+    "id": "HondaJanken-ver2026.03.19-2.9.0-beta5",
+    "name": "じゃんけん  HondaJanken",
     "description": "「じゃんけん」ミニゲームが楽しめるジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["じゃんけん"],
+    "tags": [
+      "じゃんけん"
+    ],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/7383088",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/HondaJanken/HondaJanken.gif"
@@ -24,8 +26,11 @@
       "updatedAt": "2026-01-17T00:33:52.339Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -36,6 +41,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -57,11 +64,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 38,
           "isPriority": false,
           "criteria": null
@@ -74,6 +92,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -95,11 +115,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 38,
           "isPriority": false,
           "criteria": null
@@ -112,6 +143,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -133,11 +166,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 38,
           "isPriority": false,
           "criteria": null
@@ -150,6 +194,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -159,41 +205,34 @@
               "delaySeconds": 1,
               "actionType": "actionSet",
               "actionSetKeys": [
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryRockA"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryScissorsA"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryPaperA"
-                },
+                "HondaJankenVictoryRockA",
+                "HondaJankenVictoryScissorsA",
+                "HondaJankenVictoryPaperA",
                 "HondaJankenVictoryA",
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryRockB"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryScissorsB"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryPaperB"
-                },
+                "HondaJankenVictoryRockB",
+                "HondaJankenVictoryScissorsB",
+                "HondaJankenVictoryPaperB",
                 "HondaJankenVictoryB"
               ]
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 6,
           "isPriority": false,
           "criteria": null
@@ -201,11 +240,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^じゃんけん", "^ジャンケン", "^janken"]
+        "comment": [
+          "^じゃんけん",
+          "^ジャンケン",
+          "^janken"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -223,8 +268,11 @@
       "updatedAt": "2026-01-13T05:15:54.262Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -235,6 +283,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -256,11 +306,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 19,
           "isPriority": false,
           "criteria": null
@@ -273,6 +334,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -290,23 +353,28 @@
                   "weight": 3,
                   "content": "HondaJankenVictoryRockB"
                 },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryA"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryB"
-                }
+                "HondaJankenVictoryA",
+                "HondaJankenVictoryB"
               ]
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -314,11 +382,18 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^グー", "^ぐー", "✊️", "👊"]
+        "comment": [
+          "^グー",
+          "^ぐー",
+          "✊️",
+          "👊"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -336,8 +411,11 @@
       "updatedAt": "2026-01-13T05:15:57.632Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -348,6 +426,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -369,11 +449,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 19,
           "isPriority": false,
           "criteria": null
@@ -386,6 +477,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -403,23 +496,28 @@
                   "weight": 3,
                   "content": "HondaJankenVictoryScissorsB"
                 },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryA"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryB"
-                }
+                "HondaJankenVictoryA",
+                "HondaJankenVictoryB"
               ]
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -427,11 +525,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^チョキ", "^ちょき", "✌️"]
+        "comment": [
+          "^チョキ",
+          "^ちょき",
+          "✌️"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -449,8 +553,11 @@
       "updatedAt": "2026-01-13T05:16:00.767Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -461,6 +568,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -482,11 +591,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 19,
           "isPriority": false,
           "criteria": null
@@ -499,6 +619,8 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
@@ -516,23 +638,28 @@
                   "weight": 3,
                   "content": "HondaJankenVictoryPaperB"
                 },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryA"
-                },
-                {
-                  "weight": 1,
-                  "content": "HondaJankenVictoryB"
-                }
+                "HondaJankenVictoryA",
+                "HondaJankenVictoryB"
               ]
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -540,11 +667,18 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^パー", "^ぱー", "✋️", "🖐️"]
+        "comment": [
+          "^パー",
+          "^ぱー",
+          "✋️",
+          "🖐️"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -566,8 +700,11 @@
       "updatedAt": "2026-01-13T05:14:34.747Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -584,11 +721,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenReadyB": {
       "id": "HondaJankenReadyB",
@@ -596,18 +743,21 @@
       "name": "じゃんけん:出す前の動作(キャラB)",
       "description": "もっと美味しくなったペプシジャパンコーラ、飲んでみたくないですか。",
       "createdAt": "2025-10-08T01:19:38.144Z",
-      "updatedAt": "2026-01-13T05:14:38.037Z",
+      "updatedAt": "2026-03-19T11:55:27.142Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "default",
           "sound": "",
           "message": {
@@ -617,11 +767,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenRockA": {
       "id": "HondaJankenRockA",
@@ -632,15 +792,20 @@
       "updatedAt": "2026-01-13T05:14:40.553Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -665,11 +830,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenRockB": {
       "id": "HondaJankenRockB",
@@ -677,18 +852,23 @@
       "name": "じゃんけん:グーB",
       "description": "ちゃんと分析してます?じっくり結果に向き合ってください。",
       "createdAt": "2025-10-08T01:20:19.514Z",
-      "updatedAt": "2026-01-13T05:14:43.479Z",
+      "updatedAt": "2026-03-19T11:55:35.254Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -703,7 +883,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "happy",
           "sound": "decision",
           "message": {
@@ -713,11 +893,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenScissorsA": {
       "id": "HondaJankenScissorsA",
@@ -728,15 +918,20 @@
       "updatedAt": "2026-01-13T05:14:46.285Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -761,11 +956,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenScissorsB": {
       "id": "HondaJankenScissorsB",
@@ -773,18 +978,23 @@
       "name": "じゃんけん:チョキB",
       "description": "ただの運やと思ってませんか?運も実力のうち!聞いたことありますよね?",
       "createdAt": "2025-10-08T01:31:02.784Z",
-      "updatedAt": "2026-01-13T05:15:00.158Z",
+      "updatedAt": "2026-03-19T11:55:40.594Z",
       "order": 6,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -799,7 +1009,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "happy",
           "sound": "decision",
           "message": {
@@ -809,11 +1019,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenPaperA": {
       "id": "HondaJankenPaperA",
@@ -824,15 +1044,20 @@
       "updatedAt": "2026-01-13T05:14:57.483Z",
       "order": 7,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -857,11 +1082,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenPaperB": {
       "id": "HondaJankenPaperB",
@@ -869,18 +1104,23 @@
       "name": "じゃんけん:パーB",
       "description": "1年間何やってたんですか？この結果はじゃんけんに対する意識の差です。",
       "createdAt": "2025-10-08T01:35:19.910Z",
-      "updatedAt": "2026-01-13T05:14:54.729Z",
+      "updatedAt": "2026-03-19T11:55:43.353Z",
       "order": 8,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -895,7 +1135,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "happy",
           "sound": "decision",
           "message": {
@@ -905,11 +1145,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryRockA": {
       "id": "HondaJankenVictoryRockA",
@@ -920,15 +1170,20 @@
       "updatedAt": "2026-01-13T05:14:52.107Z",
       "order": 9,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -953,11 +1208,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryRockB": {
       "id": "HondaJankenVictoryRockB",
@@ -965,18 +1230,23 @@
       "name": "じゃんけん:グー勝利B",
       "description": "でも、今度は絶対、俺が勝つから!また明日やろう!",
       "createdAt": "2025-10-08T01:48:42.302Z",
-      "updatedAt": "2026-01-13T05:14:49.101Z",
+      "updatedAt": "2026-03-19T11:55:47.007Z",
       "order": 10,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -991,7 +1261,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "sad",
           "sound": "decision",
           "message": {
@@ -1001,11 +1271,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryScissorsA": {
       "id": "HondaJankenVictoryScissorsA",
@@ -1016,15 +1296,20 @@
       "updatedAt": "2026-01-13T05:15:02.877Z",
       "order": 11,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1049,11 +1334,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryScissorsB": {
       "id": "HondaJankenVictoryScissorsB",
@@ -1061,18 +1356,23 @@
       "name": "じゃんけん:チョキ勝利B",
       "description": "明日、俺が勝つからまたやろう!",
       "createdAt": "2025-10-08T01:50:18.283Z",
-      "updatedAt": "2026-01-13T05:15:05.322Z",
+      "updatedAt": "2026-03-19T11:55:49.995Z",
       "order": 12,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1087,7 +1387,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "sad",
           "sound": "decision",
           "message": {
@@ -1097,11 +1397,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryPaperA": {
       "id": "HondaJankenVictoryPaperA",
@@ -1112,15 +1422,20 @@
       "updatedAt": "2026-01-13T05:15:07.825Z",
       "order": 13,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1145,11 +1460,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryPaperB": {
       "id": "HondaJankenVictoryPaperB",
@@ -1157,18 +1482,23 @@
       "name": "じゃんけん:パー勝利B",
       "description": "やるやん。今日は負けを認めます。ただ、勝ち逃げは許しませんよ。",
       "createdAt": "2025-10-08T01:52:21.730Z",
-      "updatedAt": "2026-01-13T05:15:10.656Z",
+      "updatedAt": "2026-03-19T11:55:52.737Z",
       "order": 14,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1183,7 +1513,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "sad",
           "sound": "decision",
           "message": {
@@ -1193,11 +1523,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryA": {
       "id": "HondaJankenVictoryA",
@@ -1208,15 +1548,20 @@
       "updatedAt": "2026-01-13T05:15:13.421Z",
       "order": 15,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1241,11 +1586,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     },
     "HondaJankenVictoryB": {
       "id": "HondaJankenVictoryB",
@@ -1253,18 +1608,23 @@
       "name": "じゃんけん:ILoveYou勝利B",
       "description": "やるやん。明日は俺にリベンジさせて。",
       "createdAt": "2025-10-08T01:41:25.959Z",
-      "updatedAt": "2026-01-13T05:15:16.108Z",
+      "updatedAt": "2026-03-19T11:55:55.842Z",
       "order": 16,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -1279,7 +1639,7 @@
         {
           "delaySeconds": 4,
           "actionType": "message",
-          "characterKey": "omiken_2",
+          "characterKey": "omiken2",
           "iconKey": "sad",
           "sound": "decision",
           "message": {
@@ -1289,11 +1649,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     }
   },
   "placeholders": {
@@ -1306,10 +1676,15 @@
       "updatedAt": "2026-01-13T05:17:53.601Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
-      "values": ["ケイスケ ホンダ"]
+      "values": [
+        "ケイスケ ホンダ"
+      ]
     },
     "HondaJankenOre": {
       "id": "HondaJankenOre",
@@ -1320,10 +1695,15 @@
       "updatedAt": "2026-01-13T05:18:31.978Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
-      "values": ["俺"]
+      "values": [
+        "俺"
+      ]
     },
     "HondaJankenA1": {
       "id": "HondaJankenA1",
@@ -1334,8 +1714,11 @@
       "updatedAt": "2026-01-13T05:20:56.599Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "負けは次につながるチャンスです!ネバーギブアップ!",
@@ -1353,8 +1736,11 @@
       "updatedAt": "2026-01-13T05:21:07.045Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "<<HondaJankenName>> の心なんて読めるわけがない、そう思ってないですか。あきらめへん人だけに見える景色があるはずです。",
@@ -1371,8 +1757,11 @@
       "updatedAt": "2026-01-13T05:22:28.164Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "たかがじゃんけん、そう思ってないですか？それやったら明日も、<<HondaJankenOre>>が勝ちますよ。",
@@ -1390,8 +1779,11 @@
       "updatedAt": "2026-01-13T05:22:54.514Z",
       "order": 6,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "自信を持って勝負にしっかりと向き合える、そう思えるまで、準備してください。",
@@ -1408,8 +1800,11 @@
       "updatedAt": "2026-01-13T05:23:58.781Z",
       "order": 7,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "なんで負けたか、明日まで考えといてください。そしたら何かが見えてくるはずです。",
@@ -1427,8 +1822,11 @@
       "updatedAt": "2026-01-13T05:24:30.500Z",
       "order": 8,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "複雑に考えてないですか?答えはシンプルです。<<HondaJankenName>>の心を読む、それだけです。",
@@ -1445,8 +1843,11 @@
       "updatedAt": "2026-01-13T05:20:19.104Z",
       "order": 9,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "やるやん。明日は<<HondaJankenOre>>にリベンジさせて。",
@@ -1456,102 +1857,7 @@
       ]
     }
   },
-  "characters": {
-    "omiken": {
-      "id": "omiken",
-      "key": "omiken",
-      "name": "おみくじBOT",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-08-11T03:50:57.710Z",
-      "updatedAt": "2026-01-23T07:52:40.877Z",
-      "order": 1,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "",
-      "image": {
-        "default": ["HondaJanken/default.webp"],
-        "happy": ["HondaJanken/cora.webp", "HondaJanken/default.webp"],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": ["HondaJanken/coraWin.webp", "HondaJanken/default.webp"],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": true,
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#64B5F6",
-        "textColor": "#E3F2FD",
-        "backgroundColor": "#1565C0",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    },
-    "omiken_2": {
-      "id": "omiken_2",
-      "key": "omiken_2",
-      "name": "おみくじBOT2",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-10-10T07:35:41.827Z",
-      "updatedAt": "2026-01-23T07:52:58.145Z",
-      "order": 2,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "",
-      "image": {
-        "default": ["HondaJanken/default.webp"],
-        "happy": ["HondaJanken/cora.webp", "HondaJanken/default.webp"],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": ["HondaJanken/coraWin.webp", "HondaJanken/default.webp"],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": true,
-        "daisyUiTheme": "bumblebee",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#64B5F6",
-        "textColor": "#E3F2FD",
-        "backgroundColor": "#1565C0",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    }
-  },
+  "characters": {},
   "components": {
     "conditions": [
       {
@@ -1568,6 +1874,7 @@
       }
     ],
     "enableSecondary": true,
+    "specialSet": null,
     "commonStyle": {
       "fontFamily": "default",
       "defaultColor": {
@@ -1590,7 +1897,10 @@
       "bubble": {
         "showCharacters": {
           "center": [],
-          "slot1": ["omiken", "omiken_2"],
+          "slot1": [
+            "omiken",
+            "omiken_2"
+          ],
           "slot2": [],
           "slot3": [],
           "slot4": []
@@ -1606,23 +1916,14 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": ["basicList"],
+        "targetScriptKeys": [
+          "basicList"
+        ],
         "title": "👊 じゃんけん 🖐️",
         "color": "garden",
         "limit": 5,
         "sortOrder": "new",
         "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "ruleKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
       }
     }
   },
@@ -1635,16 +1936,25 @@
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": ["toast", "ranking", "bubble"],
+    "components": [
+      "toast",
+      "ranking",
+      "bubble"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
-      "jsonMergeSettings": "none"
+      "jsonMergeSettings": "none",
+      "itemSlotEnabled": "basic"
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "corporate"
+    "daisyUiTheme": "corporate",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
   }
 }

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "id": "HonjoFox-ver2026.03.19-2.9.0-beta4",
-    "name": "中仙道の村きつね HonjoFox",
+    "id": "HonjoFox-ver2026.03.19-2.9.0-beta5",
+    "name": "中仙道の村きつね  HonjoFox",
     "description": "古いきつねがぼやきます",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
     "tags": [
       "中仙道の村きつね",
@@ -31,8 +31,12 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["中仙道の村きつね", "コメント数表示"],
+      "tags": [
+        "中仙道の村きつね",
+        "コメント数表示"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -43,8 +47,12 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["中仙道の村きつね"],
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -61,11 +69,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -73,11 +92,15 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^コメント$"]
+        "comment": [
+          "^コメント$"
+        ]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -95,8 +118,12 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["中仙道の村きつね", "ギフト"],
+      "tags": [
+        "中仙道の村きつね",
+        "ギフト"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -107,8 +134,12 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["中仙道の村きつね"],
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -130,11 +161,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -142,10 +184,14 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["gift"],
+        "conditions": [
+          "gift"
+        ],
         "userName": [],
         "access": [],
-        "gift": ["all"],
+        "gift": [
+          "all"
+        ],
         "comment": []
       },
       "limits": {
@@ -164,8 +210,12 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["中仙道の村きつね", "初見判定"],
+      "tags": [
+        "中仙道の村きつね",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -176,8 +226,12 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["中仙道の村きつね"],
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -194,19 +248,34 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["syoken"],
+            "syoken": [
+              "syoken"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -219,10 +288,15 @@
           "id": "9479a96a-19bf-41cf-8e82-5846f9e01c29",
           "key": "9ee8a045-916e-4bcf-a5e0-a1342b448e42",
           "name": "久しぶり",
+          "description": "",
           "createdAt": "2026-02-09T05:38:10.130Z",
           "updatedAt": "2026-02-09T05:38:10.130Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -239,19 +313,34 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["again"],
+            "syoken": [
+              "again"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -264,10 +353,15 @@
           "id": "22fdacd3-9a8a-4b7a-a57f-2e29c1561992",
           "key": "e5937ed4-a603-4977-ae86-e4024bc7b5c3",
           "name": "こんにちは",
+          "description": "",
           "createdAt": "2026-02-09T05:39:15.919Z",
           "updatedAt": "2026-02-09T05:39:15.919Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -284,19 +378,34 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["firstVisit"],
+            "syoken": [
+              "firstVisit"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -330,8 +439,12 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["中仙道の村きつね", "コメントチェック"],
+      "tags": [
+        "中仙道の村きつね",
+        "コメントチェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -342,8 +455,12 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["中仙道の村きつね"],
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -360,15 +477,28 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -385,10 +515,15 @@
           "id": "3fb7cdbe-6ea8-44f0-90fb-1e5aa80d0ae1",
           "key": "d4d6abdf-a4f4-40a9-a194-0bfc22c56d36",
           "name": "個人コメント100回",
+          "description": "",
           "createdAt": "2026-02-09T05:39:56.847Z",
           "updatedAt": "2026-02-09T05:39:56.847Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -405,15 +540,28 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -429,7 +577,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["count"],
+        "conditions": [
+          "count"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -456,18 +606,27 @@
       "updatedAt": "2026-02-18T02:31:58.557Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["中仙道の村きつね", "ぼやき"],
+      "tags": [
+        "中仙道の村きつね",
+        "ぼやき"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "90e6f4bc-698e-48e6-a9db-64f6d52a438d",
           "key": "1763446870108",
           "name": "きつね",
+          "description": "",
           "createdAt": "2025-11-18T06:21:10.108Z",
           "updatedAt": "2025-11-18T06:21:10.108Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -484,11 +643,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -497,10 +667,15 @@
           "id": "d89e0f0d-b368-448f-a525-93905dcde159",
           "key": "55aa7c07-7e6d-410d-a0cf-8d991440d313",
           "name": "5回目",
+          "description": "",
           "createdAt": "2026-02-09T04:51:21.906Z",
           "updatedAt": "2026-02-09T04:51:21.906Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -517,15 +692,28 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -541,11 +729,19 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["きつね", "キツネ", "狐", "fox", "🦊"]
+        "comment": [
+          "きつね",
+          "キツネ",
+          "狐",
+          "fox",
+          "🦊"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -565,18 +761,27 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["中仙道の村きつね", "ぼやき"],
+      "tags": [
+        "中仙道の村きつね",
+        "ぼやき"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "c8e9012f-3f2e-4a35-b557-771f9d05d6b7",
           "key": "1763452261769",
           "name": "ぼやき",
+          "description": "",
           "createdAt": "2025-11-18T07:51:01.769Z",
           "updatedAt": "2025-11-18T07:51:01.769Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -593,17 +798,29 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
         }
       ],
       "ruleType": "timers",
+      "mode": "interval",
       "intervalSeconds": 120,
       "isBaseZero": true
     },
@@ -616,8 +833,12 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["中仙道の村きつね", "閲覧数チェック"],
+      "tags": [
+        "中仙道の村きつね",
+        "閲覧数チェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -628,8 +849,12 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["中仙道の村きつね"],
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -646,11 +871,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -659,10 +895,15 @@
           "id": "97d2c1e2-fde2-4242-928b-734a5257f7a8",
           "key": "1760687268551",
           "name": "高評価数",
+          "description": "",
           "createdAt": "2025-10-17T07:47:48.551Z",
           "updatedAt": "2025-10-17T07:47:48.551Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -679,17 +920,29 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
         }
       ],
       "ruleType": "timers",
+      "mode": "interval",
       "intervalSeconds": 60,
       "isBaseZero": false
     }
@@ -704,18 +957,26 @@
       "updatedAt": "2026-02-18T02:30:07.902Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["中仙道の村きつね"],
+      "tags": [
+        "中仙道の村きつね"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "5f460d5a-cbc6-44cd-9220-c5a095988878",
           "key": "d01601aa-d204-47b7-b0d7-65e6615e979f",
           "name": "高評価がピーク時よりも多いとき",
+          "description": "",
           "createdAt": "2026-02-09T04:36:37.660Z",
           "updatedAt": "2026-02-09T04:36:37.664Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -732,11 +993,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -759,18 +1031,26 @@
       "updatedAt": "2026-02-18T02:30:07.903Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["中仙道の村きつね"],
+      "tags": [
+        "中仙道の村きつね"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "cb359280-01bb-4ce2-8d99-fc3c63d46a2b",
           "key": "faad0296-45d1-4bbe-9e4a-628e3aa129da",
           "name": "視聴数がピーク時よりも多いとき",
+          "description": "",
           "createdAt": "2026-02-14T00:48:38.764Z",
           "updatedAt": "2026-02-14T00:48:38.768Z",
           "order": 0,
-          "tags": ["中仙道の村きつね"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "中仙道の村きつね"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -787,11 +1067,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": null
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -821,8 +1112,12 @@
       "updatedAt": "2026-02-14T06:41:13.605Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["中仙道の村きつね", "ぼやき"],
+      "tags": [
+        "中仙道の村きつね",
+        "ぼやき"
+      ],
       "accessLevel": "basic",
       "values": [
         "おう、<<user>>、また会ったのう！ わっちは古いきつねじゃ。",
@@ -1047,8 +1342,12 @@
       "updatedAt": "2026-02-14T06:41:35.867Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["中仙道の村きつね", "ぼやき"],
+      "tags": [
+        "中仙道の村きつね",
+        "ぼやき"
+      ],
       "accessLevel": "basic",
       "values": [
         "わっちは長年この宿場町を見守ってきた古いきつねじゃ。",
@@ -1472,8 +1771,11 @@
       "updatedAt": "2026-02-18T02:29:45.977Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["中仙道の村きつね"],
+      "tags": [
+        "中仙道の村きつね"
+      ],
       "accessLevel": "basic",
       "version": "0.0.0",
       "author": "Pintocuru",
@@ -1526,15 +1828,22 @@
       "updatedAt": "2026-02-18T02:30:57.961Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["中仙道の村きつね"],
+      "tags": [
+        "中仙道の村きつね"
+      ],
       "accessLevel": "basic",
       "version": "0.0.0",
       "author": "Pintocuru",
       "displayName": "きつね",
       "image": {
-        "default": ["honjoFox/2d-1.webp"],
-        "happy": ["honjoFox/2d-1.webp"],
+        "default": [
+          "honjoFox/2d-1.webp"
+        ],
+        "happy": [
+          "honjoFox/2d-1.webp"
+        ],
         "excited": [],
         "laughing": [],
         "blushing": [],
@@ -1575,6 +1884,8 @@
         "kind": "toast"
       }
     ],
+    "enableSecondary": true,
+    "specialSet": null,
     "commonStyle": {
       "fontFamily": "dotGothic",
       "defaultColor": {
@@ -1585,13 +1896,23 @@
         "nameColor": "#212121",
         "textColor": "#212121",
         "backgroundColor": "#FAFAFA"
+      },
+      "defaultVoice": {
+        "mode": "comment",
+        "imageBase64": "",
+        "frameId": "",
+        "rpgVoice": "rpg_voice_a5"
       }
     },
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": ["honjoFox_2d"],
-          "slot1": ["honjoFox"],
+          "center": [
+            "honjoFox_2d"
+          ],
+          "slot1": [
+            "honjoFox"
+          ],
           "slot2": [],
           "slot3": [],
           "slot4": []
@@ -1605,37 +1926,6 @@
         "showToastsOnRight": true,
         "showToastsCharacter": false,
         "showThumbnail": []
-      },
-      "ranking": {
-        "targetScriptKeys": ["basicList"],
-        "title": "🍉スイカランキング🍉",
-        "color": "lofi",
-        "limit": 5,
-        "sortOrder": "new",
-        "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "ruleKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
-      },
-      "flightSeat": {
-        "slotType": "extra",
-        "layout": "square",
-        "rows": 4,
-        "cols": 6,
-        "circleSeats": 12,
-        "customLayout": "[1,2,3,4,5]",
-        "label": "🛫 8時間フライト、どの席に座る？",
-        "color": "lofi",
-        "allowReseating": false,
-        "historyLimit": 10
       }
     }
   },
@@ -1644,20 +1934,28 @@
       "comments": "basic",
       "timers": "basic",
       "metas": "basic",
-      "actionSets": "basic",
+      "actionSets": "none",
       "placeholders": "basic",
       "characters": "basic"
     },
-    "components": ["bubble", "toast"],
+    "components": [
+      "bubble",
+      "toast"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
-      "jsonMergeSettings": "basic"
+      "jsonMergeSettings": "basic",
+      "itemSlotEnabled": "basic"
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "retro"
+    "daisyUiTheme": "retro",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
   }
 }

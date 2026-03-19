@@ -11,7 +11,9 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット"],
+      "tags": [
+        "タロット"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -24,14 +26,19 @@
           "order": 0,
           "isEnabled": true,
           "daisyColor": "primary",
-          "tags": ["タロット", "逆位置"],
+          "tags": [
+            "タロット",
+            "逆位置"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["TarotCardIntro"]
+              "actionSetKeys": [
+                "TarotCardIntro"
+              ]
             },
             {
               "delaySeconds": 3.5,
@@ -69,7 +76,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -99,7 +108,9 @@
       "order": 201,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -275,11 +286,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^じゃんけん", "^ジャンケン", "^janken"]
+        "comment": [
+          "^じゃんけん",
+          "^ジャンケン",
+          "^janken"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -298,7 +315,9 @@
       "order": 202,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -388,11 +407,18 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^グー", "^ぐー", "✊️", "👊"]
+        "comment": [
+          "^グー",
+          "^ぐー",
+          "✊️",
+          "👊"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -411,7 +437,9 @@
       "order": 203,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -501,11 +529,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^チョキ", "^ちょき", "✌️"]
+        "comment": [
+          "^チョキ",
+          "^ちょき",
+          "✌️"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -524,7 +558,9 @@
       "order": 204,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -614,11 +650,18 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^パー", "^ぱー", "✋️", "🖐️"]
+        "comment": [
+          "^パー",
+          "^ぱー",
+          "✋️",
+          "🖐️"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -637,7 +680,10 @@
       "order": 501,
       "isEnabled": true,
       "editorColor": "#3F51B5",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1003,7 +1049,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -1034,7 +1082,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "初見詐欺"],
+      "tags": [
+        "ショコラ",
+        "初見詐欺"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1132,11 +1183,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["syoken"],
+            "syoken": [
+              "syoken"
+            ],
             "count": {
               "comparison": "equal",
               "unit": "tc",
@@ -1162,7 +1217,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["FirstSyokenChocolateHappy"]
+              "actionSetKeys": [
+                "FirstSyokenChocolateHappy"
+              ]
             }
           ],
           "gameScripts": {
@@ -1185,7 +1242,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -1201,11 +1260,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["初見(?!さん)", "所見", "はじめまして"]
+        "comment": [
+          "初見(?!さん)",
+          "所見",
+          "はじめまして"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -1225,7 +1290,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "コメント数表示"],
+      "tags": [
+        "ショコラ",
+        "コメント数表示"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1279,11 +1347,15 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^コメント$"]
+        "comment": [
+          "^コメント$"
+        ]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -1303,7 +1375,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["ショコラ", "ギフト"],
+      "tags": [
+        "ショコラ",
+        "ギフト"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1329,7 +1404,9 @@
             {
               "delaySeconds": 0.5,
               "actionType": "actionSet",
-              "actionSetKeys": ["GiftChocolateWink"]
+              "actionSetKeys": [
+                "GiftChocolateWink"
+              ]
             }
           ],
           "gameScripts": {
@@ -1356,10 +1433,14 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["gift"],
+        "conditions": [
+          "gift"
+        ],
         "userName": [],
         "access": [],
-        "gift": ["all"],
+        "gift": [
+          "all"
+        ],
         "comment": []
       },
       "limits": {
@@ -1380,7 +1461,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1401,7 +1485,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["FirstSyokenChocolateHappy"]
+              "actionSetKeys": [
+                "FirstSyokenChocolateHappy"
+              ]
             }
           ],
           "gameScripts": {
@@ -1424,11 +1510,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["syoken"],
+            "syoken": [
+              "syoken"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -1454,7 +1544,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["FirstComebackChocolateWink"]
+              "actionSetKeys": [
+                "FirstComebackChocolateWink"
+              ]
             }
           ],
           "gameScripts": {
@@ -1477,11 +1569,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["again"],
+            "syoken": [
+              "again"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -1507,7 +1603,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["FirstVisitChocolateBlushing"]
+              "actionSetKeys": [
+                "FirstVisitChocolateBlushing"
+              ]
             }
           ],
           "gameScripts": {
@@ -1530,11 +1628,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["firstVisit"],
+            "syoken": [
+              "firstVisit"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -1570,7 +1672,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "コメントチェック"],
+      "tags": [
+        "ショコラ",
+        "コメントチェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1591,7 +1696,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["CountStreamChocolate"]
+              "actionSetKeys": [
+                "CountStreamChocolate"
+              ]
             }
           ],
           "gameScripts": {
@@ -1614,7 +1721,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -1644,7 +1753,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["CountUserChocolate"]
+              "actionSetKeys": [
+                "CountUserChocolate"
+              ]
             }
           ],
           "gameScripts": {
@@ -1667,7 +1778,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -1709,7 +1822,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["ショコラ", "閲覧数チェック"],
+      "tags": [
+        "ショコラ",
+        "閲覧数チェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1825,7 +1941,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["ショコラ", "告知"],
+      "tags": [
+        "ショコラ",
+        "告知"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1895,7 +2014,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["ショコラ", "閲覧数チェック"],
+      "tags": [
+        "ショコラ",
+        "閲覧数チェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -1969,7 +2091,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["ショコラ", "閲覧数チェック"],
+      "tags": [
+        "ショコラ",
+        "閲覧数チェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -2041,7 +2166,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "イントロ"],
+      "tags": [
+        "タロット",
+        "イントロ"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2093,7 +2221,9 @@
       "order": 201,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2126,7 +2256,9 @@
       "order": 202,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2159,14 +2291,18 @@
       "order": 203,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2207,14 +2343,18 @@
       "order": 204,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2255,14 +2395,18 @@
       "order": 205,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2303,14 +2447,18 @@
       "order": 206,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2351,14 +2499,18 @@
       "order": 207,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2399,14 +2551,18 @@
       "order": 208,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2447,14 +2603,18 @@
       "order": 209,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2495,14 +2655,18 @@
       "order": 210,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2543,14 +2707,18 @@
       "order": 211,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2591,14 +2759,18 @@
       "order": 212,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2639,14 +2811,18 @@
       "order": 213,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2687,14 +2863,18 @@
       "order": 214,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2735,14 +2915,18 @@
       "order": 215,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyA"]
+          "actionSetKeys": [
+            "HondaJankenReadyA"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2783,14 +2967,18 @@
       "order": 216,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
         {
           "delaySeconds": 0,
           "actionType": "actionSet",
-          "actionSetKeys": ["HondaJankenReadyB"]
+          "actionSetKeys": [
+            "HondaJankenReadyB"
+          ]
         },
         {
           "delaySeconds": 0.4,
@@ -2832,7 +3020,11 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "初見詐欺", "thinking"],
+      "tags": [
+        "ショコラ",
+        "初見詐欺",
+        "thinking"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2876,7 +3068,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "初見詐欺"],
+      "tags": [
+        "ショコラ",
+        "初見詐欺"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2920,7 +3115,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "初見詐欺"],
+      "tags": [
+        "ショコラ",
+        "初見詐欺"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -2964,7 +3162,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["ショコラ", "初見詐欺"],
+      "tags": [
+        "ショコラ",
+        "初見詐欺"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3019,7 +3220,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["ショコラ", "ギフト"],
+      "tags": [
+        "ショコラ",
+        "ギフト"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3063,7 +3267,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3112,7 +3319,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3156,7 +3366,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3200,7 +3413,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "コメントチェック"],
+      "tags": [
+        "ショコラ",
+        "コメントチェック"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3244,7 +3460,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "コメントチェック"],
+      "tags": [
+        "ショコラ",
+        "コメントチェック"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -3290,7 +3509,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "占い結果"],
+      "tags": [
+        "タロット",
+        "占い結果"
+      ],
       "accessLevel": "basic",
       "values": [
         "{{text='愚者(正位置)'}}【[[text]]】 <<TarotCardFool_U>>",
@@ -3350,7 +3572,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "新しい一歩が幸運を呼ぶ兆し。失敗を恐れず挑めば、思わぬ縁やチャンスが広がります。",
@@ -3371,7 +3596,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "軽率な行動が運を逃す兆し。勢い任せより、一度立ち止まる冷静さが必要です。",
@@ -3392,7 +3620,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "才能が輝き始めるとき。積極的に動けば、思い描いた未来を自ら形にできます。",
@@ -3413,7 +3644,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "自信過剰が失敗を招きやすいとき。力を誇示せず、謙虚さを大切にしましょう。",
@@ -3434,7 +3668,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "静かな知恵が幸運を導くとき。直感を信じ、冷静な判断が良い結果を呼びます。",
@@ -3455,7 +3692,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "感情に流されやすく判断が鈍るとき。落ち着きを取り戻すことが大切です。",
@@ -3476,7 +3716,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "豊かさと愛情に恵まれるとき。人との絆が深まり、喜びが自然と広がります。",
@@ -3497,7 +3740,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "甘えや怠けが運を停滞させるとき。自律を意識すれば流れはすぐ整います。",
@@ -3518,7 +3764,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "努力が実を結ぶ時期。責任を果たすことで信頼が集まり、大きな成果を得られます。",
@@ -3539,7 +3788,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "頑固さが運を停滞させやすいとき。柔軟な姿勢を意識することで道が開けます。",
@@ -3560,7 +3812,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "信頼できる人の助言が吉。素直に受け入れることで道が安定し、安心が広がります。",
@@ -3581,7 +3836,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "固い考えが停滞を招く兆し。柔軟な視点を持てば、新しい道が見えてきます。",
@@ -3602,7 +3860,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "心が通じ合う時期。人との絆が深まり、愛情や友情が温かく育ちます。",
@@ -3623,7 +3884,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "優柔不断が混乱を招くとき。自分の気持ちに正直になれば迷いは晴れます。",
@@ -3644,7 +3908,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "勢いが幸運を呼ぶとき。全力で進めば障害を乗り越え、大きな成果を得られます。",
@@ -3665,7 +3932,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "焦りや暴走が運を乱す兆し。冷静さを保つことが大切です。",
@@ -3686,7 +3956,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "穏やかな心が力となるとき。優しさが人を動かし、信頼を得られます。",
@@ -3707,7 +3980,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "自信を失いやすいとき。小さな成功を積み重ねて流れを戻しましょう。",
@@ -3728,7 +4004,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "静かな時間が幸運を育てます。自分を見つめ直せば新しい気づきが得られます。",
@@ -3749,7 +4028,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "孤独感にとらわれやすいとき。心を開けば助けが得られます。",
@@ -3770,7 +4052,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "幸運の流れが訪れる兆し。思い切った行動が大きな成果につながります。",
@@ -3791,7 +4076,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "運の波が乱れやすいとき。焦らず流れを待つことが大切です。",
@@ -3812,7 +4100,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "公平な判断が幸運を呼ぶとき。誠実に向き合えば信頼を得られます。",
@@ -3833,7 +4124,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "不公平な扱いを受けやすいとき。冷静に対処すれば被害は小さくできます。",
@@ -3854,7 +4148,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "忍耐が報われるとき。今の努力はやがて大きな成果に変わります。",
@@ -3875,7 +4172,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "我慢が限界に近づくとき。無理をせず助けを求めることが大切です。",
@@ -3896,7 +4196,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "終わりが新たな始まりを告げます。古いものを手放せば未来が開けます。",
@@ -3917,7 +4220,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "執着が変化を妨げる兆し。思い切って手放せば流れが戻ります。",
@@ -3938,7 +4244,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "調和とバランスが幸運を呼ぶとき。無理なく進めば自然と成果に繋がります。",
@@ -3959,7 +4268,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "バランスを崩しやすい時期。無理な行動は運を乱します。",
@@ -3980,7 +4292,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "欲望に従いやすいとき。楽しみも大切ですが節度を守れば幸運は続きます。",
@@ -4001,7 +4316,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "束縛から解放される兆し。執着を手放せば自由が訪れます。",
@@ -4022,7 +4340,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "急な変化が訪れる兆し。驚きの出来事も新たな成長のきっかけになります。",
@@ -4043,7 +4364,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "大きな崩壊は避けられる兆し。ただし小さな綻びに注意しましょう。",
@@ -4064,7 +4388,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "希望の光が差し込むとき。理想を描けば現実が少しずつ追いついてきます。",
@@ -4085,7 +4412,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "期待が大きすぎて失望を招きやすいとき。現実を見つめ直すことが吉です。",
@@ -4106,7 +4436,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "直感が冴えるとき。夢やひらめきに幸運のヒントがあります。",
@@ -4127,7 +4460,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "不安や幻想に振り回されやすいとき。事実を確かめる姿勢が大切です。",
@@ -4148,7 +4484,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "喜びと成功に満ちる時期。自信を持って行動すれば成果を掴めます。",
@@ -4169,7 +4508,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "喜びが一時的に陰る兆し。小さな不和も素直に解決すれば回復します。",
@@ -4190,7 +4532,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "過去の努力が報われるとき。新しい扉が開きます。",
@@ -4211,7 +4556,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "過去に囚われ前に進みにくいとき。手放す勇気が未来を呼びます。",
@@ -4232,7 +4580,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "正位置"],
+      "tags": [
+        "タロット",
+        "正位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "成就と完成のとき。努力が実り、充実した達成感に包まれます。",
@@ -4253,7 +4604,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["タロット", "逆位置"],
+      "tags": [
+        "タロット",
+        "逆位置"
+      ],
       "accessLevel": "basic",
       "values": [
         "達成が目前で停滞する兆し。焦らず最後まで丁寧に進めましょう。",
@@ -4274,9 +4628,14 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["ショコラ", "じゃんけん"],
+      "tags": [
+        "ショコラ",
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
-      "values": ["ショコラ"]
+      "values": [
+        "ショコラ"
+      ]
     },
     "HondaJankenOre": {
       "id": "HondaJankenOre",
@@ -4289,9 +4648,14 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["ショコラ", "じゃんけん"],
+      "tags": [
+        "ショコラ",
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
-      "values": ["あたし"]
+      "values": [
+        "あたし"
+      ]
     },
     "HondaJankenA1": {
       "id": "HondaJankenA1",
@@ -4303,7 +4667,9 @@
       "order": 203,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "負けは次につながるチャンスです!ネバーギブアップ!",
@@ -4322,7 +4688,9 @@
       "order": 204,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "<<HondaJankenName>> の心なんて読めるわけがない、そう思ってないですか。あきらめへん人だけに見える景色があるはずです。",
@@ -4340,7 +4708,9 @@
       "order": 205,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "たかがじゃんけん、そう思ってないですか？それやったら明日も、<<HondaJankenOre>>が勝ちますよ。",
@@ -4359,7 +4729,9 @@
       "order": 206,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "自信を持って勝負にしっかりと向き合える、そう思えるまで、準備してください。",
@@ -4377,7 +4749,9 @@
       "order": 207,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "なんで負けたか、明日まで考えといてください。そしたら何かが見えてくるはずです。",
@@ -4396,7 +4770,9 @@
       "order": 208,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "複雑に考えてないですか?答えはシンプルです。<<HondaJankenName>>の心を読む、それだけです。",
@@ -4414,7 +4790,9 @@
       "order": 209,
       "isEnabled": true,
       "editorColor": "#2196F3",
-      "tags": ["じゃんけん"],
+      "tags": [
+        "じゃんけん"
+      ],
       "accessLevel": "basic",
       "values": [
         "やるやん。明日は<<HondaJankenOre>>にリベンジさせて。",
@@ -4432,7 +4810,10 @@
       "order": 501,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "人との縁が幸運を呼び込みそう。感謝の気持ちを忘れないことが大事よ。",
@@ -4466,7 +4847,10 @@
       "order": 502,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "積極的に行動すると運気は上がるわ。新しい挑戦はチャンスよ。",
@@ -4500,7 +4884,10 @@
       "order": 503,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "思いがけない幸運があるかも。チャンスを逃さないようにね。",
@@ -4534,7 +4921,10 @@
       "order": 504,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "いまは焦らず、一歩ずつ進むことね。努力すれば、願いは叶うと出ているわ。",
@@ -4568,7 +4958,10 @@
       "order": 505,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "油断が思わぬ結果に繋がるわ。慎重に行動して。",
@@ -4602,7 +4995,10 @@
       "order": 506,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "運気はやや下がり気味。慎重に行動するといいわ。",
@@ -4636,7 +5032,10 @@
       "order": 507,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "運気が深く沈み込みやすい時期。一度立ち止まって状況を整理してね。",
@@ -4670,7 +5069,10 @@
       "order": 508,
       "isEnabled": true,
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "笑いすぎに注意だぜ。腹筋が崩壊するかもしれないぜ。",
@@ -4706,7 +5108,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "values": [
         "<<user>>さん、来てくれてありがとう、ゆっくり楽しんでね。",
@@ -4727,7 +5132,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "values": [
         "<<user>>さん、お久しぶりね♡ 来てくれて嬉しいわ、元気にしてた？",
@@ -4748,7 +5156,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#E65100",
-      "tags": ["ショコラ", "初見判定"],
+      "tags": [
+        "ショコラ",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "values": [
         "あら、<<user>>さん、今日も来てくれて嬉しい♡",
@@ -4771,25 +5182,62 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじBOT", "ショコラ"],
+      "tags": [
+        "おみくじBOT",
+        "ショコラ"
+      ],
       "accessLevel": "basic",
       "version": "0.0.1",
       "author": "Pintocuru",
       "url": "https://pintocuru.booth.pm/",
       "displayName": "ショコラ",
       "image": {
-        "default": ["chocolate/default.webp", "chocolate/face.webp"],
-        "happy": ["chocolate/happy.webp", "chocolate/face.webp"],
-        "excited": ["chocolate/excited.webp", "chocolate/face.webp"],
-        "laughing": ["chocolate/laughing.webp", "chocolate/face.webp"],
-        "blushing": ["chocolate/blushing.webp", "chocolate/face.webp"],
-        "surprised": ["chocolate/surprised.webp", "chocolate/face.webp"],
-        "sad": ["chocolate/sad.webp", "chocolate/face.webp"],
-        "angry": ["chocolate/angry.webp", "chocolate/face.webp"],
-        "thinking": ["chocolate/thinking.webp", "chocolate/face.webp"],
-        "wink": ["chocolate/wink.webp", "chocolate/face.webp"],
-        "singing": ["chocolate/singing.webp"],
-        "sleepy": ["chocolate/sleepy.webp"]
+        "default": [
+          "chocolate/default.webp",
+          "chocolate/face.webp"
+        ],
+        "happy": [
+          "chocolate/happy.webp",
+          "chocolate/face.webp"
+        ],
+        "excited": [
+          "chocolate/excited.webp",
+          "chocolate/face.webp"
+        ],
+        "laughing": [
+          "chocolate/laughing.webp",
+          "chocolate/face.webp"
+        ],
+        "blushing": [
+          "chocolate/blushing.webp",
+          "chocolate/face.webp"
+        ],
+        "surprised": [
+          "chocolate/surprised.webp",
+          "chocolate/face.webp"
+        ],
+        "sad": [
+          "chocolate/sad.webp",
+          "chocolate/face.webp"
+        ],
+        "angry": [
+          "chocolate/angry.webp",
+          "chocolate/face.webp"
+        ],
+        "thinking": [
+          "chocolate/thinking.webp",
+          "chocolate/face.webp"
+        ],
+        "wink": [
+          "chocolate/wink.webp",
+          "chocolate/face.webp"
+        ],
+        "singing": [
+          "chocolate/singing.webp"
+        ],
+        "sleepy": [
+          "chocolate/sleepy.webp"
+        ]
       },
       "color": {
         "isTheme": true,
@@ -4848,7 +5296,9 @@
       "bubble": {
         "showCharacters": {
           "center": [],
-          "slot1": ["chocolate"],
+          "slot1": [
+            "chocolate"
+          ],
           "slot2": [],
           "slot3": [],
           "slot4": []
@@ -4864,7 +5314,9 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": ["basicList"],
+        "targetScriptKeys": [
+          "basicList"
+        ],
         "title": "🥠おみくじ履歴⛩️",
         "color": "lofi",
         "limit": 5,
@@ -4901,7 +5353,11 @@
       "placeholders": "basic",
       "characters": "basic"
     },
-    "components": ["bubble", "toast", "ranking"],
+    "components": [
+      "bubble",
+      "toast",
+      "ranking"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
@@ -4920,7 +5376,7 @@
   },
   "meta": {
     "id": "StrawberryChocolate-ver2026.03.19-2.9.0-beta4",
-    "name": "ストロベリーショコラ OmikujiBot StrawberryChocolate",
+    "name": "おみくじBOT ストロベリーショコラ OmikujiBot StrawberryChocolate",
     "description": "世話好きでお姉さんらしいオリキャラ「ストロベリーショコラ」が挨拶してくれるジェネレーター",
     "version": "ver2026.03.19-2.9.0-beta4",
     "generatorName": "omikuji-bot",

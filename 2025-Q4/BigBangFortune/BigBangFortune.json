@@ -1,14 +1,16 @@
 {
   "meta": {
-    "id": "BigBangFortune-ver2026.03.19-2.9.0-beta4",
-    "name": "超おみくじ BigBangFortune",
+    "id": "BigBangFortune-ver2026.03.19-2.9.0-beta5",
+    "name": "超おみくじ  BigBangFortune",
     "description": "「桁違い」の数値で占う、クソデカおみくじジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["超おみくじ"],
+    "tags": [
+      "超おみくじ"
+    ],
     "license": "CC-BY 4.0",
     "url": "https://pintocuru.booth.pm/items/7440428",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/BigBangFortune/BigBangFortune.gif"
@@ -21,21 +23,29 @@
       "name": "超おみくじ",
       "description": "「桁違い」の数値で占う、クソデカおみくじジェネレーター!!!!!!!!",
       "createdAt": "2025-09-13T09:36:31.634Z",
-      "updatedAt": "2026-02-27T03:54:19.542Z",
+      "updatedAt": "2026-03-19T12:15:13.434Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ"],
+      "tags": [
+        "超おみくじ"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "a9400b70-a469-4f18-832b-a6d893adbb97",
           "key": "1757756121625",
           "name": "超おみくじ",
+          "description": "",
           "createdAt": "2025-09-13T09:35:21.625Z",
           "updatedAt": "2025-09-13T09:35:21.625Z",
           "order": 0,
-          "tags": ["超おみくじ"],
+          "isEnabled": true,
+          "daisyColor": "primary",
+          "tags": [
+            "超おみくじ"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -43,16 +53,13 @@
               "delaySeconds": 0,
               "actionType": "actionSet",
               "actionSetKeys": [
-                {
-                  "weight": 1,
-                  "content": "BigBangIntro"
-                }
+                "BigBangIntro"
               ]
             },
             {
               "delaySeconds": 3,
               "actionType": "message",
-              "characterKey": null,
+              "characterKey": "omiken",
               "iconKey": "default",
               "sound": "",
               "message": {
@@ -62,11 +69,22 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -74,11 +92,19 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["超", "爆発", "BigBang", "BigFortune", "BigOracle"]
+        "comment": [
+          "超",
+          "爆発",
+          "BigBang",
+          "BigFortune",
+          "BigOracle"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -100,7 +126,11 @@
       "updatedAt": "2026-01-13T06:20:18.752Z",
       "order": 1,
       "isEnabled": true,
-      "tags": ["超おみくじ", "イントロ"],
+      "daisyColor": "primary",
+      "tags": [
+        "超おみくじ",
+        "イントロ"
+      ],
       "accessLevel": "basic",
       "type": "postActions",
       "postActions": [
@@ -116,11 +146,21 @@
         }
       ],
       "gameScripts": {
+        "delaySeconds": 0,
         "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     }
   },
   "placeholders": {
@@ -133,8 +173,13 @@
       "updatedAt": "2026-01-13T06:20:18.750Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "装飾", "吉"],
+      "tags": [
+        "超おみくじ",
+        "装飾",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         "光彩",
@@ -228,8 +273,12 @@
       "updatedAt": "2026-01-13T06:20:18.750Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "装飾"],
+      "tags": [
+        "超おみくじ",
+        "装飾"
+      ],
       "accessLevel": "basic",
       "values": [
         "魑魅",
@@ -318,12 +367,17 @@
       "id": "BigBangLottery",
       "key": "BigBangLottery",
       "name": "超おみくじ:抽選結果",
+      "description": "",
       "createdAt": "2025-09-18T06:38:25.113Z",
       "updatedAt": "2026-02-27T03:04:06.707Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "占い結果"],
+      "tags": [
+        "超おみくじ",
+        "占い結果"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -388,12 +442,17 @@
       "id": "BigBangB4",
       "key": "BigBangB4",
       "name": "超おみくじ:凶x4",
+      "description": "",
       "createdAt": "2025-09-18T06:25:41.070Z",
       "updatedAt": "2026-02-27T03:08:04.786Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "凶"],
+      "tags": [
+        "超おみくじ",
+        "凶"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -418,12 +477,17 @@
       "id": "BigBangB3",
       "key": "BigBangB3",
       "name": "超おみくじ:凶x3",
+      "description": "",
       "createdAt": "2025-09-18T06:26:35.570Z",
       "updatedAt": "2026-02-27T03:09:05.002Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "凶"],
+      "tags": [
+        "超おみくじ",
+        "凶"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -448,12 +512,17 @@
       "id": "BigBangB2",
       "key": "BigBangB2",
       "name": "超おみくじ:凶x2",
+      "description": "",
       "createdAt": "2025-09-18T06:27:06.116Z",
       "updatedAt": "2026-02-27T03:09:38.640Z",
       "order": 6,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "凶"],
+      "tags": [
+        "超おみくじ",
+        "凶"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -478,12 +547,17 @@
       "id": "BigBangB1",
       "key": "BigBangB1",
       "name": "超おみくじ:凶x1",
+      "description": "",
       "createdAt": "2025-09-18T06:27:32.561Z",
       "updatedAt": "2026-02-27T03:10:02.124Z",
       "order": 7,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "凶"],
+      "tags": [
+        "超おみくじ",
+        "凶"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -512,12 +586,18 @@
       "id": "BigBangG0",
       "key": "BigBangG0",
       "name": "超おみくじ:大吉-大凶",
+      "description": "",
       "createdAt": "2025-09-18T06:28:34.367Z",
       "updatedAt": "2026-02-27T03:02:19.104Z",
       "order": 8,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉", "凶"],
+      "tags": [
+        "超おみくじ",
+        "吉",
+        "凶"
+      ],
       "accessLevel": "basic",
       "values": [
         "{{text='大吉'; r = rand(8,9)}}{{r}}.{{rb1}}{{rb2}}",
@@ -533,12 +613,17 @@
       "id": "BigBangG1",
       "key": "BigBangG1",
       "name": "超おみくじ:吉x1",
+      "description": "",
       "createdAt": "2025-09-18T06:30:32.932Z",
       "updatedAt": "2026-02-27T03:18:51.477Z",
       "order": 9,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -567,12 +652,17 @@
       "id": "BigBangG2",
       "key": "BigBangG2",
       "name": "超おみくじ:吉x2",
+      "description": "",
       "createdAt": "2025-09-18T06:30:57.869Z",
       "updatedAt": "2026-02-27T03:20:59.704Z",
       "order": 10,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -601,12 +691,17 @@
       "id": "BigBangG3",
       "key": "BigBangG3",
       "name": "超おみくじ:吉x3",
+      "description": "",
       "createdAt": "2025-09-18T06:31:33.831Z",
       "updatedAt": "2026-02-27T03:21:29.306Z",
       "order": 11,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -639,12 +734,17 @@
       "id": "BigBangG4",
       "key": "BigBangG4",
       "name": "超おみくじ:吉x4",
+      "description": "",
       "createdAt": "2025-09-18T06:32:46.031Z",
       "updatedAt": "2026-02-27T03:24:22.863Z",
       "order": 12,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -689,12 +789,17 @@
       "id": "BigBangG5",
       "key": "BigBangG5",
       "name": "超おみくじ:吉x5",
+      "description": "",
       "createdAt": "2025-09-18T06:33:16.278Z",
       "updatedAt": "2026-02-27T03:25:44.995Z",
       "order": 13,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -751,12 +856,17 @@
       "id": "BigBangG6",
       "key": "BigBangG6",
       "name": "超おみくじ:吉x6",
+      "description": "",
       "createdAt": "2025-09-18T06:33:48.527Z",
       "updatedAt": "2026-02-27T03:26:07.062Z",
       "order": 14,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -813,12 +923,17 @@
       "id": "BigBangG7",
       "key": "BigBangG7",
       "name": "超おみくじ:吉x7",
+      "description": "",
       "createdAt": "2025-09-18T06:34:28.321Z",
       "updatedAt": "2026-02-27T03:26:35.448Z",
       "order": 15,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -875,12 +990,17 @@
       "id": "BigBangG8",
       "key": "BigBangG8",
       "name": "超おみくじ:吉x8",
+      "description": "",
       "createdAt": "2025-09-18T06:34:56.085Z",
       "updatedAt": "2026-02-27T03:27:05.530Z",
       "order": 16,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         {
@@ -937,12 +1057,17 @@
       "id": "1768285210251-3fvxz1",
       "key": "BigBangG9",
       "name": "超おみくじ:吉x9",
+      "description": "",
       "createdAt": "2026-01-13T06:20:10.251Z",
       "updatedAt": "2026-02-27T03:38:21.608Z",
       "order": 17,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#E0E0E0",
-      "tags": ["超おみくじ", "吉"],
+      "tags": [
+        "超おみくじ",
+        "吉"
+      ],
       "accessLevel": "basic",
       "values": [
         "完全究極神聖幻滅霊装宝輪魔哭祝厄冥界崩律禁忌煌命断罪輪廻",
@@ -960,102 +1085,7 @@
       ]
     }
   },
-  "characters": {
-    "omiken": {
-      "id": "omiken",
-      "key": "omiken",
-      "name": "おみくじBOT",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-08-11T03:50:57.710Z",
-      "updatedAt": "2025-10-09T22:04:37.277Z",
-      "order": 1,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "おみくじBOT",
-      "image": {
-        "default": [],
-        "happy": [],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": [],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": false,
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#64B5F6",
-        "textColor": "#E3F2FD",
-        "backgroundColor": "#1565C0",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    },
-    "omiken_2": {
-      "id": "omiken_2",
-      "key": "omiken_2",
-      "name": "おみくじBOT2",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-10-10T07:35:41.827Z",
-      "updatedAt": "2025-10-10T07:35:47.624Z",
-      "order": 2,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "おみくじBOT",
-      "image": {
-        "default": [],
-        "happy": [],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": [],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": false,
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#64B5F6",
-        "textColor": "#E3F2FD",
-        "backgroundColor": "#1565C0",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    }
-  },
+  "characters": {},
   "components": {
     "conditions": [
       {
@@ -1072,6 +1102,7 @@
       }
     ],
     "enableSecondary": true,
+    "specialSet": null,
     "commonStyle": {
       "fontFamily": "mochiyPop",
       "defaultColor": {
@@ -1093,7 +1124,9 @@
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": ["omiken"],
+          "center": [
+            "omiken"
+          ],
           "slot1": [],
           "slot2": [],
           "slot3": [],
@@ -1110,23 +1143,14 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": ["basicList"],
+        "targetScriptKeys": [
+          "basicList"
+        ],
         "title": "☄️超おみくじ履歴🌍️",
         "color": "luxury",
         "limit": 5,
         "sortOrder": "new",
         "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "ruleKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
       }
     }
   },
@@ -1134,12 +1158,16 @@
     "usage": {
       "comments": "basic",
       "timers": "none",
-      "metas": "basic",
+      "metas": "none",
       "actionSets": "basic",
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": ["toast", "ranking", "bubble"],
+    "components": [
+      "toast",
+      "ranking",
+      "bubble"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
@@ -1148,8 +1176,12 @@
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "dim"
+    "daisyUiTheme": "dim",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
   }
 }

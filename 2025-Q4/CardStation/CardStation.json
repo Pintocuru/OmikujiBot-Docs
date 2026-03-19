@@ -1,14 +1,16 @@
 {
   "meta": {
-    "id": "CardStation-ver2026.03.19-2.9.0-beta4",
-    "name": "カード駅 CardStation",
+    "id": "CardStation-ver2026.03.19-2.9.0-beta5",
+    "name": "カード駅  CardStation",
     "description": "全国各地 (海外・地球外含む) でカード集めが楽しめるジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["カード駅"],
+    "tags": [
+      "カード駅"
+    ],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/7412886",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/CardStation/CardStation.gif"
@@ -24,17 +26,23 @@
       "updatedAt": "2026-01-23T12:19:51.292Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
-      "tags": ["カード駅"],
+      "tags": [
+        "カード駅"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
           "id": "1756666545244",
           "key": "1756666545244",
           "name": "カード駅:通常",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -42,7 +50,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -62,11 +72,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 700,
           "isPriority": false,
           "criteria": null
@@ -75,9 +96,12 @@
           "id": "2f431cf1-bcdb-46d8-9ca1-6a8a3b866dc6",
           "key": "2f431cf1-bcdb-46d8-9ca1-6a8a3b866dc6",
           "name": "カード駅:ナイス",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -85,7 +109,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -105,11 +131,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 150,
           "isPriority": false,
           "criteria": null
@@ -118,9 +155,12 @@
           "id": "918d4067-023a-4dfe-8664-8c7825339a6b",
           "key": "918d4067-023a-4dfe-8664-8c7825339a6b",
           "name": "カード駅:スペシャル",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -128,7 +168,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -148,11 +190,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 50,
           "isPriority": false,
           "criteria": null
@@ -161,9 +214,12 @@
           "id": "cf3f6f59-e9a3-438e-9db5-de5c9d70312a",
           "key": "cf3f6f59-e9a3-438e-9db5-de5c9d70312a",
           "name": "カード駅:ボンビラス",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -171,7 +227,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -191,11 +249,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 77,
           "isPriority": false,
           "criteria": null
@@ -204,9 +273,12 @@
           "id": "7b7aca02-a5aa-4d43-9811-d59a0a74a97d",
           "key": "7b7aca02-a5aa-4d43-9811-d59a0a74a97d",
           "name": "カード駅:…に行けカード詰め合わせ",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -214,7 +286,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -234,11 +308,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 20,
           "isPriority": false,
           "criteria": null
@@ -247,9 +332,12 @@
           "id": "96d7b85c-f59e-4194-99b4-4d94987cc243",
           "key": "96d7b85c-f59e-4194-99b4-4d94987cc243",
           "name": "カード駅:ボンビュラス",
+          "description": "",
           "createdAt": "2025-08-31T18:55:45.244Z",
           "updatedAt": "2025-08-31T18:55:45.244Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -257,7 +345,9 @@
             {
               "delaySeconds": 0,
               "actionType": "actionSet",
-              "actionSetKeys": ["StationCardFirst"]
+              "actionSetKeys": [
+                "StationCardFirst"
+              ]
             },
             {
               "delaySeconds": 1.5,
@@ -277,11 +367,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 3,
           "isPriority": false,
           "criteria": null
@@ -289,11 +390,18 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^カード", "^かーど", "^card", "^station"]
+        "comment": [
+          "^カード",
+          "^かーど",
+          "^card",
+          "^station"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -304,15 +412,18 @@
     }
   },
   "timers": {},
+  "metas": {},
   "actionSets": {
     "StationCardFirst": {
       "id": "StationCardFirst",
       "key": "StationCardFirst",
       "name": "カード駅:イントロ",
+      "description": "",
       "createdAt": "2025-10-11T11:16:21.472Z",
       "updatedAt": "2025-11-20T02:52:05.584Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -335,11 +446,21 @@
         }
       ],
       "gameScripts": {
-        "scriptId": "",
+        "delaySeconds": 0,
+        "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     }
   },
   "placeholders": {
@@ -347,10 +468,12 @@
       "id": "CardTypeNormal",
       "key": "CardTypeNormal",
       "name": "カード駅:通常カード",
+      "description": "",
       "createdAt": "2025-08-31T16:31:34.221Z",
       "updatedAt": "2025-11-20T02:52:05.582Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -796,6 +919,7 @@
       "updatedAt": "2025-11-20T02:52:05.582Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -811,10 +935,12 @@
       "id": "CardTypeNice",
       "key": "CardTypeNice",
       "name": "カード駅:ナイスカード",
+      "description": "",
       "createdAt": "2025-08-31T16:33:34.598Z",
       "updatedAt": "2025-11-20T02:52:05.582Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1003,19 +1129,25 @@
       "updatedAt": "2025-11-20T02:52:05.582Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
-      "values": ["【<<CardTypeNice>>!】", "<<null>>"]
+      "values": [
+        "【<<CardTypeNice>>!】",
+        "<<null>>"
+      ]
     },
     "CardTypeSpecial": {
       "id": "CardTypeSpecial",
       "key": "CardTypeSpecial",
       "name": "カード駅:スペシャルカード",
+      "description": "",
       "createdAt": "2025-08-31T16:35:26.084Z",
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1167,6 +1299,7 @@
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 6,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1190,6 +1323,7 @@
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 7,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1271,10 +1405,12 @@
       "id": "CardTypeDevil",
       "key": "CardTypeDevil",
       "name": "カード駅:ボンビラス",
+      "description": "",
       "createdAt": "2025-08-31T16:36:51.995Z",
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 8,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1318,10 +1454,12 @@
       "id": "CardRole",
       "key": "CardRole",
       "name": "カード駅:役職選択",
+      "description": "",
       "createdAt": "2025-08-31T16:43:33.489Z",
       "updatedAt": "2026-01-22T15:02:43.146Z",
       "order": 9,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1341,10 +1479,12 @@
       "id": "CardRoleUncommon",
       "key": "CardRoleUncommon",
       "name": "カード駅:選択できる役職",
+      "description": "",
       "createdAt": "2025-08-31T16:45:19.889Z",
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 10,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1410,10 +1550,12 @@
       "id": "CardRoleRare",
       "key": "CardRoleRare",
       "name": "カード駅:選択できる役職(レア)",
+      "description": "",
       "createdAt": "2025-08-31T16:47:11.449Z",
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 11,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1488,10 +1630,12 @@
       "id": "CardStation",
       "key": "CardStation",
       "name": "カード駅:駅選択",
+      "description": "",
       "createdAt": "2025-08-31T19:47:22.722Z",
       "updatedAt": "2025-11-20T02:54:48.558Z",
       "order": 12,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1506,10 +1650,12 @@
       "id": "CardStationDomestic",
       "key": "CardStationDomestic",
       "name": "カード駅:地名国内(定番)",
+      "description": "",
       "createdAt": "2025-08-31T17:00:49.068Z",
       "updatedAt": "2025-11-20T02:52:05.583Z",
       "order": 13,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -1858,10 +2004,12 @@
       "id": "CardStationAbroad",
       "key": "CardStationAbroad",
       "name": "カード駅:地名海外(ワールド)",
+      "description": "",
       "createdAt": "2025-08-31T17:03:32.741Z",
       "updatedAt": "2025-11-20T02:55:59.845Z",
       "order": 14,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -2238,10 +2386,12 @@
       "id": "CardStationEast",
       "key": "CardStationEast",
       "name": "カード駅:地名東日本(あなたの町)",
+      "description": "",
       "createdAt": "2025-11-20T02:46:54.558Z",
       "updatedAt": "2025-11-20T02:56:25.929Z",
       "order": 15,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -2811,10 +2961,12 @@
       "id": "CardStationWest",
       "key": "CardStationWest",
       "name": "カード駅:地名西日本(あなたの町)",
+      "description": "",
       "createdAt": "2025-11-20T02:49:35.227Z",
       "updatedAt": "2025-11-20T02:56:32.076Z",
       "order": 16,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#00BCD4",
       "tags": [],
       "accessLevel": "basic",
@@ -3263,15 +3415,21 @@
       "updatedAt": "2026-01-23T00:56:34.406Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["おみくじBOT", "シンプル"],
+      "tags": [
+        "おみくじBOT",
+        "シンプル"
+      ],
       "accessLevel": "basic",
       "version": "0.0.1",
       "author": "Pintocuru",
       "url": "",
       "displayName": "",
       "image": {
-        "default": ["CardStation/CardStation_1.webp"],
+        "default": [
+          "CardStation/CardStation_1.webp"
+        ],
         "happy": [],
         "excited": [],
         "laughing": [],
@@ -3310,15 +3468,21 @@
       "updatedAt": "2026-01-23T00:56:38.588Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["おみくじBOT", "シンプル"],
+      "tags": [
+        "おみくじBOT",
+        "シンプル"
+      ],
       "accessLevel": "basic",
       "version": "0.0.1",
       "author": "Pintocuru",
       "url": "",
       "displayName": "",
       "image": {
-        "default": ["CardStation/CardStation_2.webp"],
+        "default": [
+          "CardStation/CardStation_2.webp"
+        ],
         "happy": [],
         "excited": [],
         "laughing": [],
@@ -3357,15 +3521,21 @@
       "updatedAt": "2026-01-23T00:56:41.248Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#9C27B0",
-      "tags": ["おみくじBOT", "シンプル"],
+      "tags": [
+        "おみくじBOT",
+        "シンプル"
+      ],
       "accessLevel": "basic",
       "version": "0.0.1",
       "author": "Pintocuru",
       "url": "",
       "displayName": "",
       "image": {
-        "default": ["CardStation/CardStation_3.webp"],
+        "default": [
+          "CardStation/CardStation_3.webp"
+        ],
         "happy": [],
         "excited": [],
         "laughing": [],
@@ -3397,15 +3567,24 @@
     }
   },
   "components": {
-    "conditions": ["bubble", "toast", "ranking"],
-    "bubble": {
-      "showCharacters": {
-        "center": [],
-        "slot1": ["card01", "card02", "card03"],
-        "slot2": [],
-        "slot3": [],
-        "slot4": []
+    "conditions": [
+      {
+        "slot": "primary",
+        "kind": "bubble"
       },
+      {
+        "slot": "secondary",
+        "kind": "toast"
+      },
+      {
+        "slot": "extra",
+        "kind": "ranking"
+      }
+    ],
+    "enableSecondary": true,
+    "specialSet": null,
+    "commonStyle": {
+      "fontFamily": "kosugiMaru",
       "defaultColor": {
         "isTheme": true,
         "daisyUiTheme": "dark",
@@ -3415,34 +3594,40 @@
         "textColor": "#212121",
         "backgroundColor": "#FAFAFA"
       },
-      "characterSize": 48,
-      "fontFamily": "kosugiMaru",
-      "bubbleMotionEnter": "none",
-      "bubbleTextAnimate": true,
-      "bubbleTextSpeed": 30
+      "defaultVoice": {
+        "mode": "voice",
+        "imageBase64": "",
+        "frameId": "",
+        "rpgVoice": "rpg_voice_a5"
+      }
     },
-    "toast": {
-      "showToastsOnRight": true,
-      "showToastsCharacter": false,
-      "showThumbnail": []
-    },
-    "ranking": {
-      "targetScriptKeys": ["basicList"],
-      "title": "🚄カード履歴🎴",
-      "color": "garden",
-      "limit": 5,
-      "sortOrder": "new",
-      "component": "rankStandard"
-    },
-    "counter": {
-      "ruleKey": null,
-      "component": "counterUser",
-      "target": "draw",
-      "label": "Counter",
-      "color": {
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary"
+    "settings": {
+      "bubble": {
+        "showCharacters": {
+          "center": [],
+          "slot1": [
+            "card01",
+            "card02",
+            "card03"
+          ],
+          "slot2": [],
+          "slot3": [],
+          "slot4": []
+        },
+        "characterSize": 48,
+        "bubbleMotionEnter": "none",
+        "bubbleTextAnimate": true,
+        "bubbleTextSpeed": 30
+      },
+      "toast": {
+        "showToastsOnRight": true
+      },
+      "ranking": {
+        "color": "garden",
+        "title": "🚄カード履歴🎴",
+        "component": "rankStandard",
+        "sortOrder": "new",
+        "limit": 5
       }
     }
   },
@@ -3450,21 +3635,30 @@
     "usage": {
       "comments": "basic",
       "timers": "none",
+      "metas": "none",
       "actionSets": "basic",
       "placeholders": "basic",
       "characters": "basic"
     },
-    "components": ["bubble", "toast", "ranking"],
+    "components": [
+      "bubble",
+      "toast",
+      "ranking"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
-      "jsonMergeSettings": "basic"
+      "jsonMergeSettings": "basic",
+      "itemSlotEnabled": "basic"
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "emerald"
-  },
-  "metas": {}
+    "daisyUiTheme": "emerald",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
+  }
 }

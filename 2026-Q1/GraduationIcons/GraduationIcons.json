@@ -1,14 +1,17 @@
 {
   "meta": {
-    "id": "GraduationIcons-ver2026.03.19-2.9.0-beta4",
-    "name": "あつめて！卒業写真メーカー GraduationIcons",
+    "id": "GraduationIcons-ver2026.03.19-2.9.0-beta5",
+    "name": "あつめて！卒業写真メーカー  GraduationIcons",
     "description": "コメントしたユーザーをランダムに枠に入れるジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["卒業写真メーカー", "フライトシート"],
+    "tags": [
+      "卒業写真メーカー",
+      "フライトシート"
+    ],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/8069882",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/GraduationIcons/GraduationIcons.gif"
@@ -48,56 +51,6 @@
       }
     },
     "settings": {
-      "bubble": {
-        "showCharacters": {
-          "center": [
-            "chocolate",
-            "cafelatte",
-            "honjoFox",
-            "omiken",
-            "omiken_2"
-          ],
-          "slot1": [],
-          "slot2": [],
-          "slot3": [],
-          "slot4": []
-        },
-        "characterSize": 48,
-        "bubbleMotionEnter": "slideUp",
-        "bubbleTextAnimate": false,
-        "bubbleTextSpeed": 50
-      },
-      "toast": {
-        "showToastsOnRight": true,
-        "showToastsCharacter": false,
-        "showThumbnail": []
-      },
-      "ranking": {
-        "targetScriptKeys": ["basicList"],
-        "title": "🍉スイカランキング🍉",
-        "color": "lofi",
-        "limit": 5,
-        "sortOrder": "new",
-        "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "targetEventKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
-      },
-      "winnerGroup": {
-        "component": "valentineCoupling",
-        "targetEventKey": "",
-        "label": "バレンタイン・カップリング",
-        "color": "valentine",
-        "queryString": "count=2&label=今日のカップリング"
-      },
       "flightSeat": {
         "component": "graduation",
         "customLayout": "[12,13,12]",
@@ -117,7 +70,9 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": ["flightSeat"],
+    "components": [
+      "flightSeat"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

@@ -1,14 +1,17 @@
 {
   "meta": {
-    "id": "LenormandOracle-ver2026.03.19-2.9.0-beta4",
-    "name": "ルノルマンカード LenormandOracle",
+    "id": "LenormandOracle-ver2026.03.19-2.9.0-beta5",
+    "name": "ルノルマンカード  LenormandOracle",
     "description": "36 枚のシンボルからメッセージを受け取る、気軽に占えるルノルマンカードジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["占い", "ルノルマンカード"],
+    "tags": [
+      "占い",
+      "ルノルマンカード"
+    ],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/7915987",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/LenormandOracle/LenormandOracle.gif"
@@ -24,6 +27,7 @@
       "updatedAt": "2026-01-26T01:32:04.272Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -32,9 +36,12 @@
           "id": "1757800562314",
           "key": "1757800562314",
           "name": "ルノルマンカード",
+          "description": "",
           "createdAt": "2025-09-13T21:56:02.314Z",
           "updatedAt": "2025-09-13T21:56:02.314Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -43,10 +50,7 @@
               "delaySeconds": 0,
               "actionType": "actionSet",
               "actionSetKeys": [
-                {
-                  "content": "LenormandOracleFirst",
-                  "weight": 1
-                }
+                "LenormandOracleFirst"
               ]
             },
             {
@@ -62,11 +66,22 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -75,9 +90,12 @@
           "id": "1766921349743",
           "key": "1766921349743",
           "name": "回数超過(6回目以降)",
+          "description": "",
           "createdAt": "2025-12-28T11:29:09.743Z",
           "updatedAt": "2025-12-28T11:29:09.743Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -95,15 +113,28 @@
             }
           ],
           "gameScripts": {
-            "scriptId": "",
+            "delaySeconds": 0,
+            "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -119,7 +150,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -147,15 +180,18 @@
     }
   },
   "timers": {},
+  "metas": {},
   "actionSets": {
     "LenormandOracleFirst": {
       "id": "1ff87a57-03ce-4590-ada0-7aa171c8165e",
       "key": "LenormandOracleFirst",
       "name": "ルノルマンカード:イントロ",
+      "description": "稼働時の演出です",
       "createdAt": "2026-01-26T01:10:18.129Z",
       "updatedAt": "2026-01-26T01:13:17.798Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "tags": [],
       "accessLevel": "basic",
       "type": "postActions",
@@ -182,12 +218,21 @@
         }
       ],
       "gameScripts": {
-        "scriptId": "",
+        "delaySeconds": 0,
+        "scriptId": null,
         "queryString": "",
         "characterKey": ""
       },
-      "special": "return",
-      "description": "稼働時の演出です"
+      "behavior": {
+        "type": "return",
+        "isCountEvent": true,
+        "countEvent": 1,
+        "log": {
+          "targetKey": "",
+          "logFormat": "<<user>> <<score>> <<createdAt>>",
+          "logLimit": 5
+        }
+      }
     }
   },
   "placeholders": {
@@ -195,10 +240,12 @@
       "id": "LenormandOracle",
       "key": "LenormandOracle",
       "name": "ルノルマン:占い結果",
+      "description": "",
       "createdAt": "2025-09-13T22:12:07.988Z",
       "updatedAt": "2026-01-26T01:12:05.400Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -250,6 +297,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -273,6 +321,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -296,6 +345,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 4,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -319,6 +369,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 5,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -342,6 +393,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 6,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -365,6 +417,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 7,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -388,6 +441,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 8,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -411,6 +465,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 9,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -434,6 +489,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 10,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -457,6 +513,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 11,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -480,6 +537,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 12,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -503,6 +561,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 13,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -526,6 +585,7 @@
       "updatedAt": "2025-11-29T15:20:56.171Z",
       "order": 14,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -549,6 +609,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 15,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -572,6 +633,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 16,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -595,6 +657,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 17,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -618,6 +681,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 18,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -641,6 +705,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 19,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -664,6 +729,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 20,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -687,6 +753,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 21,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -710,6 +777,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 22,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -733,6 +801,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 23,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -756,6 +825,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 24,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -779,6 +849,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 25,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -802,6 +873,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 26,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -825,6 +897,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 27,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -848,6 +921,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 28,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -871,6 +945,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 29,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -894,6 +969,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 30,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -917,6 +993,7 @@
       "updatedAt": "2025-11-29T15:25:42.550Z",
       "order": 31,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -940,6 +1017,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 32,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -963,6 +1041,7 @@
       "updatedAt": "2025-11-29T15:20:56.172Z",
       "order": 33,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -986,6 +1065,7 @@
       "updatedAt": "2025-11-29T15:20:56.173Z",
       "order": 34,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -1009,6 +1089,7 @@
       "updatedAt": "2025-11-29T15:20:56.173Z",
       "order": 35,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -1032,6 +1113,7 @@
       "updatedAt": "2025-11-29T15:20:56.173Z",
       "order": 36,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -1055,6 +1137,7 @@
       "updatedAt": "2025-11-29T15:20:56.173Z",
       "order": 37,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#A5D6A7",
       "tags": [],
       "accessLevel": "basic",
@@ -1070,65 +1153,26 @@
       ]
     }
   },
-  "characters": {
-    "omiken": {
-      "id": "omiken",
-      "key": "omiken",
-      "name": "おみくじBOT",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-08-11T03:50:57.710Z",
-      "updatedAt": "2025-12-28T11:19:30.358Z",
-      "order": 1,
-      "isEnabled": true,
-      "editorColor": "#F44336",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "おみくじBOT",
-      "image": {
-        "default": [],
-        "happy": [],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": [],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": true,
-        "daisyUiTheme": "fantasy",
-        "backFrom": "secondary",
-        "backTo": "primary",
-        "nameColor": "#AB47BC",
-        "textColor": "#F3E5F5",
-        "backgroundColor": "#6A1B9A",
-        "customClasses": "px-6 py-6 border border-white rounded-md"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": ""
-      }
-    }
-  },
+  "characters": {},
   "components": {
-    "conditions": ["bubble", "toast", "ranking"],
-    "bubble": {
-      "showCharacters": {
-        "center": ["omiken"],
-        "slot1": [],
-        "slot2": [],
-        "slot3": [],
-        "slot4": []
+    "conditions": [
+      {
+        "slot": "primary",
+        "kind": "bubble"
       },
+      {
+        "slot": "secondary",
+        "kind": "toast"
+      },
+      {
+        "slot": "extra",
+        "kind": "ranking"
+      }
+    ],
+    "enableSecondary": true,
+    "specialSet": null,
+    "commonStyle": {
+      "fontFamily": "kaiseiDecol",
       "defaultColor": {
         "isTheme": true,
         "daisyUiTheme": "wireframe",
@@ -1138,34 +1182,26 @@
         "textColor": "#212121",
         "backgroundColor": "#FAFAFA"
       },
-      "characterSize": 48,
-      "fontFamily": "kaiseiDecol",
-      "bubbleMotionEnter": "flipX",
-      "bubbleTextAnimate": false,
-      "bubbleTextSpeed": 50
+      "defaultVoice": {
+        "mode": "voice",
+        "imageBase64": "",
+        "frameId": "",
+        "rpgVoice": "rpg_voice_a5"
+      }
     },
-    "toast": {
-      "showToastsOnRight": true,
-      "showToastsCharacter": false,
-      "showThumbnail": []
-    },
-    "ranking": {
-      "targetScriptKeys": ["basicList"],
-      "title": "🔮ルノルマンカード 占い履歴🔮",
-      "color": "dim",
-      "limit": 5,
-      "sortOrder": "new",
-      "component": "rankStandard"
-    },
-    "counter": {
-      "ruleKey": null,
-      "component": "counterUser",
-      "target": "draw",
-      "label": "Counter",
-      "color": {
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary"
+    "settings": {
+      "bubble": {
+        "bubbleMotionEnter": "flipX"
+      },
+      "toast": {
+        "showToastsOnRight": true
+      },
+      "ranking": {
+        "color": "dim",
+        "title": "🔮ルノルマンカード 占い履歴🔮",
+        "sortOrder": "new",
+        "limit": 5,
+        "component": "rankStandard"
       }
     }
   },
@@ -1173,21 +1209,30 @@
     "usage": {
       "comments": "basic",
       "timers": "none",
+      "metas": "none",
       "actionSets": "basic",
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": ["toast", "ranking", "bubble"],
+    "components": [
+      "toast",
+      "ranking",
+      "bubble"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
-      "jsonMergeSettings": "none"
+      "jsonMergeSettings": "none",
+      "itemSlotEnabled": "basic"
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "fantasy"
-  },
-  "metas": {}
+    "daisyUiTheme": "fantasy",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
+  }
 }

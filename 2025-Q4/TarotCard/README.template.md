@@ -14,21 +14,19 @@
 
 ### 大アルカナの 22 枚を使う、気軽に占えるタロットカードジェネレーター
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。配信中に手軽に占い演出を追加できます。
 - 使用するカードは、大アルカナ 22 枚。正位置・逆位置を含めた全 44 種類の結果が用意されています。
 	- カードの意味はしっかり本格派。軽い気持ちで引いても、ふと心に残るかも。
 
 ![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
 
-![Installation_91_OmikujiBotSet](/packages/OmikujiBot/template/installation/Installation_91_OmikujiBotSet.md)
+![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
 ## つかいかた (Usage)
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
 ![usage_TarotCard](../../template/usage/usage_TarotCard.md)
-
-## カスタマイズ（Customization）
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 

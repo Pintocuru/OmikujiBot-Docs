@@ -1,14 +1,17 @@
 {
   "meta": {
-    "id": "MyNineViewers-ver2026.03.19-2.9.0-beta4",
-    "name": "私を構成する 9 人のユーザー。 MyNineViewers",
+    "id": "MyNineViewers-ver2026.03.19-2.9.0-beta5",
+    "name": "私を構成する 9 人のユーザー。  MyNineViewers",
     "description": "コメントしたユーザーをランダムに枠に入れるジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["私を構成する9人のユーザー。", "フライトシート"],
+    "tags": [
+      "私を構成する9人のユーザー。",
+      "フライトシート"
+    ],
     "license": "利用規約に従う",
     "url": "https://pintocuru.booth.pm/items/8060471",
     "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2026-Q1/MyNineViewers/MyNineViewers.gif"
@@ -25,10 +28,6 @@
       {
         "slot": "extra",
         "kind": "flightSeat"
-      },
-      {
-        "slot": "primary",
-        "kind": "toast"
       }
     ],
     "enableSecondary": false,
@@ -52,67 +51,13 @@
       }
     },
     "settings": {
-      "bubble": {
-        "showCharacters": {
-          "center": [
-            "chocolate",
-            "cafelatte",
-            "honjoFox",
-            "omiken",
-            "omiken_2"
-          ],
-          "slot1": [],
-          "slot2": [],
-          "slot3": [],
-          "slot4": []
-        },
-        "characterSize": 48,
-        "bubbleMotionEnter": "slideUp",
-        "bubbleTextAnimate": false,
-        "bubbleTextSpeed": 50
-      },
-      "toast": {
-        "showToastsOnRight": true,
-        "showToastsCharacter": false,
-        "showThumbnail": []
-      },
-      "ranking": {
-        "targetScriptKeys": ["basicList"],
-        "title": "🍉スイカランキング🍉",
-        "color": "lofi",
-        "limit": 5,
-        "sortOrder": "new",
-        "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "targetEventKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
-      },
-      "winnerGroup": {
-        "component": "valentineCoupling",
-        "targetEventKey": "",
-        "label": "バレンタイン・カップリング",
-        "color": "valentine",
-        "queryString": "count=2&label=今日のカップリング"
-      },
       "flightSeat": {
-        "layout": "square",
-        "rows": 3,
-        "cols": 3,
-        "targetEventKey": "",
-        "circleSeats": 12,
+        "component": "nineViewers",
         "customLayout": "[1,2,3,4,5]",
-        "label": "私を構成する9人のユーザー。",
+        "targetEventKey": "",
+        "label": "",
         "color": "synthwave",
-        "statKey": "tc",
-        "isRandomReplacement": true
+        "statKey": "tc"
       }
     }
   },
@@ -125,7 +70,9 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": ["flightSeat", "toast"],
+    "components": [
+      "flightSeat"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
@@ -134,6 +81,7 @@
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
     "daisyUiTheme": "silk",

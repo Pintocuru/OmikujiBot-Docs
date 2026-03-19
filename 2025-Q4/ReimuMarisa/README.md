@@ -1,6 +1,6 @@
 # おみくじ BOT ゆっくり霊夢&魔理沙 OmikujiBot ReimuMarisa README
 
-最終更新日：2026/01/22
+最終更新日：2026/03/19
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -74,9 +74,9 @@
 - コメントテスターは、わんコメのメニューから「コメントテスター」を選択してご利用ください。
 - OBS 等のストリーミング配信アプリに正しく導入されていれば、コメントに「おみくじ」などのキーワードを送信することで発動します。
 
-### おみくじ
+### 巫女さんのおみくじ
 
-> 発動ワード : `おみくじ` / `omikuji`
+> 発動ワード : `おみくじ` / `omikuji` / `みくじ` / `御神籤` / `運勢`
 
 - 「おみくじ」BOT らしく " 博麗神社の巫女 " が、おみくじの結果を教えてくれます。
 - 「大凶」の代わりに「残念賞」が入ってますが…入れたのは魔理沙らしい。
@@ -96,9 +96,9 @@
 
 - じゃんけんの勝率は 1/2、あいこを「負け」とカウントしても、1/3 だと考えていませんか。
 - この「じゃんけん」は、じゃんけんの猛者 [「ケイスケ ホンダ」](https://dic.pixiv.net/a/%E6%9C%AC%E7%94%B0%E3%81%A8%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93) を導入することにより、勝率をたったの 5% まで劇的に減少させることに成功しました。
-	- 負けた時の「挑発的なコメント」が豊富です
+- じゃんけんの猛者、降臨！激戦を制するのは誰だ！！
 	- 誰が勝つか、ユーザー同士で競い合え、コメント数も増加します。
-- [勝ったらコーラ1本プレゼント！](https://www.j-cast.com/2019/04/17355553.html)
+	- [勝ったらコーラ1本プレゼント](https://www.j-cast.com/2019/04/17355553.html)…も夢じゃない!?
 
 ### 初見判定ちゃん
 
@@ -149,11 +149,14 @@
 
 ## カスタマイズ（Customization）
 
+## カスタマイズ（Customization）
+
 ### 「コンフィグエディター」で自由におみくじを編集できる
 
 ![](../../core/ConfigEditor/images/features-04.webp)
 
 - 一部の配布パッケージには、**コンフィグエディター**（おみくじデータ編集用アプリ）が付属しています。
+	- 付属されていない場合、新しく導入する必要があります。[コンフィグエディターの新規導入](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_52_VersionUp.md) をご覧ください。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
 - おみくじの内容は、あなたの配信に合わせて**内容を自由にカスタマイズ**できます。
@@ -193,8 +196,8 @@
 - [Q. エディターで、おみくじの動作を確認するには](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2303_OmikujiConfirmation.md)
 - [Q. プレースホルダーでおみくじのバリエーションを増やす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/ContentPlaceholder.md)
 - [Q. プレースホルダー チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/ContentPlaceholderCheatSheet.md)
-- [Q. 変数プレースホルダーとは](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholder.md)
-- [Q. 変数プレースホルダー チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholderCheatSheet.md)
+- [Q. 評価ブロック (変数プレースホルダー)とは](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholder.md)
+- [Q. 評価ブロック (変数プレースホルダー) チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholderCheatSheet.md)
 - [Q. おみくじ表示時にサウンドを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2304_OmikujiSound.md)
 - [Q. おみくじ表示時にWordpartyを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2305_OmikujiWordparty.md)
 
@@ -215,7 +218,7 @@
 
 ## クレジット（Credits）
 
-### ゆっくり霊夢・ゆっくり魔理沙イラスト
+### ゆっくり霊夢イラスト
 
 - 凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
 - 本素材の同梱は通常、再配布にあたる行為ですが、作者様より特別にご許可を頂いております。

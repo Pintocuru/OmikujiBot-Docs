@@ -1,12 +1,12 @@
 {
   "meta": {
-    "id": "BomberSpin-ver2026.03.19-2.9.0-beta4",
-    "name": "ボンバースロット BomberSpin",
+    "id": "BomberSpin-ver2026.03.19-2.9.0-beta5",
+    "name": "ボンバースロット  BomberSpin",
     "description": "数値の大きさで楽しむ、ミニゲーム系のジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
     "tags": [
       "ゲームスクリプト",
@@ -29,8 +29,12 @@
       "updatedAt": "2026-01-17T03:24:49.404Z",
       "order": 1,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["スロット", "ボンバースロット"],
+      "tags": [
+        "スロット",
+        "ボンバースロット"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -41,17 +45,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=チェリー",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 14,
           "isPriority": false,
           "criteria": null
@@ -64,17 +81,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=オレンジ&spin=3",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 13,
           "isPriority": false,
           "criteria": null
@@ -87,17 +117,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=ぶどう",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 12,
           "isPriority": false,
           "criteria": null
@@ -110,17 +153,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=スイカ",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 11,
           "isPriority": false,
           "criteria": null
@@ -133,17 +189,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=ベル",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 10,
           "isPriority": false,
           "criteria": null
@@ -156,17 +225,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=ハット",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 9,
           "isPriority": false,
           "criteria": null
@@ -179,17 +261,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=コイン",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 8,
           "isPriority": false,
           "criteria": null
@@ -202,17 +297,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "symbol=ダイヤモンド",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 7,
           "isPriority": false,
           "criteria": null
@@ -225,24 +333,41 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "BomberSpin",
             "queryString": "spin=8",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 0,
           "isPriority": true,
           "criteria": {
-            "conditions": ["gift"],
+            "conditions": [
+              "gift"
+            ],
             "userName": [],
             "access": [],
-            "gift": ["all"],
+            "gift": [
+              "all"
+            ],
             "syoken": [],
             "count": {
               "comparison": "lowerBound",
@@ -256,9 +381,12 @@
           "id": "148ed1d2-d563-49b9-80a4-fe764d9ca184",
           "key": "1767067920080",
           "name": "回数超過",
+          "description": "",
           "createdAt": "2025-12-30T04:12:00.080Z",
           "updatedAt": "2025-12-30T04:12:00.080Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -276,15 +404,28 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -300,7 +441,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -330,8 +473,12 @@
       "updatedAt": "2026-01-17T03:24:49.404Z",
       "order": 2,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["スロット", "うさぎスロット"],
+      "tags": [
+        "スロット",
+        "うさぎスロット"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -342,17 +489,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "DwarfBomb",
             "queryString": "",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 6,
           "isPriority": false,
           "criteria": null
@@ -365,17 +525,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "DwarfBomb",
             "queryString": "mode=ツルハシ",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 3,
           "isPriority": false,
           "criteria": null
@@ -388,17 +561,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "DwarfBomb",
             "queryString": "mode=TNT",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": false,
           "criteria": null
@@ -411,24 +597,41 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "DwarfBomb",
             "queryString": "mode=ツルハシTNT",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 3,
           "isPriority": true,
           "criteria": {
-            "conditions": ["gift"],
+            "conditions": [
+              "gift"
+            ],
             "userName": [],
             "access": [],
-            "gift": ["all"],
+            "gift": [
+              "all"
+            ],
             "syoken": [],
             "count": {
               "comparison": "lowerBound",
@@ -442,9 +645,12 @@
           "id": "5f99abab-20eb-4fd6-8afa-0a99979aa8ad",
           "key": "1767072548549",
           "name": "回数超過",
+          "description": "",
           "createdAt": "2025-12-30T05:29:08.549Z",
           "updatedAt": "2025-12-30T05:29:08.549Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -462,15 +668,28 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -486,7 +705,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -518,8 +739,12 @@
       "updatedAt": "2026-01-17T03:24:49.404Z",
       "order": 3,
       "isEnabled": true,
+      "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["スロット", "桜吹雪スロット"],
+      "tags": [
+        "スロット",
+        "桜吹雪スロット"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -530,17 +755,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "MultiplyBonanza",
             "queryString": "",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 6,
           "isPriority": false,
           "criteria": null
@@ -553,17 +791,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "MultiplyBonanza",
             "queryString": "mode=風神",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 2,
           "isPriority": false,
           "criteria": null
@@ -576,17 +827,30 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "MultiplyBonanza",
             "queryString": "mode=雷神",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 2,
           "isPriority": false,
           "criteria": null
@@ -599,24 +863,41 @@
           "createdAt": "2025-08-11T15:34:29.297Z",
           "updatedAt": "2025-08-11T15:34:29.297Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "editorColor": "#3B82F6",
           "tags": [],
           "accessLevel": "basic",
           "type": "gameScripts",
           "postActions": [],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": "MultiplyBonanza",
             "queryString": "mode=風雷神",
             "characterKey": "omiken"
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 2,
           "isPriority": true,
           "criteria": {
-            "conditions": ["gift"],
+            "conditions": [
+              "gift"
+            ],
             "userName": [],
             "access": [],
-            "gift": ["all"],
+            "gift": [
+              "all"
+            ],
             "syoken": [],
             "count": {
               "comparison": "lowerBound",
@@ -630,9 +911,12 @@
           "id": "3933d83d-7881-4fb3-b1f6-ba71a34a3c93",
           "key": "1767072648208",
           "name": "回数超過",
+          "description": "",
           "createdAt": "2025-12-30T05:30:48.208Z",
           "updatedAt": "2025-12-30T05:30:48.208Z",
           "order": 0,
+          "isEnabled": true,
+          "daisyColor": "primary",
           "tags": [],
           "accessLevel": "basic",
           "type": "postActions",
@@ -650,15 +934,28 @@
             }
           ],
           "gameScripts": {
+            "delaySeconds": 0,
             "scriptId": null,
             "queryString": "",
             "characterKey": ""
           },
           "special": "return",
+          "behavior": {
+            "type": "return",
+            "isCountEvent": true,
+            "countEvent": 1,
+            "log": {
+              "targetKey": "",
+              "logFormat": "<<user>> <<score>> <<createdAt>>",
+              "logLimit": 5
+            }
+          },
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -674,7 +971,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -704,102 +1003,7 @@
   "metas": {},
   "actionSets": {},
   "placeholders": {},
-  "characters": {
-    "omiken": {
-      "id": "omiken",
-      "key": "omiken",
-      "name": "おみくじBOT",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-08-11T03:50:57.710Z",
-      "updatedAt": "2026-01-17T03:37:02.055Z",
-      "order": 3,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "おみくじBOT",
-      "image": {
-        "default": [],
-        "happy": [],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": [],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": true,
-        "daisyUiTheme": "dark",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#81C784",
-        "textColor": "#E8F5E8",
-        "backgroundColor": "#388E3C",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    },
-    "omiken_2": {
-      "id": "omiken_2",
-      "key": "omiken_2",
-      "name": "おみくじBOT2",
-      "description": "シンプルなフキダシです",
-      "createdAt": "2025-10-10T07:35:41.827Z",
-      "updatedAt": "2026-01-17T03:37:08.168Z",
-      "order": 4,
-      "isEnabled": true,
-      "editorColor": "#2196F3",
-      "tags": ["おみくじBOT", "シンプル"],
-      "accessLevel": "basic",
-      "version": "0.0.1",
-      "author": "Pintocuru",
-      "url": "",
-      "displayName": "おみくじBOT",
-      "image": {
-        "default": [],
-        "happy": [],
-        "excited": [],
-        "laughing": [],
-        "blushing": [],
-        "surprised": [],
-        "sad": [],
-        "angry": [],
-        "thinking": [],
-        "wink": [],
-        "singing": [],
-        "sleepy": []
-      },
-      "color": {
-        "isTheme": true,
-        "daisyUiTheme": "bumblebee",
-        "backFrom": "primary",
-        "backTo": "secondary",
-        "nameColor": "#FFB74D",
-        "textColor": "#FFF3E0",
-        "backgroundColor": "#F57C00",
-        "customClasses": "px-4 py-4 rounded-xl"
-      },
-      "displayOption": {
-        "mode": "comment",
-        "imageBase64": "",
-        "frameId": "OmikujiBot",
-        "rpgVoice": "rpg_voice_a5"
-      }
-    }
-  },
+  "characters": {},
   "components": {
     "conditions": [
       {
@@ -816,6 +1020,7 @@
       }
     ],
     "enableSecondary": true,
+    "specialSet": null,
     "commonStyle": {
       "fontFamily": "default",
       "defaultColor": {
@@ -837,7 +1042,10 @@
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": ["omiken", "omiken_2"],
+          "center": [
+            "omiken",
+            "omiken_2"
+          ],
           "slot1": [],
           "slot2": [],
           "slot3": [],
@@ -854,23 +1062,16 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": ["BomberSpin", "DwarfBomb", "MultiplyBonanza"],
+        "targetScriptKeys": [
+          "BomberSpin",
+          "DwarfBomb",
+          "MultiplyBonanza"
+        ],
         "title": "💣️Bonber Slot Ranking💎",
         "color": "abyss",
         "limit": 5,
         "sortOrder": "high",
         "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "ruleKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
       }
     }
   },
@@ -883,16 +1084,29 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": ["bubble", "toast", "ranking"],
-    "gameScripts": ["BomberSpin", "DwarfBomb", "MultiplyBonanza"],
+    "components": [
+      "bubble",
+      "toast",
+      "ranking"
+    ],
+    "gameScripts": [
+      "BomberSpin",
+      "DwarfBomb",
+      "MultiplyBonanza"
+    ],
     "developer": {
       "licenseVisible": "basic",
-      "jsonMergeSettings": "none"
+      "jsonMergeSettings": "none",
+      "itemSlotEnabled": "basic"
     }
   },
   "settings": {
+    "locale": "ja",
     "commentType": "OneComme",
     "licenseKeyHash": "",
-    "daisyUiTheme": "luxury"
+    "daisyUiTheme": "luxury",
+    "initialCategory": "comments",
+    "soundEnabled": true,
+    "ignoreUserPattern": "__INFO__|__ERROR__"
   }
 }

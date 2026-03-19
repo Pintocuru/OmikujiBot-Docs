@@ -1,14 +1,15 @@
 {
   "meta": {
-    "id": "BreakingSyoken-ver2026.03.19-2.9.0-beta4",
-    "name": "速報！初見さんいらっしゃい！ BreakingSyoken",
+    "id": "BreakingSyoken-ver2026.03.19-2.9.0-beta5",
+    "name": "速報！初見さんいらっしゃい！  BreakingSyoken",
     "description": "コメントしたリスナーに挨拶してくれる 速報風 BOT テンプレート",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
     "tags": [
+      "ニュースバナー",
       "速報初見さん",
       "初見判定",
       "初見詐欺",
@@ -35,7 +36,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["速報初見さん", "コメント数表示"],
+      "tags": [
+        "速報初見さん",
+        "コメント数表示"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -49,7 +53,9 @@
           "isEnabled": true,
           "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -89,11 +95,15 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["^コメント$"]
+        "comment": [
+          "^コメント$"
+        ]
       },
       "limits": {
         "cooldownSeconds": 3,
@@ -113,7 +123,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["速報初見さん", "ギフト"],
+      "tags": [
+        "速報初見さん",
+        "ギフト"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -127,7 +140,9 @@
           "isEnabled": true,
           "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -172,10 +187,14 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["gift"],
+        "conditions": [
+          "gift"
+        ],
         "userName": [],
         "access": [],
-        "gift": ["all"],
+        "gift": [
+          "all"
+        ],
         "comment": []
       },
       "limits": {
@@ -196,7 +215,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["速報初見さん", "初見判定"],
+      "tags": [
+        "速報初見さん",
+        "初見判定"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -210,7 +232,9 @@
           "isEnabled": true,
           "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -246,11 +270,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["syoken"],
+            "syoken": [
+              "syoken"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -269,7 +297,9 @@
           "order": 0,
           "isEnabled": true,
           "daisyColor": "primary",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -305,11 +335,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["again"],
+            "syoken": [
+              "again"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -328,7 +362,9 @@
           "order": 0,
           "isEnabled": true,
           "daisyColor": "primary",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -364,11 +400,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["firstVisit"],
+            "syoken": [
+              "firstVisit"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -404,7 +444,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["速報初見さん", "コメントチェック"],
+      "tags": [
+        "速報初見さん",
+        "コメントチェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -418,7 +461,9 @@
           "isEnabled": true,
           "daisyColor": "primary",
           "editorColor": "#3B82F6",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -454,7 +499,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -477,7 +524,9 @@
           "order": 0,
           "isEnabled": true,
           "daisyColor": "primary",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -513,7 +562,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -529,7 +580,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["count"],
+        "conditions": [
+          "count"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -558,7 +611,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["速報初見さん", "初見詐欺"],
+      "tags": [
+        "速報初見さん",
+        "初見詐欺"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -642,11 +698,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["syoken"],
+            "conditions": [
+              "syoken"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
-            "syoken": ["syoken"],
+            "syoken": [
+              "syoken"
+            ],
             "count": {
               "comparison": "lowerBound",
               "unit": "draws",
@@ -701,7 +761,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -748,7 +810,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -764,11 +828,17 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["初見(?!さん)", "所見", "はじめまして"]
+        "comment": [
+          "初見(?!さん)",
+          "所見",
+          "はじめまして"
+        ]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -791,7 +861,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["速報初見さん", "閲覧数チェック"],
+      "tags": [
+        "速報初見さん",
+        "閲覧数チェック"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -804,7 +877,9 @@
           "order": 0,
           "isEnabled": true,
           "daisyColor": "primary",
-          "tags": ["速報初見さん"],
+          "tags": [
+            "速報初見さん"
+          ],
           "accessLevel": "basic",
           "type": "postActions",
           "postActions": [
@@ -882,51 +957,6 @@
       }
     },
     "settings": {
-      "bubble": {
-        "showCharacters": {
-          "center": [],
-          "slot1": ["breaking"],
-          "slot2": [],
-          "slot3": [],
-          "slot4": []
-        },
-        "characterSize": 48,
-        "bubbleMotionEnter": "scale",
-        "bubbleTextAnimate": true,
-        "bubbleTextSpeed": 50
-      },
-      "toast": {
-        "showToastsOnRight": true,
-        "showToastsCharacter": false,
-        "showThumbnail": []
-      },
-      "ranking": {
-        "targetScriptKeys": ["basicList"],
-        "title": "🍉スイカランキング🍉",
-        "color": "lofi",
-        "limit": 5,
-        "sortOrder": "new",
-        "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "targetEventKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
-      },
-      "flightSeat": {
-        "component": "flightSeat",
-        "customLayout": "[1,2,3,4,5]",
-        "targetEventKey": "",
-        "label": "🛫 8時間フライト、どの席に座る？",
-        "color": "lofi",
-        "statKey": null
-      },
       "flashBanner": {
         "component": "standard",
         "label": "速報",
@@ -949,7 +979,9 @@
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": ["flashBanner"],
+    "components": [
+      "flashBanner"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

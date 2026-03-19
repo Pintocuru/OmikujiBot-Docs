@@ -1,12 +1,12 @@
 {
   "meta": {
-    "id": "StreamCounterPixelOhayou-ver2026.03.19-2.9.0-beta4",
-    "name": "ライバーカウンター ピクセル Ohayou StreamCounterPixelOhayou",
+    "id": "StreamCounterPixelOhayou-ver2026.03.19-2.9.0-beta5",
+    "name": "ライバーカウンター ピクセル Ohayou  StreamCounterPixelOhayou",
     "description": "高評価も！コメント数も！いろいろカウントできる多機能カウンターテンプレート",
-    "version": "ver2026.03.19-2.9.0-beta4",
+    "version": "ver2026.03.19-2.9.0-beta5",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta4",
-    "dataVersion": 2.20090002004,
+    "generatorVersion": "2.9.0-beta5",
+    "dataVersion": 2.20090002005,
     "author": "Pintocuru(せすじピンとしてます)",
     "tags": [
       "ライバーカウンター",
@@ -31,7 +31,9 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#FF9800",
-      "tags": ["ライバーカウンター"],
+      "tags": [
+        "ライバーカウンター"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -127,7 +129,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["count"],
+            "conditions": [
+              "count"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -186,9 +190,15 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["comment", "access"],
+            "conditions": [
+              "comment",
+              "access"
+            ],
             "userName": [],
-            "access": ["owner", "moderator"],
+            "access": [
+              "owner",
+              "moderator"
+            ],
             "gift": [],
             "syoken": [],
             "count": {
@@ -196,17 +206,23 @@
               "unit": "draws",
               "value": 2
             },
-            "comment": ["リセット"]
+            "comment": [
+              "リセット"
+            ]
           }
         }
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["おは"]
+        "comment": [
+          "おは"
+        ]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -226,7 +242,9 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": ["ライバーカウンター"],
+      "tags": [
+        "ライバーカウンター"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -275,7 +293,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["comment"],
+            "conditions": [
+              "comment"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -285,7 +305,10 @@
               "unit": "draws",
               "value": 1
             },
-            "comment": ["大草原不可避", "大草原不回避"]
+            "comment": [
+              "大草原不可避",
+              "大草原不回避"
+            ]
           }
         },
         {
@@ -334,7 +357,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["comment"],
+            "conditions": [
+              "comment"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -344,7 +369,12 @@
               "unit": "draws",
               "value": 1
             },
-            "comment": ["wwwww", "ｗｗｗｗｗ", "大草原", ""]
+            "comment": [
+              "wwwww",
+              "ｗｗｗｗｗ",
+              "大草原",
+              ""
+            ]
           }
         },
         {
@@ -393,7 +423,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["comment"],
+            "conditions": [
+              "comment"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -403,7 +435,11 @@
               "unit": "draws",
               "value": 1
             },
-            "comment": ["www", "ｗｗｗ", "大爆笑"]
+            "comment": [
+              "www",
+              "ｗｗｗ",
+              "大爆笑"
+            ]
           }
         },
         {
@@ -452,7 +488,9 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": ["comment"],
+            "conditions": [
+              "comment"
+            ],
             "userName": [],
             "access": [],
             "gift": [],
@@ -462,7 +500,12 @@
               "unit": "draws",
               "value": 1
             },
-            "comment": ["ww", "ｗｗ", "草生え", "爆笑"]
+            "comment": [
+              "ww",
+              "ｗｗ",
+              "草生え",
+              "爆笑"
+            ]
           }
         },
         {
@@ -515,11 +558,16 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": ["(w|ｗ|草)", ""]
+        "comment": [
+          "(w|ｗ|草)",
+          ""
+        ]
       },
       "limits": {
         "cooldownSeconds": 0,
@@ -539,7 +587,9 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#2196F3",
-      "tags": ["ライバーカウンター"],
+      "tags": [
+        "ライバーカウンター"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -592,7 +642,9 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
@@ -648,80 +700,24 @@
       }
     },
     "settings": {
-      "bubble": {
-        "showCharacters": {
-          "center": [
-            "chocolate",
-            "cafelatte",
-            "honjoFox",
-            "omiken",
-            "omiken_2"
-          ],
-          "slot1": [],
-          "slot2": [],
-          "slot3": [],
-          "slot4": []
-        },
-        "characterSize": 48,
-        "bubbleMotionEnter": "slideUp",
-        "bubbleTextAnimate": false,
-        "bubbleTextSpeed": 50
-      },
-      "toast": {
-        "showToastsOnRight": true,
-        "showToastsCharacter": true,
-        "showThumbnail": []
-      },
-      "ranking": {
-        "targetScriptKeys": ["basicList"],
-        "title": "🍉スイカランキング🍉",
-        "color": "lofi",
-        "limit": 5,
-        "sortOrder": "new",
-        "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "targetEventKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
-      },
-      "winnerGroup": {
-        "component": "valentineCoupling",
-        "targetEventKey": "",
-        "label": "ラッキーメンバーズ",
-        "color": "lofi",
-        "queryString": "count=2&label=今日のラッキーさん"
-      },
-      "flightSeat": {
-        "component": "flightSeat",
-        "customLayout": "[1,2,3,4,5]",
-        "targetEventKey": "",
-        "label": "🛫 8時間フライト、どの席に座る？",
-        "color": "synthwave",
-        "statKey": null
-      },
-      "flashBanner": {
-        "component": "standard",
-        "label": "速報",
-        "iconSize": 12,
-        "displaySeconds": null,
-        "showItemOnRight": false,
-        "defaultCharacterKey": null,
-        "defaultMessage": "<<\n'チャンネル登録・高評価、お願いします。',\n'現在の視聴数 <<viewer>> / 高評価 <<upVote>>',\n'知っていたか'\n>>"
-      },
       "streamCounter": {
         "component": "pixelBadgePlain",
         "color": "dark",
-        "colorCycle": ["primary", "secondary", "accent", "warning"],
+        "colorCycle": [
+          "primary",
+          "secondary",
+          "accent",
+          "warning"
+        ],
         "labelStyle": "text",
-        "defaultCounters": ["lc"],
-        "eventCounters": ["CounterOhayou", "CounterWarota", "CounterNice"]
+        "defaultCounters": [
+          "lc"
+        ],
+        "eventCounters": [
+          "CounterOhayou",
+          "CounterWarota",
+          "CounterNice"
+        ]
       }
     }
   },
@@ -734,7 +730,9 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": ["streamCounter"],
+    "components": [
+      "streamCounter"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
