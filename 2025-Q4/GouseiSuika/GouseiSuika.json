@@ -31,9 +31,7 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": [
-        "スイカジェネレーター"
-      ],
+      "tags": ["スイカジェネレーター"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -118,9 +116,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -136,20 +132,11 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": [
-          "スイカ",
-          "^すいか",
-          "^suika",
-          "^suica",
-          "^西瓜",
-          "🍉"
-        ]
+        "comment": ["スイカ", "^すいか", "^suika", "^suica", "^西瓜", "🍉"]
       },
       "limits": {
         "cooldownSeconds": 5,
@@ -169,10 +156,7 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": [
-        "スイカジェネレーター",
-        "カボチャジェネレーター"
-      ],
+      "tags": ["スイカジェネレーター", "カボチャジェネレーター"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -257,9 +241,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -275,19 +257,11 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": [
-          "カボチャ",
-          "^かぼちゃ",
-          "^pumpkin",
-          "南瓜",
-          "🎃"
-        ]
+        "comment": ["カボチャ", "^かぼちゃ", "^pumpkin", "南瓜", "🎃"]
       },
       "limits": {
         "cooldownSeconds": 5,
@@ -307,10 +281,7 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#4CAF50",
-      "tags": [
-        "スイカジェネレーター",
-        "クジラジェネレーター"
-      ],
+      "tags": ["スイカジェネレーター", "クジラジェネレーター"],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -395,9 +366,7 @@
           "weight": 1,
           "isPriority": true,
           "criteria": {
-            "conditions": [
-              "count"
-            ],
+            "conditions": ["count"],
             "userName": [],
             "access": [],
             "gift": [],
@@ -413,20 +382,11 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": [
-          "comment"
-        ],
+        "conditions": ["comment"],
         "userName": [],
         "access": [],
         "gift": [],
-        "comment": [
-          "クジラ",
-          "^くじら",
-          "^whale",
-          "^鯨",
-          "🐋",
-          "🐳"
-        ]
+        "comment": ["クジラ", "^くじら", "^whale", "^鯨", "🐋", "🐳"]
       },
       "limits": {
         "cooldownSeconds": 5,
@@ -475,10 +435,7 @@
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": [
-            "omiken",
-            "omiken_2"
-          ],
+          "center": ["omiken", "omiken2"],
           "slot1": [],
           "slot2": [],
           "slot3": [],
@@ -495,9 +452,7 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": [
-          "GouseiSuika"
-        ],
+        "targetScriptKeys": ["GouseiSuika"],
         "title": "🍉スイカランキング🍉",
         "color": "lofi",
         "limit": 5,
@@ -515,13 +470,8 @@
       "placeholders": "none",
       "characters": "none"
     },
-    "components": [
-      "toast",
-      "ranking"
-    ],
-    "gameScripts": [
-      "GouseiSuika"
-    ],
+    "components": ["toast", "ranking"],
+    "gameScripts": ["GouseiSuika"],
     "developer": {
       "licenseVisible": "basic",
       "jsonMergeSettings": "none",
