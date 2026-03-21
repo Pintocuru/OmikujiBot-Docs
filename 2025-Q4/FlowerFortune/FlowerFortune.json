@@ -1,20 +1,20 @@
 {
   "meta": {
-    "id": "FlowerFortune-ver2026.03.19-2.9.0-beta5",
+    "id": "FlowerFortune-ver2026.03.21-2.9.0",
     "name": "フラワー占い  FlowerFortune",
     "description": "花の色(+キノコ)で占う、真面目な占いジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta5",
+    "version": "ver2026.03.21-2.9.0",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta5",
-    "dataVersion": 2.20090002005,
+    "generatorVersion": "2.9.0",
+    "dataVersion": 2.20090003001,
     "author": "Pintocuru(せすじピンとしてます)",
     "tags": [
       "占い",
       "フラワー占い"
     ],
     "license": "CC-BY 4.0",
-    "url": "https://pintocuru.booth.pm/items/7982286",
-    "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/FlowerFortune/FlowerFortune.gif"
+    "url": "https://pintocuru.booth.pm/items/8109149",
+    "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/FlowerFortune/FlowerFortune.webp"
   },
   "jsonMerge": [],
   "comments": {
@@ -1106,7 +1106,7 @@
         "kind": "ranking"
       }
     ],
-    "enableSecondary": false,
+    "enableSecondary": true,
     "specialSet": null,
     "commonStyle": {
       "fontFamily": "kosugiMaru",
@@ -1156,17 +1156,6 @@
         "limit": 5,
         "sortOrder": "new",
         "component": "rankStandard"
-      },
-      "counter": {
-        "component": "counterUser",
-        "targetEventKey": "",
-        "target": "draw",
-        "label": "Counter",
-        "color": {
-          "daisyUiTheme": "dark",
-          "backFrom": "primary",
-          "backTo": "secondary"
-        }
       }
     }
   },
@@ -1184,14 +1173,7 @@
       "toast",
       "ranking"
     ],
-    "gameScripts": [
-      "GouseiSuika",
-      "BomberSpin",
-      "DwarfBomb",
-      "MultiplyBonanza",
-      "GoogolClover",
-      "HugEmAll"
-    ],
+    "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",
       "jsonMergeSettings": "none",

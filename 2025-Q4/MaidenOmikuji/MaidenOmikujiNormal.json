@@ -1,17 +1,20 @@
 {
   "meta": {
-    "id": "MaidenOmikujiNormal-ver2026.03.19-2.9.0-beta5",
+    "id": "MaidenOmikujiNormal-ver2026.03.21-2.9.0",
     "name": "巫女さんのおみくじ  MaidenOmikujiNormal",
     "description": "巫女さん手製の、真面目なおみくじジェネレーター",
-    "version": "ver2026.03.19-2.9.0-beta5",
+    "version": "ver2026.03.21-2.9.0",
     "generatorName": "omikuji-bot",
-    "generatorVersion": "2.9.0-beta5",
-    "dataVersion": 2.20090002005,
+    "generatorVersion": "2.9.0",
+    "dataVersion": 2.20090003001,
     "author": "Pintocuru(せすじピンとしてます)",
-    "tags": ["おみくじ", "巫女さんのおみくじ"],
+    "tags": [
+      "おみくじ",
+      "巫女さんのおみくじ"
+    ],
     "license": "CC-BY 4.0",
-    "url": "https://pintocuru.booth.pm/items/7982286",
-    "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/MaidenOmikuji/MaidenOmikujiNormal.gif"
+    "url": "https://pintocuru.booth.pm/items/8109123",
+    "banner": "https://raw.githubusercontent.com/Pintocuru/OmikujiBot-Docs/refs/heads/main/2025-Q4/MaidenOmikuji/MaidenOmikujiNormal.webp"
   },
   "jsonMerge": [],
   "comments": {
@@ -21,12 +24,15 @@
       "name": "巫女さんのおみくじ(ノーマル)",
       "description": "巫女さん手製の、真面目なおみくじ。大吉・吉・中吉・小吉・末吉・凶・大凶が入っているよ。",
       "createdAt": "2025-08-11T15:34:29.296Z",
-      "updatedAt": "2026-03-19T10:34:40.825Z",
+      "updatedAt": "2026-03-20T13:26:33.317Z",
       "order": 1,
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#3F51B5",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "omikuji": [
         {
@@ -496,14 +502,15 @@
       ],
       "ruleType": "comments",
       "trigger": {
-        "conditions": ["comment"],
+        "conditions": [
+          "comment"
+        ],
         "userName": [],
         "access": [],
         "gift": [],
         "comment": [
-          "おみくじ ",
-          "^みくじ",
-          "^omikuji",
+          "みくじ",
+          "omikuji",
           "^御神籤",
           "^運勢",
           "^うんせい"
@@ -532,7 +539,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "人との縁が幸運を呼び込みそう。感謝の気持ちを忘れないことが大事よ。",
@@ -568,7 +578,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "積極的に行動すると運気は上がるわ。新しい挑戦はチャンスよ。",
@@ -604,7 +617,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "思いがけない幸運があるかも。チャンスを逃さないようにね。",
@@ -640,7 +656,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "いまは焦らず、一歩ずつ進むことね。努力すれば、願いは叶うと出ているわ。",
@@ -676,7 +695,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "油断が思わぬ結果に繋がるわ。慎重に行動して。",
@@ -712,7 +734,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "運気はやや下がり気味。慎重に行動するといいわ。",
@@ -748,7 +773,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "運気が深く沈み込みやすい時期。一度立ち止まって状況を整理してね。",
@@ -784,7 +812,10 @@
       "isEnabled": true,
       "daisyColor": "primary",
       "editorColor": "#F44336",
-      "tags": ["おみくじ", "巫女さんのおみくじ"],
+      "tags": [
+        "おみくじ",
+        "巫女さんのおみくじ"
+      ],
       "accessLevel": "basic",
       "values": [
         "笑いすぎに注意だぜ。腹筋が崩壊するかもしれないぜ。",
@@ -849,7 +880,10 @@
     "settings": {
       "bubble": {
         "showCharacters": {
-          "center": ["omiken", "omiken2"],
+          "center": [
+            "omiken",
+            "omiken_2"
+          ],
           "slot1": [],
           "slot2": [],
           "slot3": [],
@@ -866,7 +900,9 @@
         "showThumbnail": []
       },
       "ranking": {
-        "targetScriptKeys": ["basicList"],
+        "targetScriptKeys": [
+          "basicList"
+        ],
         "title": "🥠おみくじ履歴⛩️",
         "color": "light",
         "limit": 5,
@@ -884,7 +920,11 @@
       "placeholders": "basic",
       "characters": "none"
     },
-    "components": ["toast", "ranking", "bubble"],
+    "components": [
+      "toast",
+      "ranking",
+      "bubble"
+    ],
     "gameScripts": [],
     "developer": {
       "licenseVisible": "basic",

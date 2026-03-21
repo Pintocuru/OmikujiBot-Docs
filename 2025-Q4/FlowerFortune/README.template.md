@@ -39,13 +39,17 @@
 ### ゆっくり魔理沙イラスト
 
 - 凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
-![](../ReimuMarisa/images/singing.webp)
+  ![](../ReimuMarisa/images/singing.webp)
+
+### 商品画像のデータ補助
+
+- エアコメメーカー <https://yotsuba173.booth.pm/items/8065806>
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_92_PackageLicense.md)
 
 ## バージョン情報 (Version)
 
-### ver.260320-v2.9.0-beta5
+### ver.260321-v2.9.0
 
 - おみくじ BOT の「データパック」内蔵のデータとして新規作成
 

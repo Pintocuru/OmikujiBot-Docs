@@ -1,6 +1,6 @@
 # おみくじ BOT フラワー占い OmikujiBot FlowerFortune README
 
-最終更新日：2026/03/19
+最終更新日：2026/03/21
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -123,7 +123,11 @@
 ### ゆっくり魔理沙イラスト
 
 - 凪ぽんの素材置き場 <https://nagipon-sozai.studio.site/>
-![](../ReimuMarisa/images/singing.webp)
+  ![](../ReimuMarisa/images/singing.webp)
+
+### 商品画像のデータ補助
+
+- エアコメメーカー <https://yotsuba173.booth.pm/items/8065806>
 
 ## ライセンス（License）
 
@@ -149,7 +153,7 @@
 
 ## バージョン情報 (Version)
 
-### ver.260320-v2.9.0-beta5
+### ver.260321-v2.9.0
 
 - おみくじ BOT の「データパック」内蔵のデータとして新規作成
 
