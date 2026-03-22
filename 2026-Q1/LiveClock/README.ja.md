@@ -6,7 +6,7 @@
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8078258)
+- [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8115871)
 
 ## はじめに（Intro）
 
@@ -197,3 +197,5 @@
 作成者：Pintocuru(せすじピンとしてます) @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
+
+<%* await tp.user.expandEmbeds(tp,'ja') %>
