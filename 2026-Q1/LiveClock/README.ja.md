@@ -1,13 +1,12 @@
 # おみくじ BOT あいさつする時計 OmikujiBot LiveClock README
 
-最終更新日：2026/03/22
+最終更新日：2026/03/23
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT あいさつする時計 OmikujiBot StreamCounterCircle](https://pintocuru.booth.pm/items/8078258)
-- [おみくじ BOT ライバーカウンター ピクセル OmikujiBot StreamCounterPixel](https://pintocuru.booth.pm/items/8078267)
+- [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8078258)
 
 ## はじめに（Intro）
 
@@ -17,20 +16,27 @@
 
 ## このテンプレートは何？（Features）
 
-![](../LenormandOracle/images/LenormandOracleSashie.webp)
+### ユーザーがコメントをすると挨拶してくれる、時計型 BOT ジェネレーター
 
-### 36 枚のシンボルからメッセージを受け取る、気軽に占えるルノルマンカードジェネレーター
-
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。
-- 使用するカードは、ルノルマンカード全 36 枚。シンプルな象徴から、状況に寄り添うメッセージを読み取れるのが魅力です。
-	- シンプルな一枚でも、意外と深い気づきを与えてくれるカードです。そっと心に触れるメッセージが届くかも。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、リスナーが来たことを掲示するテンプレートです。
+- リスナーがコメントすると、「初見さんいらっしゃい！」や「◯◯さん、こんにちは！」と自動で返事をしてくれます。
+- 配信のステータス（高評価数・同接数・登録者数など）をランダムに表示。
+- チャンネル登録等の案内も表示できます。内容はエディターから自由に編集できます。
 
 ### シーン別・活用例
 
-- **朝活・雑談配信**
-  - ミニゲームの内容をきっかけに話題を広げて、会話が途切れにくくなります。
-  - ゲーム参加を目的にコメントしてくれるリスナーが増えることで、自然にコメント数や盛り上がりがアップします。
-
+- **朝活配信**
+  - 画面の隅にキャラクターを設置することで、アシスタントや秘書のように飾れます。
+  - チャンネル登録の案内もしてくれます。
+- **ゲーム配信**
+  - ゲームに集中していても、BOT が代わりに音を鳴らしたり、挨拶してくれるので、初見さんを見逃しません。
+- 雑談配信
+  - 新規ユーザーが来るたびに、BOT が告知してくれるため、会話のきっかけ作りに最適。
+  - 配信内での総コメント数も数えてくれます。
+- 歌枠・カラオケ配信
+  - 効果音を配信内で鳴らさないよう OBS で設定ができます。歌っている間も、ユーザーを把握できます。
+- 作業配信（勉強・お絵描き・編集など）
+  - 手が離せない作業中でも、BOT が新規ユーザーに反応してくれます。
 
 ## インストール (Installation)
 
@@ -39,8 +45,6 @@
 3. [【推奨】おみくじ BOT 演出用 WordParty2.0 の導入方法](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95-installation)
 	- [おみくじ BOT 演出用 WordParty2.0 とは?](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md#%E3%81%93%E3%81%AE%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AF%E4%BD%95features)
 4. [おみくじBOT コンフィグエディター PRO (有料版) のご案内](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_51_ProUpgradeTemplate.md)
-
-
 
 ## つかいかた (Usage)
 
@@ -52,23 +56,42 @@
 - コメントテスターは、わんコメのメニューから「コメントテスター」を選択してご利用ください。
 - OBS 等のストリーミング配信アプリに正しく導入されていれば、コメントに「おみくじ」などのキーワードを送信することで発動します。
 
+### 初見判定ちゃん
 
-### ルノルマンカード
+> 発動条件 : 初回コメント
 
-> 発動ワード : `ルノ` / `ルノマン`/ `カード`/ `Lenormand`/ `占い`
+- 初めてのコメント、久しぶり（約 1 週間ぶり）、その配信での初回コメントに対して挨拶します。
+	- 判定には「わんコメ」のデータを参照します。
+	- そのため、実際には「初見」でなくても、データにユーザー情報がなければ「初見」と判定されます。ご了承ください。
 
-- 使用するカードは、ルノルマンカード全 36 枚。1 枚の象徴から、今の状況に寄り添うメッセージを受け取れる占い機能です。
-	- 気軽に引けるのに、ちょっとしたヒントや気づきが得られることもあるかも。
-	- [おみくじ BOT 用 WordParty](https://booth.pm/ja/items/6048048) を一緒に導入すると、稼働時にアニメーションが入ります。
+#### コメントテスターでのテスト方法
 
-| ![](../../template/usage/images/LenormandOracle_1.webp) | ![](../../template/usage/images/LenormandOracle_2.webp) | ![](../../template/usage/images/LenormandOracle_3.webp) |
-| ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
+![](../../template/usage/images/22_FirstCounter.png)
 
-- カードのに描かれているキャラクターは「おみくじ BOT」のキャラクターです。左から下記のような名前です。
-	- ヨーグル＝ソース
-	- コーラ＝フロート
-	- ミント＝シロップボトル
+- おみくじ BOT v1.2 以降では、コメントテスターの「その他」項目から以下にチェックを入れることで「初見判定ちゃん」のテストが可能です。
+	- `NEWコメント` : 初見
+	- `NEWコメント` + `再訪` : 久しぶり（前回コメントから 1 週間以上経過）
+	- `再訪` : 配信枠での初回コメント
 
+### ギフトのお礼
+
+> 発動条件 : 1 ポイント以上のスパチャ・ギフト・ビット・お茶爆等
+
+- ギフトに対して、BOT コメントを表示することが出来ます。
+- ギフトに対するリアクションは、わんコメのギフト用読み上げ機能や、 WordPatry 機能で様々な演出が可能なので、控えめに設定しています。
+
+### コメント数チェック (配信内・個人総合)
+
+> 発動条件 : 配信内で 50 コメント毎、個人で 100 コメント毎
+
+- 配信内でのコメント数と、個人の総合コメント数を参照して、特定の回数で BOT がコメントしてくれます。
+- デフォルトでは、50 回、または 100 回ごとにお知らせのトースト表示をしてくれます。
+
+### コメント数を確認する
+
+> 発動ワード : `コメント`
+
+- これまでに投稿したコメント数を、わんコメが起動していた配信枠の範囲でカウントし、結果をトースト通知で表示します。
 
 ## カスタマイズ（Customization）
 
@@ -80,8 +103,6 @@
 	- 付属されていない場合、新しく導入する必要があります。[コンフィグエディターの新規導入](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_52_VersionUp.md) をご覧ください。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
-
-
 
 ## よくある質問 (FAQ)
 
@@ -122,12 +143,9 @@
 - [Q. おみくじ表示時にサウンドを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2304_OmikujiSound.md)
 - [Q. おみくじ表示時にWordpartyを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2305_OmikujiWordparty.md)
 
-
-
 ## トラブルシューティング (Troubleshooting)
 
 わんコメの機能については [トラブルシューティング](https://onecomme.com/docs/trouble-shooting) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
-
 
 ### 設定・表示・音声関連
 
@@ -140,26 +158,17 @@
 - [Q. コメントでおみくじが反応しない](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/troubleshooting/12_infoOmikujiBot/trouble_1204_CommentOmikuji.md)
 - [Q. おみくじが Youtube のコメントに反映されていない](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/troubleshooting/12_infoOmikujiBot/trouble_1205_OmikujiPlatform.md)
 
-
-
 ## クレジット（Credits）
 
-#### ルノルマンカードのイラスト（4 種）
+### 効果音・ジングル
+
+- [効果音・ジングルに関するライセンス](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/sub/sounds.md) にまとめています。
+  - このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
+
+#### ベッドの前で背伸びをするショコラ
 
 - Google Gemini <https://gemini.google.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
-
-### 素材の取り扱いについて
-
-1. 本アプリに含まれる素材は、各権利者からの許諾を得て使用しています。
-	1. これらの素材は**アプリの機能提供のために同梱**しているものであり、素材そのものを再配布することを目的としたものではありません。
-2. 素材は、**本アプリを利用した配信・演出の範囲内でのみ**ご使用ください。
-	1. アプリからの抽出、素材データの単体利用、再配布、二次配布は禁止されています。
-3. 各素材の利用条件については、配布元サイトの利用規約をご確認ください。
-4. 素材の権利や利用条件について万が一不備や問題がございましたら、権利者様よりご連絡いただければ、速やかに確認・対応いたします。
-
-| ![](../LenormandOracle/images/4.webp) | ![](../LenormandOracle/images/5.webp) | ![](../LenormandOracle/images/6.webp) |
-| ------------------ | ------------------ | ------------------ |
 
 ## ライセンス（License）
 
@@ -176,20 +185,15 @@
 - 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
-
-
 ## バージョン情報 (Version)
 
-### ver.260127
+### ver.260322
 
-- **おみくじ BOT のバージョン**: v2.0.4
+- **おみくじ BOT のバージョン**: v2.9.0
 - 新規作成
-
 
 ---
 
 作成者：Pintocuru(せすじピンとしてます) @pintocuru
 
 [Twitter](https://twitter.com/pintocuru) | [YouTube](https://www.youtube.com/@pintocuru)
-
-<%* await tp.user.expandEmbeds(tp,'ja') %>
