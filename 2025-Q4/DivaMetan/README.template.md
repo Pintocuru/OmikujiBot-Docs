@@ -70,7 +70,7 @@
 #### 四国めたん
 
 - 【立ち絵素材】四国めたんデフォルメ立ち絵 / いえちー さんのイラスト - ニコニコ静画 (イラスト)
-	- <https://seiga.nicovideo.jp/seiga/im11022280>
+  - <https://seiga.nicovideo.jp/seiga/im11022280>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

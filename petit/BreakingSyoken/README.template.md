@@ -27,12 +27,12 @@
 - **ゲーム配信**
   - ゲームに集中していても、BOT が代わりに音を鳴らしたり、挨拶してくれるので、初見さんを見逃しません。
 - 雑談配信
-	- 新規ユーザーが来るたびに、BOT が告知してくれるため、会話のきっかけ作りに最適。
-	- 配信内での総コメント数も数えてくれます。
+  - 新規ユーザーが来るたびに、BOT が告知してくれるため、会話のきっかけ作りに最適。
+  - 配信内での総コメント数も数えてくれます。
 - 歌枠・カラオケ配信
-	- 効果音を配信内で鳴らさないよう OBS で設定ができます。歌っている間も、ユーザーを把握できます。
+  - 効果音を配信内で鳴らさないよう OBS で設定ができます。歌っている間も、ユーザーを把握できます。
 - 作業配信（勉強・お絵描き・編集など）
-	- 手が離せない作業中でも、BOT が新規ユーザーに反応してくれます。
+  - 手が離せない作業中でも、BOT が新規ユーザーに反応してくれます。
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
@@ -59,7 +59,7 @@
 ### 効果音・ジングル
 
 - [効果音・ジングルに関するライセンス](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/sub/sounds.md) にまとめています。
-	- このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
+  - このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 

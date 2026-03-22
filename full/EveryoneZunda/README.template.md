@@ -45,7 +45,7 @@
 
 - 巫女さん手製のおみくじを、ずんだもんが読んでくれます。
 - 「残念賞」に関する内容がすべて白紙だったため、代わりにずんだもんが一発芸をしてくれます。
-	- 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
+  - 裸芸が多いのは [配布画像データ](https://www.pixiv.net/artworks/92641351) が由来です。
 
 ![usage_JankenHonda](../../template/usage/usage_JankenHonda.md)
 
@@ -72,7 +72,7 @@
 ### ずんだもん
 
 - ずんだもん ずんだもん立ち絵素材 - 坂本アヒルのイラスト - pixiv
-	- <https://www.pixiv.net/artworks/92641351>
+  - <https://www.pixiv.net/artworks/92641351>
 
 ![](/sharedTemplate/credits/credits_11_sozai.md)
 

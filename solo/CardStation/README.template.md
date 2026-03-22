@@ -41,7 +41,7 @@
   生成：ChatGPT <https://chatgpt.com/>
 - ボンビュラス星
   陣内智則のネタジン <https://www.youtube.com/watch?v=Fp4SRDcGcnI>
-	- ポテチは食べましょう
+  - ポテチは食べましょう
 
 ![](./images/250916_4.webp)
 
@@ -59,7 +59,7 @@
 ### ver.251120-v1.4.0
 
 - [桃太郎電鉄2 ～あなたの町も きっとある～](https://www.konami.com/games/momotetsu/2/) 発売により、駅名を追加しました。
-	- <a href='https://www.konami.com/games/momotetsu/2/map/'>まるっと全駅！マップ | 桃太郎電鉄２ ～あなたの町も きっとある～ (桃鉄２)</a> を参照しています。
+  - <a href='https://www.konami.com/games/momotetsu/2/map/'>まるっと全駅！マップ | 桃太郎電鉄２ ～あなたの町も きっとある～ (桃鉄２)</a> を参照しています。
 
 ### ver.250911-v1.1.1
 
