@@ -6,22 +6,20 @@
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT あいさつする時計 OmikujiBot StreamCounterCircle](https://pintocuru.booth.pm/items/8078258)
-- [おみくじ BOT ライバーカウンター ピクセル OmikujiBot StreamCounterPixel](https://pintocuru.booth.pm/items/8078267)
+- [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8078258)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
-![](../LenormandOracle/images/LenormandOracleSashie.webp)
+### ユーザーがコメントをすると挨拶してくれる、時計型 BOT ジェネレーター
 
-### 36 枚のシンボルからメッセージを受け取る、気軽に占えるルノルマンカードジェネレーター
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、リスナーが来たことを掲示するテンプレートです。
+- リスナーがコメントすると、「初見さんいらっしゃい！」や「◯◯さん、こんにちは！」と自動で返事をしてくれます。
+- 配信のステータス（高評価数・同接数・登録者数など）をランダムに表示。
+- チャンネル登録等の案内も表示できます。内容はエディターから自由に編集できます。
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、テンポ良くレスポンスしてくれる占い機能です。
-- 使用するカードは、ルノルマンカード全 36 枚。シンプルな象徴から、状況に寄り添うメッセージを読み取れるのが魅力です。
-	- シンプルな一枚でも、意外と深い気づきを与えてくれるカードです。そっと心に触れるメッセージが届くかも。
-
-![features_12_HowToPlay2](../../template/features/features_12_HowToPlay2.md)
+![features_12_HowToPlay2](../../template/features/features_13_HowToPlay3.md)
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
@@ -29,7 +27,13 @@
 
 ![usage_92_OmikujiActivation](../../template/usage/usage_92_OmikujiActivation.md)
 
-![usage_LenormandOracle](../../template/usage/usage_LenormandOracle.md)
+![usage_22_FirstCounter](../../template/usage/usage_FirstSyoken.md)
+
+![usage_Gift](../../template/usage/usage_Gift.md)
+
+![usage_CountStream](../../template/usage/usage_CountStream.md)
+
+![usage_CheckNumber](../../template/usage/usage_CheckNumber.md)
 
 ![customization_21_ConfigEditor](/packages/OmikujiBot/template/customization/customization_21_ConfigEditor.md)
 
@@ -39,23 +43,23 @@
 
 ## クレジット（Credits）
 
-#### ルノルマンカードのイラスト（4 種）
+### 効果音・ジングル
+
+- [効果音・ジングルに関するライセンス](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/sub/sounds.md) にまとめています。
+  - このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
+
+#### ベッドの前で背伸びをするショコラ
 
 - Google Gemini <https://gemini.google.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
-
-![](/sharedTemplate/credits/credits_11_sozai.md)
-
-| ![](../LenormandOracle/images/4.webp) | ![](../LenormandOracle/images/5.webp) | ![](../LenormandOracle/images/6.webp) |
-| ------------------ | ------------------ | ------------------ |
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
 
-### ver.260127
+### ver.260322
 
-- **おみくじ BOT のバージョン**: v2.0.4
+- **おみくじ BOT のバージョン**: v2.9.0
 - 新規作成
 
 ![credits_99_sesupin](/sharedTemplate/credits/credits_99_sesupin.md)
