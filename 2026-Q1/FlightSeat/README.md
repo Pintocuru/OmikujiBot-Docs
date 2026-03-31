@@ -1,10 +1,17 @@
-# おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons README
+# おみくじ BOT フライトシート OmikujiBot FlightSeat README
 
-最終更新日：2026/03/13
+最終更新日：2026/03/30
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882) の readme となります。
+この内容は、BOOTH で配布している、以下の readme となります。
+
+- [おみくじ BOT 私を構成する 9 人のユーザー。 OmikujiBot MyNineViewers](https://pintocuru.booth.pm/items/8060471)
+- [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882)
+- [おみくじBOT ともだち100人できるかな OmikujiBot FlightSeatCrowded100](https://pintocuru.booth.pm/items/8145227)
+- [おみくじBOT 300人集めてみろよVTuber OmikujiBot FlightSeatCrowded300](https://pintocuru.booth.pm/items/8145288)
+
+この内容は、BOOTH で配布している、 の readme となります。
 
 ## はじめに（Intro）
 
@@ -19,10 +26,10 @@
 ### コメントしたユーザーをランダムに枠に入れるジェネレーター
 
 - わんコメと連携して動作する【おみくじ BOT】を利用し、コメントをくれたユーザーをランダムに配置したリストを作成して楽しめます。
-- 37 席まで表示。ポップアップで賑やか。
-	- ユーザーアイコンが表示されるので、コメント意欲が高まります
-- アイコンとともに コメント数が表示される
-	- 配信でのコメント数が表示され、話題にしやすくなります
+- ユーザーのコメントを受け取るたびに、ポップアップで賑やかに表示してくれます
+  - ユーザーアイコンが表示されるので、コメント意欲が高まります
+- 名前やコメント数を表示できます
+  - 配信でのコメント数が表示され、話題にしやすくなります
 
 ### シーン別・活用例
 
@@ -30,10 +37,10 @@
   - 画面の隅に設置することで、画面が賑やかになります。
   - コメント数やギフト金額が表示され、賑わいがわかります
 - 雑談配信
-	- ユーザーが増えるたびにリストが埋まっていき、賑わいが可視化されます。
-	- 並び方で話が弾むかも。
+  - ユーザーが増えるたびにリストが埋まっていき、賑わいが可視化されます。
+  - 並び方で話が弾むかも。
 - 抽選・参加確認・ちょっとした遊びに最適
-	- 「誰が参加したか」「どこに座るか」を視覚的に楽しめるため、 抽選演出やアイスブレイク用途に向いています。
+  - 「誰が参加したか」「どこに座るか」を視覚的に楽しめるため、 抽選演出やアイスブレイク用途に向いています。
 
 ## インストール (Installation)
 
@@ -98,8 +105,8 @@
 - [Q. エディターで、おみくじの動作を確認するには](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2303_OmikujiConfirmation.md)
 - [Q. プレースホルダーでおみくじのバリエーションを増やす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/ContentPlaceholder.md)
 - [Q. プレースホルダー チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/ContentPlaceholderCheatSheet.md)
-- [Q. 変数プレースホルダーとは](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholder.md)
-- [Q. 変数プレースホルダー チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholderCheatSheet.md)
+- [Q. 評価ブロック (変数プレースホルダー)とは](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholder.md)
+- [Q. 評価ブロック (変数プレースホルダー) チートシート](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/sub/VariablePlaceholderCheatSheet.md)
 - [Q. おみくじ表示時にサウンドを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2304_OmikujiSound.md)
 - [Q. おみくじ表示時にWordpartyを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2305_OmikujiWordparty.md)
 
@@ -120,8 +127,7 @@
 
 ## クレジット（Credits）
 
-- 卒業証書を持つショコラ
-- パッケージの背景
+- パッケージの画像・背景など
   生成：Google Gemini <https://gemini.google.com/>
 
 ![](images/Pasted%20image%2020260310154204.png)
@@ -144,6 +150,10 @@
 - 改変・逆コンパイル・再販売も禁止されています。
 
 ## バージョン情報 (Version)
+
+### ver.260331-v2.11.0
+
+- 「ともだち 100 人できるかな」 のバリエーション追加
 
 ### ver.260310-v2.8.0
 

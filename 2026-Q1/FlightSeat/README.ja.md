@@ -1,6 +1,6 @@
 # おみくじ BOT フライトシート OmikujiBot FlightSeat README
 
-最終更新日：2026/03/22
+最終更新日：2026/03/30
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
@@ -8,6 +8,8 @@
 
 - [おみくじ BOT 私を構成する 9 人のユーザー。 OmikujiBot MyNineViewers](https://pintocuru.booth.pm/items/8060471)
 - [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882)
+- [おみくじBOT ともだち100人できるかな OmikujiBot FlightSeatCrowded100](https://pintocuru.booth.pm/items/8145227)
+- [おみくじBOT 300人集めてみろよVTuber OmikujiBot FlightSeatCrowded300](https://pintocuru.booth.pm/items/8145288)
 
 この内容は、BOOTH で配布している、 の readme となります。
 
@@ -48,8 +50,6 @@
 	- [おみくじ BOT 演出用 WordParty2.0 とは?](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikenWordParty/README.md#%E3%81%93%E3%81%AE%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%81%AF%E4%BD%95features)
 4. [おみくじBOT コンフィグエディター PRO (有料版) のご案内](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_51_ProUpgradeTemplate.md)
 
-
-
 ## つかいかた (Usage)
 
 ### フライトシート
@@ -59,8 +59,6 @@
 - コメントしたユーザーをランダムに座らせ、座席リストを作成して楽しめます。
 - 満席の時に新しいユーザーが来ると、古い順に入れ替わります。
 - エディターで編集することで、名前・コメント数・ギフト金額を表示できます。
-
-
 
 ## カスタマイズ（Customization）
 
@@ -72,8 +70,6 @@
 	- 付属されていない場合、新しく導入する必要があります。[コンフィグエディターの新規導入](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/installation/Installation_52_VersionUp.md) をご覧ください。
 - アプリと同じフォルダにある **`ConfigMaker.html`** を開くと起動できます。
 - 詳しくは [おみくじ BOT コンフィグエディター README](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/ConfigEditor/README.md) をご覧ください。
-
-
 
 ## よくある質問 (FAQ)
 
@@ -114,12 +110,9 @@
 - [Q. おみくじ表示時にサウンドを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2304_OmikujiSound.md)
 - [Q. おみくじ表示時にWordpartyを鳴らす](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/faq/23_OmikujiEdit/faq_2305_OmikujiWordparty.md)
 
-
-
 ## トラブルシューティング (Troubleshooting)
 
 わんコメの機能については [トラブルシューティング](https://onecomme.com/docs/trouble-shooting) または [導入ガイド](https://onecomme.com/docs/guide) をご参照ください。
-
 
 ### 設定・表示・音声関連
 
@@ -132,12 +125,9 @@
 - [Q. コメントでおみくじが反応しない](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/troubleshooting/12_infoOmikujiBot/trouble_1204_CommentOmikuji.md)
 - [Q. おみくじが Youtube のコメントに反映されていない](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/troubleshooting/12_infoOmikujiBot/trouble_1205_OmikujiPlatform.md)
 
-
-
 ## クレジット（Credits）
 
-- 卒業証書を持つショコラ
-- パッケージの背景
+- パッケージの画像・背景など
   生成：Google Gemini <https://gemini.google.com/>
 
 ![](images/Pasted%20image%2020260310154204.png)
@@ -159,14 +149,15 @@
 - 本ソフトウェアは、Github、または BOOTH にて提供される各パッケージに含まれる形でのみ配布されます。
 - 改変・逆コンパイル・再販売も禁止されています。
 
-
-
 ## バージョン情報 (Version)
+
+### ver.260331-v2.11.0
+
+- 「ともだち 100 人できるかな」 のバリエーション追加
 
 ### ver.260310-v2.8.0
 
 - 新規作成
-
 
 ---
 

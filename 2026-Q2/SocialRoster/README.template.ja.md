@@ -1,16 +1,18 @@
-# おみくじ BOT 速報！初見さんいらっしゃい！ OmikujiBot BreakingSyoken
+# おみくじ BOT ソーシャルユーザーリスト OmikujiBot SocialRoster
 
 最終更新日：<% tp.date.now('YYYY/MM/DD') %>
 
 ![](/sharedTemplate/intro/intro_11.md) テンプレートです。
 
-この内容は、BOOTH で配布している、 [おみくじ BOT 速報！初見さんいらっしゃい！ OmikujiBot BreakingSyoken](https://pintocuru.booth.pm/items/8025815) の readme となります。
+この内容は、BOOTH で配布している、以下の readme となります。
+
+- [おみくじ BOT 配信戦闘力ジェネレーター OmikujiBot StreamPower](https://pintocuru.booth.pm/items/AAAAAAAAAA)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
 ## このテンプレートは何？（Features）
 
-![](images/Pasted%20image%2020260224192610.png)
+
 
 ### コメントしたリスナーに挨拶してくれる 速報風 BOT テンプレート
 

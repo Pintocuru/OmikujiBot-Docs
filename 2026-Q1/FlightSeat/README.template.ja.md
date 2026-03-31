@@ -8,6 +8,8 @@
 
 - [おみくじ BOT 私を構成する 9 人のユーザー。 OmikujiBot MyNineViewers](https://pintocuru.booth.pm/items/8060471)
 - [おみくじ BOT あつめて！卒業写真メーカー OmikujiBot GraduationIcons](https://pintocuru.booth.pm/items/8069882)
+- [おみくじBOT ともだち100人できるかな OmikujiBot FlightSeatCrowded100](https://pintocuru.booth.pm/items/8145227)
+- [おみくじBOT 300人集めてみろよVTuber OmikujiBot FlightSeatCrowded300](https://pintocuru.booth.pm/items/8145288)
 
 この内容は、BOOTH で配布している、 の readme となります。
 
@@ -50,8 +52,7 @@
 
 ## クレジット（Credits）
 
-- 卒業証書を持つショコラ
-- パッケージの背景
+- パッケージの画像・背景など
   生成：Google Gemini <https://gemini.google.com/>
 
 ![](images/Pasted%20image%2020260310154204.png)
@@ -61,6 +62,10 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
+
+### ver.260331-v2.11.0
+
+- 「ともだち 100 人できるかな」 のバリエーション追加
 
 ### ver.260310-v2.8.0
 
