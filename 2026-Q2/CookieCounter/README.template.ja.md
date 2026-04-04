@@ -6,9 +6,11 @@
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT 桜カウンター OmikujiBot SakuraCounter](https://pintocuru.booth.pm/items/AAAAAAAAAA)
+- [おみくじ BOT 桜カウンター OmikujiBot SakuraCounter](https://pintocuru.booth.pm/items/8162455)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
+
+![](images/Pasted%20image%2020260404215116.png)
 
 ## このテンプレートは何？（Features）
 
@@ -46,10 +48,17 @@
 
 ## クレジット（Credits）
 
-### 効果音・ジングル
+### 桜の画像
 
-- [効果音・ジングルに関するライセンス](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/core/OmikujiBot/sub/sounds.md) にまとめています。
-  - このアプリ（ジェネレーター・エディター）に収録されている効果音データは、すべて [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) です。
+生成：Google Gemini <https://gemini.google.com/>
+
+### スーツを着るショコラ
+
+- 生成：Google Gemini <https://gemini.google.com/>
+
+![](images/Pasted%20image%2020260404215151.png)
+
+「入学式・新卒式、頑張ってね♡」
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
