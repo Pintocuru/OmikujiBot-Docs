@@ -1,12 +1,12 @@
 # おみくじ BOT コメントスピン OmikujiBot CommentSpin README
 
-最終更新日：2026/04/12
+最終更新日：2026/04/19
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT イラストガチャメーカー OmikujiBot SlotPortrait](https://pintocuru.booth.pm/items/8188701)
+- [おみくじBOT ゴールデン65536 OmikujiBot Golden65536](https://pintocuru.booth.pm/items/8188701)
 
 ## はじめに（Intro）
 
@@ -123,6 +123,27 @@
 - [Q. おみくじが Youtube のコメントに反映されていない](https://github.com/Pintocuru/OmikujiBot-Docs/blob/main/template/troubleshooting/12_infoOmikujiBot/trouble_1205_OmikujiPlatform.md)
 
 ## クレジット（Credits）
+
+### ゴールデン 65536
+
+#### 黄金に光る古代ギリシャ風背景
+
+- 生成：Microsoft Copilot <https://copilot.microsoft.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+- 動画も同様。
+
+#### サッポーのコスプレをしたショコラ
+
+- 生成：Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### 数字のフォント
+
+- こはるいろサンレイ <http://getsuren.com/>
+
+![](images/Pasted%20image%2020260419105246.png)
+
+「ショコラ🍓には伝えたハズなんだけど…モチーフは " ギリシャ神話 " であって、" 古代ギリシャ " じゃないんだ。君の好きな、サッポーっていう人物は出てこないよ…」
 
 ### イラストガチャメーカー
 
