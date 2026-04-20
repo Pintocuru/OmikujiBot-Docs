@@ -7,6 +7,7 @@
 この内容は、BOOTH で配布している、以下の readme となります。
 
 - [おみくじBOT ゴールデン65536 OmikujiBot Golden65536](https://pintocuru.booth.pm/items/8188701)
+- [## おみくじBOT クイズせかいはバラエティスロット OmikujiBot VarietySlot](https://pintocuru.booth.pm/items/8231657)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -50,7 +51,7 @@
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 - 動画も同様。
 
-#### サッポーのコスプレをしたショコラ
+#### サッポーのコスプレをしたショコラ🍓
 
 - 生成：Google Gemini <https://gemini.google.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
@@ -63,10 +64,28 @@
 
 「ショコラ🍓には伝えたハズなんだけど…モチーフは " ギリシャ神話 " であって、" 古代ギリシャ " じゃないんだ。君の好きな、サッポーっていう人物は出てこないよ…」
 
+### クイズせかいはバラエティスロット
+
+#### ミリオンスロットの出目のイメージ画像
+
+- せすじピンとしてます の制作物です。
+- licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
+
+#### クイズに答えるショコラ🍓
+
+- 生成：ChatGPT <https://chatgpt.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### ミリオンスロットを回す時にグッとしているカペラテ☕とコーラ✝
+
+- 生成：Google Gemini <https://gemini.google.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
 ### イラストガチャメーカー
 
 #### レアリティの枠画像 (N / R / SR / SSR)
 
+- せすじピンとしてます の制作物です。
 - licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 #### どりんくるのスタッフ画像
