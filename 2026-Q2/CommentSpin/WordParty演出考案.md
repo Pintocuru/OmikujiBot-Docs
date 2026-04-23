@@ -1,5 +1,10 @@
 ### 音
 
+#### `FanfareRpg`
+
+- [Fanfare 2 - Rpg](https://freesound.org/people/colorsCrimsonTears/sounds/580310/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 #### `Fanfare_rare`
 
 - [Fanfare 3 - Rpg](https://freesound.org/people/colorsCrimsonTears/sounds/607407/)

@@ -7,7 +7,8 @@
 この内容は、BOOTH で配布している、以下の readme となります。
 
 - [おみくじBOT ゴールデン65536 OmikujiBot Golden65536](https://pintocuru.booth.pm/items/8188701)
-- [## おみくじBOT クイズせかいはバラエティスロット OmikujiBot VarietySlot](https://pintocuru.booth.pm/items/8231657)
+- [おみくじBOT クイズせかいはバラエティスロット OmikujiBot VarietySlot](https://pintocuru.booth.pm/items/8231657)
+- [おみくじBOT ペカるLAMP OmikujiBot GogoBonus](https://pintocuru.booth.pm/items/8251498)
 
 ![](/sharedTemplate/intro/intro_22_IntroOneComme.md)
 
@@ -81,6 +82,39 @@
 - 生成：Google Gemini <https://gemini.google.com/>
 - 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
 
+### ペカる LAMP
+
+#### サーカスの衣装を着るショコラ
+
+- 生成：Grok <https://grok.com/>
+- 本アプリ専用に制作された画像です。他の用途での使用・転載・再配布は禁止します。
+
+#### BONUS の画像
+
+- 枠 : ダーヤマ TOPECONHEROES <https://fukidesign.com/>
+
+#### ペカった時の効果音 (通常)
+
+- 下記を Mix したものを使用しています
+	- [Ow Sound](https://freesound.org/people/Topschool/sounds/442602/)
+	- [Psytrance Kick 02](https://freesound.org/people/jalastram/sounds/818654/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `peka_2`
+
+- [Grunt1.wav](https://freesound.org/people/whisperbandnumber1/sounds/397276/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `no_hit`
+
+- [Jumpstylekick2](https://freesound.org/people/Cat-Fox_Alex/sounds/817318/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+#### `FanfareRpg`
+
+- [Fanfare 2 - Rpg](https://freesound.org/people/colorsCrimsonTears/sounds/580310/)
+- licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
 ### イラストガチャメーカー
 
 #### レアリティの枠画像 (N / R / SR / SSR)
@@ -98,6 +132,12 @@
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
 ## バージョン情報 (Version)
+
+
+### ver.260423
+
+- **おみくじ BOT のバージョン**: v2.13.0
+- 新規作成
 
 ### ver.260412
 
