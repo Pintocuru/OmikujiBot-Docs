@@ -1,12 +1,13 @@
 # おみくじ BOT あいさつする時計 OmikujiBot LiveClock README
 
-最終更新日：2026/03/23
+最終更新日：2026/04/27
 
 配信者のためのコメントアプリ「わんコメ」で使用できる、 テンプレートです。
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
 - [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8115871)
+- [おみくじ BOT あいさつする時計 サウンドプレイヤー OmikujiBot LiveClockSoundPlayer](https://pintocuru.booth.pm/items/8268875)
 
 ## はじめに（Intro）
 
@@ -187,10 +188,15 @@
 
 ## バージョン情報 (Version)
 
+### ver.260427
+
+- **おみくじ BOT のバージョン**: v2.13.1
+- 「サウンドプレイヤー」バージョンを追加
+
 ### ver.260322
 
 - **おみくじ BOT のバージョン**: v2.9.0
-- 新規作成
+- 「モーニング」版の新規作成
 
 ---
 
