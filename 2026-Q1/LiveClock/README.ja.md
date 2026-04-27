@@ -7,7 +7,7 @@
 この内容は、BOOTH で配布している、以下の readme となります。
 
 - [おみくじ BOT あいさつする時計 モーニング OmikujiBot LiveClockMorning](https://pintocuru.booth.pm/items/8115871)
-- [おみくじ BOT あいさつする時計 サウンドプレイヤー OmikujiBot LiveClockSoundPlayer](https://pintocuru.booth.pm/items/8268875)
+- [おみくじ BOT あいさつする時計 サウンドプレイヤー OmikujiBot LiveClockSound](https://pintocuru.booth.pm/items/8268875)
 
 ## はじめに（Intro）
 
