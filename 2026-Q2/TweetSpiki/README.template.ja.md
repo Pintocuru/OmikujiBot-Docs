@@ -14,7 +14,7 @@
 
 ### ｽﾋﾟｷ がﾁｮﾜﾖ - するジェネレーター
 
-- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、ｽﾋﾟｷ が挨拶をするテンプレートです。
+- わんコメに BOT 機能を付与するジェネレーター【おみくじ BOT】を使った、トリッカルに登場する「スピッキー」の二次創作キャラ「ｽﾋﾟｷ」が挨拶をするテンプレートです。
 - リスナーがコメントすると、「初見さんいらっしゃい！」や「◯◯さん、こんにちは！」と自動で返事をしてくれます。
 - 配信のステータス（高評価数・同接数・登録者数など）をランダムに表示。
 - チャンネル登録等の案内も表示できます。内容はエディターから自由に編集できます。
@@ -28,6 +28,7 @@
 このジェネレーターでは、ｽﾋﾟｷ を以下のようなキャラクターとして登場させています。
 
 - 可愛らしさやペットっぽい雰囲気を出すため、短い文章にしてます。
+- 制作者は「トリッカル」を二次創作でのみ認識しているため、原作とは異なる言動になっている可能性があります。ご了承ください。
 
 ![Installation_92_OmikujiBotPROSet](../../template/installation/Installation_92_OmikujiBotPROSet.md)
 
@@ -59,6 +60,13 @@
 #### 音声
 
 - ｽﾋﾟｷ MAD でよく使われるボイス集 <https://www.youtube.com/watch?v=iBOuJ5x294o>
+
+#### 動画で使われた配信向け素材
+
+- 配信用オーバーレイ【ハロウィン】 <https://booth.pm/ja/items/4272539>
+	- Overlay Design：ウサギ先生 (<https://lit.link/usagisensei>)
+- ゲーム画面部分
+	- 生成：ChatGPT <https://chatgpt.com/>
 
 ![license_92_PackageLicense](/packages/OmikujiBot/template/license/license_93_PackageLicenseBasic.md)
 
