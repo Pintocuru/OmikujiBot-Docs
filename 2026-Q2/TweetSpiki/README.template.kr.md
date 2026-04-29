@@ -6,7 +6,8 @@
 
 이 내용은 BOOTH 에서 배포하는 아래 항목의 README 입니다.
 
-- [오미쿠지 BOT 방송 전투력 제너레이터 OmikujiBot StreamPower](https://pintocuru.booth.pm/items/AAAAAAAAAA)
+- [おみくじBOT 配信向けｽﾋﾟｷ OmikujiBot TweetSpiki](https://pintocuru.booth.pm/items/8281244)
+- [OmikujiBOT 방송용 스피키 OmikujiBot TweetSpiki](https://pintocuru.booth.pm/items/8281303)
 
 ## 시작하기 (Intro)
 

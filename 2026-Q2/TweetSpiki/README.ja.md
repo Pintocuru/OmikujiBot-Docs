@@ -1,4 +1,4 @@
-# おみくじ BOT 挨拶するｽﾋﾟｷ OmikujiBot TweetSpiki
+# おみくじ BOT 配信向けｽﾋﾟｷ OmikujiBot TweetSpiki
 
 最終更新日：2026/04/29
 
@@ -6,7 +6,8 @@
 
 この内容は、BOOTH で配布している、以下の readme となります。
 
-- [おみくじ BOT 配信戦闘力ジェネレーター OmikujiBot StreamPower](https://pintocuru.booth.pm/items/AAAAAAAAAA)
+- [おみくじBOT 配信向けｽﾋﾟｷ OmikujiBot TweetSpiki](https://pintocuru.booth.pm/items/8281244)
+- [OmikujiBOT 방송용 스피키 OmikujiBot TweetSpiki](https://pintocuru.booth.pm/items/8281303)
 
 ## はじめに（Intro）
 
